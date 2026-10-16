@@ -63,10 +63,11 @@ Order by dependency, smallest first:
 | 6 | `WoW/Source/DB` | 249 | DBC/DB2 loading |
 
 **Status:** started. The Storm public headers (`Types.h`, `storm.h`) and the two global operators
-(`Source/SMem.cpp`) are ported; `Storm.lib` builds and `cmake --build` stays green because a static
-library tolerates the not-yet-defined `SMemAlloc`/`SMemFree`. Next: the rest of `SMem.cpp`
-(`FatalError` 0x00643140, `SMemAlloc` 0x006441F0, `SMemFree` 0x00644230, `operator delete`), then the
-other Storm files. Remaining Storm/Os addresses are in `re/243/function_map.md`.
+(`Source/SMem.cpp`) are ported; `Storm.lib` builds and `cmake --build` stays green (a static library
+tolerates the not-yet-defined heap methods). `SMemAlloc` (0x006441F0) and `SMemFree` (0x00644230) are
+ported as wrappers over the heap object (`SHeap` at 0x00D73700). Next: the heap `Alloc`/`Free`
+(0x00644090 / 0x00644190) and their helpers, `FatalError` (0x00643140), `operator delete`; then the
+other Storm files. Addresses are in `re/243/function_map.md`.
 
 ### Phase 3 — Engine modules
 
