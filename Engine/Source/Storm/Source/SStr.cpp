@@ -1,4 +1,5 @@
 #include <cstdint>
+#include <cstring>
 #include "Engine/Source/Storm/H/storm.h"
 
 // OFFSET: 0x006449D0
@@ -35,6 +36,17 @@ char* SStrChrR(const char* string, char search) {
     return const_cast<char*>(result);
 }
 
-// Still to port from SStr.cpp: SStrCmp/SStrCmpI (2.4.3: 0x00644A90 has extra null checks that
-// 3.3.5a's one-line strncmp wrappers do not, so the bodies must be reversed), the UTF-8 compare
-// helpers, SStrCopy/SStrLen/SStrPack/SStrPrintf/SStrToInt/SStrHash and the rest.
+// OFFSET: 0x00644A90
+// 2.4.3 adds the null guard that 3.3.5a's one-line strncmp wrapper does not.
+int32_t STORMAPI SStrCmp(const char* string1, const char* string2, size_t maxchars) {
+    if (!string1 || !string2) {
+        SErrSetLastError(STORM_ERROR_INVALID_PARAMETER);
+        return static_cast<int32_t>(reinterpret_cast<intptr_t>(string1) - reinterpret_cast<intptr_t>(string2));
+    }
+
+    return strncmp(string1, string2, maxchars);
+}
+
+// Still to port from SStr.cpp: SStrCmpI (0x00644AD0 inlines its case-insensitive compare and returns
+// 0 on a null argument), the UTF-8 compare helpers, SStrCopy/SStrLen/SStrPack/SStrPrintf/SStrToInt/
+// SStrHash and the rest.
