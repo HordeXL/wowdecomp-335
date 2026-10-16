@@ -71,6 +71,27 @@ int32_t STORMAPI SMemFree(void* ptr, const char* filename, int32_t linenumber, u
     return 1;
 }
 
+// OFFSET: 0x006434A0
+uint32_t SHeap::GetSizeClass(size_t bytes, const char* filename, int32_t linenumber) {
+    uint32_t size = static_cast<uint32_t>(bytes);
+    uint32_t sizeClass = 3;
+
+    if (size > 0xFFFFFFF7) {
+        sizeClass = 0x20;
+    } else {
+        uint32_t needed = size + 8;
+        while (sizeClass < 0x20 && (1u << sizeClass) < needed) {
+            ++sizeClass;
+        }
+    }
+
+    if (sizeClass == 0x20) {
+        FatalError(bytes, filename, linenumber);
+    }
+
+    return sizeClass;
+}
+
 // OFFSET: 0x00644090
 void* SHeap::Alloc(size_t bytes, const char* filename, int32_t linenumber) {
     uint32_t sizeClass = GetSizeClass(bytes, filename, linenumber);
@@ -108,7 +129,6 @@ void SHeap::Free(void* ptr, const char* filename, int32_t linenumber) {
     LeaveCriticalSection(&m_criticalSection);
 }
 
-// Still to port: the heap's four helpers (GetSizeClass 0x006434A0, AllocateBlock 0x00643A20,
-// ValidateBlock 0x00643680, ReleaseBlock 0x00643F00) and the heap initialization (the global at
-// 0x00D73700), plus SMemIsValidPointer, SMemReAlloc, operator delete, SMemSetDebugFlags,
-// SMemDestroy, SMemInitialize.
+// Still to port: the heap's bin helpers (AllocateBlock 0x00643A20, ValidateBlock 0x00643680,
+// ReleaseBlock 0x00643F00) and the heap initialization (the global at 0x00D73700), plus
+// SMemIsValidPointer, SMemReAlloc, operator delete, SMemSetDebugFlags, SMemDestroy, SMemInitialize.
