@@ -1,1 +1,0 @@
-#include "CSimpleTooltip.h"

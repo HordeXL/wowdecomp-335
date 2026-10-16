@@ -1,4 +1,11 @@
+# The client executable with the crash logger. Skipped while there is no source yet, so the
+# skeleton still configures.
 file(GLOB CLIENT_SOURCES CONFIGURE_DEPENDS "${CMAKE_SOURCE_DIR}/WoW/Source/*.cpp")
+
+if (NOT CLIENT_SOURCES)
+    message(STATUS "WowClient: no sources yet, skipping the executable")
+    return()
+endif ()
 
 if (WOWDECOMP_ARCH_64)
     file(GLOB CLIENT_PLATFORM_SOURCES CONFIGURE_DEPENDS "${CMAKE_SOURCE_DIR}/WoW/Source/Win64/*.cpp")
@@ -8,12 +15,12 @@ else ()
     set(WOWCLIENT_OUTPUT_NAME WowClient32)
 endif ()
 
-set(WOWCLIENT_OUTPUT_OVERRIDE "" CACHE STRING "WowClient executable name instead of WowClient64/WowClient32 (re/tools/build sets Waystone / WaystoneDev)")
+set(WOWCLIENT_OUTPUT_OVERRIDE "" CACHE STRING "WowClient executable name instead of WowClient64/WowClient32")
 if (WOWCLIENT_OUTPUT_OVERRIDE)
     set(WOWCLIENT_OUTPUT_NAME ${WOWCLIENT_OUTPUT_OVERRIDE})
 endif ()
 
-option(WOWCLIENT_CRASH_LOG "Crash logger with console window and WowClient_crash.log (re/tools/build release mode turns it off)" ON)
+option(WOWCLIENT_CRASH_LOG "Crash logger with console window and WowClient_crash.log" ON)
 set(CLIENT_TOOL_SOURCES "")
 if (WOWCLIENT_CRASH_LOG)
     list(APPEND CLIENT_TOOL_SOURCES crash_log.cpp)
@@ -59,17 +66,16 @@ target_link_libraries(WowClient
         Scrn
         Services
         ShaderEffect
-        Tempest
         SoundEngine
-        SteelseriesMouse
         Storm
+        Tempest
         WoWCommon
-        Battlenet
         Console
         ConsoleDevice
         DB
         Game
         Glue
+        LiquidSystem
         Magic
         Minigame
         Net
@@ -80,8 +86,5 @@ target_link_libraries(WowClient
         UIUtil
         Ui
         WorldClient
-        LiquidSystem
-        WowServices
-        WowSvcs
         dbghelp
 )

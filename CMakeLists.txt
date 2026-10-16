@@ -17,15 +17,15 @@ if (NOT CMAKE_SYSTEM_NAME MATCHES "Windows")
     message(FATAL_ERROR "wowdecomp targets Windows only.")
 endif ()
 
-# x64 is the target. Win32 stays buildable: it is the configuration whose struct layouts can be
-# checked against Wow.exe 3.3.5a (12340).
+# x64 is the build target. Win32 stays buildable: the 2.4.3 original (build 8606) is a 32-bit x86
+# binary, so Win32 is the configuration whose struct layouts can be checked against it.
 if (CMAKE_SIZEOF_VOID_P EQUAL 8)
     set(WOWDECOMP_ARCH_64 1)
     add_compile_definitions(WOWDECOMP_ARCH_64=1)
 elseif (CMAKE_SIZEOF_VOID_P EQUAL 4)
     set(WOWDECOMP_ARCH_32 1)
     add_compile_definitions(WOWDECOMP_ARCH_32=1)
-    # x87 floating point like the VS2005 original; keeps Win32 code comparable with the binary (re/tools/verify.py).
+    # x87 floating point like the VS2005 original; keeps Win32 code comparable with the binary.
     if (MSVC)
         add_compile_options(/arch:IA32 /fp:fast)
     endif ()
@@ -81,11 +81,10 @@ add_subdirectory(Engine/Source/Scrn)
 add_subdirectory(Engine/Source/Services)
 add_subdirectory(Engine/Source/ShaderEffect)
 add_subdirectory(Engine/Source/SoundEngine)
-add_subdirectory(Engine/Source/SteelseriesMouse)
 add_subdirectory(Engine/Source/Storm)
 add_subdirectory(Engine/Source/Tempest)
+
 add_subdirectory(WoW/Common)
-add_subdirectory(WoW/Source/Battlenet)
 add_subdirectory(WoW/Source/Console)
 add_subdirectory(WoW/Source/ConsoleDevice)
 add_subdirectory(WoW/Source/DB)
@@ -102,11 +101,14 @@ add_subdirectory(WoW/Source/SoundInterface)
 add_subdirectory(WoW/Source/UIUtil)
 add_subdirectory(WoW/Source/Ui)
 add_subdirectory(WoW/Source/WorldClient)
-add_subdirectory(WoW/Source/WowServices)
-add_subdirectory(WoW/Source/WowSvcs)
-add_subdirectory(WoW/Source)
-if (WIN32)
-    add_subdirectory(Tools/WowClient)
+# The Wow/WowClient executables only link once the client modules are ported. Off by default so the
+# skeleton still configures and builds; turn it on to build the client as porting progresses.
+option(WOWDECOMP_BUILD_CLIENT "Build the Wow/WowClient executables (client modules must be ported)" OFF)
+if (WOWDECOMP_BUILD_CLIENT)
+    add_subdirectory(WoW/Source)
+    if (WIN32)
+        add_subdirectory(Tools/WowClient)
+    endif ()
 endif ()
 if (WOWDECOMP_ARCH_64)
     add_subdirectory(Tools/XvidDecoder)

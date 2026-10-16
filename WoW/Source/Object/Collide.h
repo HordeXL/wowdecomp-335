@@ -1,4 +1,0 @@
-#ifndef WOW_SOURCE_OBJECT_COLLIDE_H
-#define WOW_SOURCE_OBJECT_COLLIDE_H
-
-#endif

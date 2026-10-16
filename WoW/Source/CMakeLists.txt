@@ -1,18 +1,20 @@
+# The game executable. Skipped while there is no source yet, so the skeleton still configures.
 file(GLOB PRIVATE_SOURCES CONFIGURE_DEPENDS "*.cpp")
+
+if (NOT PRIVATE_SOURCES)
+    message(STATUS "Wow: no sources yet, skipping the executable")
+    return()
+endif ()
 
 if (WOWDECOMP_ARCH_64)
     file(GLOB PLATFORM_SOURCES CONFIGURE_DEPENDS "Win64/*.cpp")
+    set(WOW_OUTPUT_NAME Wow64)
 else ()
     file(GLOB PLATFORM_SOURCES CONFIGURE_DEPENDS "Win32/*.cpp")
+    set(WOW_OUTPUT_NAME Wow32)
 endif ()
 
 add_executable(Wow WIN32 ${PRIVATE_SOURCES} ${PLATFORM_SOURCES})
-
-if (WOWDECOMP_ARCH_64)
-    set(WOW_OUTPUT_NAME Wow64)
-else ()
-    set(WOW_OUTPUT_NAME Wow32)
-endif ()
 
 set_target_properties(Wow PROPERTIES
     OUTPUT_NAME ${WOW_OUTPUT_NAME}
@@ -52,12 +54,10 @@ target_link_libraries(Wow
         Scrn
         Services
         ShaderEffect
-        Tempest
         SoundEngine
-        SteelseriesMouse
         Storm
+        Tempest
         WoWCommon
-        Battlenet
         Console
         ConsoleDevice
         DB
@@ -74,6 +74,4 @@ target_link_libraries(Wow
         UIUtil
         Ui
         WorldClient
-        WowServices
-        WowSvcs
 )

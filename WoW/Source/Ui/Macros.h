@@ -1,4 +1,0 @@
-#ifndef WOW_SOURCE_UI_MACROS_H
-#define WOW_SOURCE_UI_MACROS_H
-
-#endif

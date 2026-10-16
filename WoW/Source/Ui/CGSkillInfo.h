@@ -1,4 +1,0 @@
-#ifndef WOW_SOURCE_UI_CGSKILLINFO_H
-#define WOW_SOURCE_UI_CGSKILLINFO_H
-
-#endif
