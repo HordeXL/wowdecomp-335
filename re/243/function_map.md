@@ -45,6 +45,20 @@ cross-referenced with the 3.3.5a source. Confidence is how sure the *name/module
 
 `SLOG_FUNCTION` is `-1` in 2.4.3 (the `__LINE__` slot), confirmed in the operators.
 
+## Storm allocator (2.4.3 design difference)
+
+`SMemAlloc`/`SMemFree` do **not** call `malloc`/`calloc` directly as in 3.3.5a. They delegate to an
+allocator object:
+
+| Address | Role |
+|---|---|
+| `0x00D73700` | the allocator instance (the `this` pointer both methods receive in `ecx`) |
+| `0x00644090` | `allocator::Alloc(bytes, filename, linenumber)` — called by `SMemAlloc` |
+| `0x00644190` | `allocator::Free(ptr, filename, linenumber)` — called by `SMemFree` |
+
+`SMemAlloc` then zeroes the block with `memset` (0x0040A620) when `flags & SMEM_FLAG_ZEROMEMORY`.
+Porting `SMemAlloc`/`SMemFree` therefore needs this allocator subsystem first.
+
 ## Notes
 
 - The `0x0064xxxx` and `0x0074xxxx` clusters are Storm and Os respectively; `CreateNamedEventA`
