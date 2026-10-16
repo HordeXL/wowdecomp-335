@@ -10,7 +10,7 @@ Produced with `re/tools/identify_func.py` (string + import references) cross-ref
 | `0x00406870` | CRT calls it with `(0x400000,0,cmdline,showcmd)`, `ret 0x10`; `_set_invalid_parameter_handler`, `_clearfp`, `_control87(0x9001F,-1)` | `WinMain` | confirmed |
 | `0x0046C7E0` | single `ret` | `InvalidParameterHandler` | confirmed (matches 3.3.5a) |
 | `0x00406790` | `SRegLoadValue("World of Warcraft\\Client","SendErrorLogs")`, title `"World of WarCraft (build 8606)"` | `CommonMain` | high |
-| `0x00749F20` | `OpenProcessToken`, `GetTokenInformation`, `AllocateAndInitializeSid`, `InitializeAcl`, `AddAccessDeniedAce/AddAccessAllowedAce`, `SetSecurityInfo` | process security hardening (restricts access to the process) | high — **2.4.3-only**, not in 3.3.5a's `WinMain` |
+| `0x00749F20` | `OpenProcessToken`, `GetTokenInformation`, `AllocateAndInitializeSid`, `InitializeAcl`, `AddAccessDeniedAce/AddAccessAllowedAce`, `SetSecurityInfo` | process DACL hardening — **ported** to `WoW/Source/Win32/WinMain.cpp` as `ProtectProcessSecurity` | high — 2.4.3-only, not in 3.3.5a |
 | `0x0065A3F0` | `xor al,al; ret` | constant-**false** predicate | high |
 | `0x00402460` | `cmp dword[0xBDB208],2; sete al` | returns `(g_0xBDB208 == 2)` — the launch-mode flag (3.3.5a `s_unk_B2FA10`) | high |
 | `0x00402C40` | `'InstallPath'`, `'World of Warcraft'` | **`SetInstallPath`** (3.3.5a `Client.cpp:815`) | high |
