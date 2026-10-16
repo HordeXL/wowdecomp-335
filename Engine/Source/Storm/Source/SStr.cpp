@@ -36,7 +36,7 @@ char* SStrChrR(const char* string, char search) {
     return const_cast<char*>(result);
 }
 
-// OFFSET: 0x00644A90
+// OFFSET: 0x00644A50
 // 2.4.3 adds the null guard that 3.3.5a's one-line strncmp wrapper does not.
 int32_t STORMAPI SStrCmp(const char* string1, const char* string2, size_t maxchars) {
     if (!string1 || !string2) {
@@ -47,6 +47,6 @@ int32_t STORMAPI SStrCmp(const char* string1, const char* string2, size_t maxcha
     return strncmp(string1, string2, maxchars);
 }
 
-// Still to port from SStr.cpp: SStrCmpI (0x00644AD0 inlines its case-insensitive compare and returns
-// 0 on a null argument), the UTF-8 compare helpers, SStrCopy/SStrLen/SStrPack/SStrPrintf/SStrToInt/
-// SStrHash and the rest.
+// Still to port from SStr.cpp: SStrCmpI (0x00644A90 - a null argument returns 0 and the compare goes
+// through 0x00419E85), SStrCopy (0x00644AD0, copies source into dest bound by maxchars), the UTF-8
+// compare helpers, SStrLen/SStrPack/SStrPrintf/SStrToInt/SStrHash and the rest.
