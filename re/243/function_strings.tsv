@@ -1,0 +1,1530 @@
+00401030	delete[]
+00402720	signaturefile | .\Client.cpp | file: %s
+0040277B	signaturefile | Could not authenticate the %s file. | .\Client.cpp
+004027E5	signaturefile | Signature string (%s) in %s file does not match game's signature version (%d). | .\Client.cpp
+0040286F	RELEASE | signaturefile | Illegal scope string %s in %s: must be "INTERNAL" or "RELEASE". | .\Client.cpp
+004029B6	signaturefile | Format version in %s file is not supported. | .\Client.cpp
+00402C40	InstallPath | Burning Crusade Closed Beta
+00402CC6	InstallPath | World of Warcraft
+00402CF0	Blizzard Entertainment World of Warcraft
+00402D00	WoW.stor
+00402E40	.PAVSArchive@@
+00402EBA	.PAVSArchive@@
+00403CE9	Failed to open archive %s
+00404830	%s already loaded! Aborting to prevent memory leak!
+00404859	Unable to open %s
+004048E5	%s has wrong number of columns (found %i, expected %i)
+0040491D	%s has wrong row size (found %i, expected %i)
+00404955	%s: Cannot read string table
+00405260	Data\%s\ | ..\Data\ | ..\Data\%s\ | patch.MPQ | patch-?.MPQ | patch-%s-?.MPQ | patch-%s.MPQ | patch-4.MPQ | patch-3.MPQ | patch-%s-4.MPQ | patch-%s-3.MPQ | patch-2.MPQ | patch-%s-2.MPQ
+00405510	locale
+004057A2	Failed to open archive %s: %s | Missing or corrupted data
+00405927	Wow.ini | Region | WoW Config | Language | Country
+00405A8A	locale
+00405AF0	e:\buildserver\bs2\work\wow-code\branches\wow-patch-2_4_3-branch\wow\source\WowServices/PatchFiles.h
+00405D80	%sWTF\ | RunOnce*.wtf
+00405E05	.\Client.cpp
+00405F09	World of Warcraft
+00405F35	Unknown Error
+004063B0	WoW.mfil | Config.wtf
+0040641C	Database compression | dbCompress | Set the game locale | locale
+0040647E	locale | repairlist
+004064B5	coresDetected
+00406595	Sets which core(s) WoW may execute on - changes require restart to take effect | processAffinityMask
+00406606	Error reported by the timing validation system | timingTestError | Desired method for game timing | timingMethod | timingInfo | Timing test error: %d
+004066D1	.\Client.cpp
+00406716	World of Warcraft
+00406790	SendErrorLogs | World of Warcraft\Client
+00406805	World of WarCraft (build 8606)
+00407915	.?AULOADINGSCREENTAXIPATHINFO@?$CLoadingScreenShipInfo@VTaxiPathNodeRec@@@@
+0040B944	mscoree.dll | CorExitProcess
+0040BCC1	<program name unknown>
+0040BD8E	Microsoft Visual C++ Runtime Library
+0040C6FA	.mixcrt
+0040C759	KERNEL32.DLL | EncodePointer
+0040C7D0	KERNEL32.DLL | DecodePointer
+0040C8B6	KERNEL32.DLL | EncodePointer | DecodePointer
+0040CB8E	KERNEL32.DLL
+0040CBA9	FlsAlloc | FlsGetValue | FlsSetValue | FlsFree
+0041049A	kernel32.dll | InitializeCriticalSectionAndSpinCount
+0041054D	USER32.DLL | MessageBoxA | GetActiveWindow | GetLastActivePopup
+004105F1	GetUserObjectInformationA | GetProcessWindowStation
+0041A0AD	CONOUT$
+0041BDF0	DBFilesClient\Startup_Strings.dbc
+00427410	.?AV?$TSExplicitList@UPrefetchNode@@$0?CCCCCCCD@@@
+00427A80	.\Prop.cpp
+00427AA0	delete
+00427B70	.\RCString.cpp
+00427BA3	.\RCString.cpp
+00427D90	delete
+00428650	.PAVSThread@@
+004286CA	.PAVSThread@@
+004286E0	.PAUEvtContext@@
+0042875A	.PAUEvtContext@@
+00428970	.\EvtSched.cpp
+00428A0B	EvtShutdown
+00428A34	delete
+00428AD2	delete
+00428AF9	.PAVSThread@@
+00428B20	delete
+00428B4D	.PAVSThread@@
+00428B64	delete[]
+00428BBF	delete[]
+00429126	.?AUEvtThread@@
+004293A5	.?AUEvtKeyDown@@
+0042942E	.?AUEvtThread@@
+004296A9	.PAUEvtContext@@
+00429AEC	Engine %x
+00429D70	IEvtScheduler already initialized
+00429DBB	.\EvtSched.cpp
+00429E25	.\EvtSched.cpp
+00429E91	.\EvtSched.cpp
+00429F1F	EvtSched#%d
+00429F98	delete
+0042A082	Context: interactive = %u, idleTime = %u
+0042A0BD	.\EvtSched.cpp
+0042A700	context
+0042ABB0	context
+0042AD60	context
+0042AEA0	context
+0042AEC7	.?AUEvtHandler@@
+0042B0FB	.?AUEvtMessage@@
+0042B140	.?AUEvtKeyDown@@
+0042B270	context
+0042B2D2	context
+0042B380	context
+0042B480	context
+0042B4E6	list != this
+0042B503	list->m_linkoffset == m_linkoffset
+0042B730	.?AUEventReg@@ | .?AUEVENTCALLBACKREG@EventReg@@ | .?AUEVENTDISPATCHREG@EventReg@@
+004314B0	.?AVCImVector@NTempest@@
+0043152A	.?AVCImVector@NTempest@@
+004354A0	%s:SetFontObject(): Couldn't find 'this' in font object
+004358D0	<unnamed> | %s:SetText(): Font not set
+00435950	<unnamed> | %s:SetText(): Font not set
+00435FA0	<unnamed> | %s:SetTextHeight(): invalid text height: %f
+00436330	Usage: %s:SetTexCoord(minX, maxX, minY, maxY) or SetTexCoord(ULx, ULy, LLx, LLy, URx, URy, LRx, LRy)
+0043F210	<unnamed> | Usage: %s:IsObjectType("TYPE")
+004409B0	<unnamed> | Usage: %s:IsObjectType("TYPE")
+00440AF0	.\CSimpleFrameScript.cpp
+00440FB0	<unnamed> | Usage: %s:HasScript("type")
+00441070	<unnamed> | Usage: %s:GetScript("type")
+004411A0	<unnamed> | %s doesn't have a "%s" script
+00441300	<unnamed> | %s doesn't have a "%s" script
+00443070	Frame %s is not movable
+00443160	Frame %s is not resizable
+004432E0	Frame %s is not movable or resizable
+00444290	<unnamed> | %s:CreateTexture(): Couldn't find inherited node "%s"
+00444490	<unnamed> | %s:CreateFontString(): Couldn't find inherited node "%s"
+00444720	<unnamed> | %s:GetRegions(): Stack overflow
+00444890	<unnamed> | %s:GetChildren(): Stack overflow
+004465C0	<unnamed> | Usage: %s:IsObjectType("TYPE")
+00458FD3	.\Profile.cpp
+00459091	.?AV?$TSExplicitList@UKEYVALUE@ProfileInternal@@$0?CCCCCCCD@@@
+0045915F	.?AV?$TSExplicitList@UKEYVALUE@ProfileInternal@@$0?CCCCCCCD@@@
+004591F1	.?AV?$TSExplicitList@USECTION@ProfileInternal@@$0?CCCCCCCD@@@
+004592BF	.?AV?$TSExplicitList@USECTION@ProfileInternal@@$0?CCCCCCCD@@@
+0045940D	.?AV?$TSExplicitList@UKEYVALUE@ProfileInternal@@$0?CCCCCCCD@@@
+0045A035	.?AUSTRINGBLOCK@ProfileInternal@@
+0045A2A0	.\Profile.cpp
+0045A2F2	.?AUSECTION@ProfileInternal@@
+0045A560	section
+0045A5F0	section
+004712E0	BETA_BUILD | RELEASE_BUILD | Jul 10 2008
+00471360	Usage: SetSavedAccountName("accountName")
+004713E0	Usage: SetCurrentScreen("screen")
+00471440	Usage: PlayGlueMusic("filename")
+00471490	Usage: PlayGlueAmbience("sound name", "(optional)fade in time")
+00471530	Usage: PlayCreditsMusic( "Sound kit name" )
+004715A0	gxResolution
+004715F0	Usage: LaunchURL("URL")
+004717D0	Usage: MatrixEntered(number)
+004719D0	Usage: GetAddOnInfo(index)
+00471BD0	Usage: LaunchAddOnURL(index)
+00471C70	Usage: GetAddOnEnableState("character", index)
+00471D50	Usage: EnableAddOn("character", index)
+00471E60	Usage: DisableAddOn("character", index)
+00472210	Usage: Script_GetCreditText(versionIndex)
+00472320	Usage: SetCVar("cvar", value [, "scriptCvar")
+004723D0	Usage: SetCVarDefault("cvar")
+00472A40	Usage: GetAddOnDependencies(index)
+00472D90	Usage: SetRealmSplitState(1 or 2)
+00473650	Usage: GetRealmInfo(category, index)
+00473A00	Usage: ChangeRealm(category, index)
+00473B60	UNKNOWN
+00473C10	Usage: IsInvalidTournamentRealmCategory(category)
+00473CB0	Usage: IsTournamentRealmCategory(category)
+00473D30	Usage: Script_IsInvalidLocale(category)
+00473DE0	Usage: SetPreferredInfo(index, pvp, rp)
+00473E60	Usgae: SortRealms("type")
+00474FF0	Usage: SetCharCustomizeFrame("frameName")
+00475060	Usage: SetCharCustomizeBackground("filename")
+004753E0	Usage: SetSelectedSex(index)
+00475450	Usage: SetSelectedClass(index)
+004754D0	Usage: HasCharCustomization(index)
+00475630	Usage: SetCharacterCreateFacing(degrees)
+00475DF0	Usage: SetSelectedRace(index)
+00476590	Usage: SetCharSelectModelFrame("frameName")
+00476640	Usage: SetCharacterSelectFacing(degrees)
+00477130	Usage: SetCharSelectBackground("filename")
+004771B0	Usage: GetCharacterInfo(index)
+004773D0	Usage: DeleteCharacter(index)
+00477440	Usage: RenameCharacter(index, name)
+00477560	Usage: DeclineCharacter(index, name1, name2, name3, name4, name5)
+004776F0	Usage: SelectCharacter(index)
+004812E0	Usage: GetChatWindowInfo(index)
+00481490	Usage: GetChatWindowMessages(index)
+00481700	Usage: SetChatWindowName(index, "name")
+00481A40	Usage: SetChatWindowLocked(index, locked)
+00481AC0	Usage: SetChatWindowDocked(index, docked)
+00481B70	Usage: SetChatWindowShown(index, shown)
+00482125	.?AUChatColorInfo@@
+004835D0	ListChannelByName
+004837B0	SetChannelOwner
+004837D0	DisplayChannelOwner
+004838D0	ChannelModerator
+004838F0	ChannelUnmoderator
+00483910	ChannelMute
+00483930	ChannelUnmute
+00483950	ChannelInvite
+00483970	ChannelKick
+00483990	ChannelBan
+004839B0	ChannelUnban
+004839D0	ChannelToggleAnnouncements
+004839F0	ChannelVoiceOn
+00483A10	ChannelVoiceOff
+00483A30	DisplayChannelVoiceOn
+00483A50	DisplayChannelVoiceOff
+00483A70	%s%f%f%f
+00483CA0	SYSTEM
+00483D50	Usage: GetChatTypeIndex(type)
+00483E60	Usage: GetChatWindowChannels(index)
+00484130	Usage: GetSavedInstanceInfo(index)
+004842D0	Usage: GetChannelDisplayInfo(index)
+00484950	SetChannelWatch
+004849E0	DeclineInvite
+00485190	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h | Usage: SendAddonMessage("prefix", "message" [,"type"] [,"target"])
+00485400	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004854B0	Usage: GetLanguageByIndex(index)
+004855B0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00485DA0	BATTLEFIELDS | ChannelSilenceVoice
+00485EB0	ChannelSilenceAll
+00485F50	BATTLEFIELDS | ChannelUnSilenceVoice
+00486060	ChannelUnSilenceAll
+00486B30	SYSTEM | CHANNEL%d | %s%f%f%f
+00489780	GetChannelRosterInfo
+00490430	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h | SendChatMessage(): Unknown chat type | SendChatMessage(): Chat message must be UTF-8 text | SendChatMessage(): Unknown language
+00490DE0	[%d. %s] 
+004935E0	Usage: SetGuildRecruitmentMode(mode)
+00494B20	Jul 10 2008
+004950F0	Usage: RegisterCVar("cvar" [, default])
+004951A0	Usage: GetCVar("cvar")
+00495220	smallCull
+004952A0	Usage: SetWorldDetail(value)
+004953D0	Usage: SetWaterDetail(value)
+00495400	farclip
+00495430	Usage: SetFarclip(value)
+004954D0	shadowLevel
+00495500	Usage: SetTerrainMip(value)
+004955A0	texLodBias
+004955D0	Usage: SetTexLodBias(value)
+004956A0	Usage: SetGamma(value)
+00495740	baseMip
+00495770	Usage: SetBaseMip(value)
+004958E0	POINT_CURSOR | CAST_CURSOR | BUY_CURSOR | ATTACK_CURSOR | INTERACT_CURSOR | SPEAK_CURSOR | INSPECT_CURSOR | PICKUP_CURSOR | TAXI_CURSOR | TRAINER_CURSOR | MINE_CURSOR | SKIN_CURSOR | GATHER_CURSOR | LOCK_CURSOR | MAIL_CURSOR | LOOT_ALL_CURSOR | REPAIR_CURSOR | REPAIRNPC_CURSOR | ITEM_CURSOR | SKIN_HORDE_CURSOR | SKIN_ALLIANCE_CURSOR | INNKEEPER_CURSOR | QUEST_CURSOR | QUEST_REPEATABLE_CURSOR | QUEST_TURNIN_CURSOR | POINT_ERROR_CURSOR | CAST_ERROR_CURSOR | BUY_ERROR_CURSOR | ATTACK_ERROR_CURSOR | INTERACT_ERROR_CURSOR | SPEAK_ERROR_CURSOR | INSPECT_ERROR_CURSOR | PICKUP_ERROR_CURSOR | TAXI_ERROR_CURSOR | TRAINER_ERROR_CURSOR | MINE_ERROR_CURSOR | SKIN_ERROR_CURSOR | GATHER_ERROR_CURSOR | LOCK_ERROR_CURSOR | MAIL_ERROR_CURSOR
+00495D40	Usage: ReportBug("description")
+00495D90	Usage: ReportSuggestion("description")
+00495F20	Usage: GetCoinIcon(amount)
+00495FE0	Usage: GetCoinText(amount [,separator])
+004960C0	gxRestart
+00496130	Usage: GetItemQualityColor(index)
+00496430	AddOn index must be in the range of 1 to %d
+00496670	AddOn index must be in the range of 1 to %d
+00496770	AddOn index must be in the range of 1 to %d
+004968A0	AddOn index must be in the range of 1 to %d
+00496960	Usage: GetFunctionCPUUsage(function[, includeSubroutines])
+00496A80	AddOn index must be in the range of 1 to %d
+00496B80	AddOn index must be in the range of 1 to %d
+00496CA0	AddOn index must be in the range of 1 to %d
+00496D70	AddOn index must be in the range of 1 to %d
+00496F70	Usage: GetNumDeclensionSets("name", gender)
+004997A0	Usage: SetCVar("cvar", value [, "scriptCvar")
+004999D0	.\GameUI.cpp
+0049A6F0	Usage: ArenaTeamLeave(team)
+0049A9F0	Usage: ArenaTeamDisband(team)
+0049ACD0	SetupFullscreenScale(): Couldn't find 'this' in frame object
+0049AF50	Ranks limited from 0 to 5
+0049B060	Usage: GMSurveyCommentSubmit(comment)
+0049B120	.\GameUI.cpp
+0049B300	SetPortraitToTexture(): Couldn't find texture named '%s'
+0049B6F0	%s%s%s
+0049B990	%s%s%s
+0049BA60	.\GameUI.cpp
+0049BC70	SetupFullscreenScale(): Couldn't find 'this' in frame object
+0049BD90	AddOn index must be in the range of 1 to %d
+0049BE80	Usage: GetMirrorTimerInfo("timer")
+0049C0A0	Usage: GetTotemTimeLeft(slot)
+0049C150	Usage: DestroyTotem(slot)
+0049E3B0	Usage: EquipPendingItem(index)
+0049E440	Usage: CancelPendingEquip(index)
+0049E4D0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049E500	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049E530	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049E560	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h | .\GameUI.cpp
+0049E650	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049E6B0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049E750	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049E780	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049E7B0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049E7E0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049E810	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049E840	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049E870	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049E8A0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049E8D0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049E920	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h | UNKNOWN
+0049EA20	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049EAD0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049EC00	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049EE10	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049EE80	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049EFE0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049F040	Usage: SetCurrentTitle(titleMaskID)
+0049F110	Usage: IsTitleKnown(titleMaskID)
+0049F1D0	Usage: GetTitleName(titleMaskID)
+0049F3C0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049F3F0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049F480	Usage: UpdateGMTicket(text)
+0049F4F0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049F520	Usage: GMSurveyGetQuestion(index)
+0049F5B0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049F5F0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049F650	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049F6B0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049F710	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049F770	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049F820	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049F8D0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049F9C0	sanctuary
+0049FBD0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049FC20	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049FC70	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049FCB0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049FCF0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049FD30	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049FD90	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049FDF0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0049FE40	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004A0060	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004A0210	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004A0690	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004A08B0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004A09E0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004A0AD0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004A0BF0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004A0C60	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004A0CD0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004A0D80	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004A1070	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004A10C0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004A1120	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004A1180	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004A11F0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004A1260	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004A1310	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004A1380	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004A1480	Usage: GetTotemInfo(slot)
+004A3410	Usage: EquipCursorItem(slot)
+004A3560	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h | .\GameUI.cpp
+004A36F0	.\GameUI.cpp
+004A3830	Usage: CanInspect(unit [, showError])
+004A3990	Usage: NotifyInspect(unit)
+004A3A80	Usage: SetDungeonDifficulty(difficulty)
+004A3BD0	Usage: DropItemOnUnit("unit")
+004A3D20	Usage: GetMirrorTimerInfo("timer")
+004A3E00	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004A5260	Usage: PickupPlayerMoney(amount)
+004A56C0	gxResolution | %d%c%d
+004A5790	gxResolution | %d%c%d | gxRestart
+004A5B10	gxColorBits | gxDepthBits | gxMultisample
+004A5BE0	gxColorBits | gxDepthBits | gxMultisample | gxRestart
+004A71D0	.\GameUI.cpp | e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004A86E0	AddOn index must be in the range of 1 to %d
+004AB050	RegisterForSave() is only available to Blizzard scripts
+004AB0C0	RegisterForSavePerCharacter() is only available to Blizzard scripts
+004B01A0	Unknown frame point
+004B0480	Unknown frame point
+004B08A5	.?AUWorldMapLandmarkInfo@@
+004B1B50	Usage: GetMapZones(continentIndex)
+004B2450	Usage: GetPlayerMapPosition("player")
+004B25A0	Usage: GetMapLandmarkInfo(index)
+004B2810	Usage: GetMapOverlayInfo(index)
+004B2A20	CreateWorldMapArrowFrame(): Couldn't find 'this' in parent object
+004B2AE0	CreateMiniWorldMapArrowFrame(): Couldn't find 'this' in parent object
+004B2BB0	InitWorldMapPing(): Couldn't find 'this' in parent object
+004B3450	Usage: SetMapZoom(continentIndex [,zoneIndex])
+004B3AF0	.?AUWorldMapContinentInfo@@
+004B49E0	Usage: GetWorldStateUIInfo(index)
+004B54E0	AccountMsg_GetNumTotalMsgs() failed because the headers are not loaded
+004B5530	AccountMsg_GetHeaderSubject() failed because the headers are not loaded
+004B55D0	AccountMsg_GetHeaderPriority() failed because the headers are not loaded
+004B5680	AccountMsg_LoadBody() failed because the headers are not loaded
+004B5730	AccountMsg_GetBody() failed because the body was not loaded
+004B5AC0	AccountMsg_GetNumUnreadMsgs() failed because the headers are not loaded
+004B5B10	AccountMsg_GetNumUnreadMsgs() failed because the headers are not loaded
+004B5B60	AccountMsg_GetHeaderSubject() failed because the headers are not loaded
+004B5BE0	AccountMsg_GetHeaderSubject() failed because the headers are not loaded
+004B5C80	AccountMsg_SetMsgRead() failed because the headers are not loaded
+004B6020	AccountMsg_LoadHeaders() failed
+004B6EF0	KBSetup_GetLanguageCount() failed because setup is not loaded
+004B6F30	KBSetup_GetLanguageData() failed because setup is not loaded
+004B6FE0	KBSetup_GetCategoryCount() failed because setup is not loaded
+004B7020	KBSetup_GetCategoryData() failed because setup is not loaded
+004B70D0	KBSetup_GetArticleHeaderCount() failed because setup is not loaded
+004B7110	KBSetup_GetArticleHeaderData() failed because setup is not loaded
+004B71E0	KBSetup_GetTotalArticleCount() failed because setup is not loaded
+004B7260	KBQuery_GetArticleHeaderCount() failed because query is not loaded
+004B72A0	KBQuery_GetArticleHeaderData() failed because query is not loaded
+004B7370	KBQuery_GetTotalArticleCount() failed because query is not loaded
+004B7430	KBArticle_GetData() failed because article is not loaded
+004B7950	KBSetup_GetSubCategoryCount() failed because setup is not loaded
+004B79C0	KBSetup_GetSubCategoryData() failed because setup is not loaded
+004B7A80	KBQuery_BeginLoading() failed because setup is not loaded
+004B89D0	freeforall | roundrobin | master | needbeforegreed | ERROR!
+004B8B40	Usage: GetPartyAssignment("assignment" [,"raidmember"] [,exactMatch])
+004B96B0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004B9C40	OPT_OUT_LOOT_TOGGLE_ON | OPT_OUT_LOOT_TOGGLE_OFF
+004BA8A0	Usage: GetRaidTargetIndex(unit)
+004BA9B0	Usage: SetRaidRosterSelection(index)
+004BB290	Usage: GetRaidRosterInfo(index)
+004BBD20	Usage: SetRaidSubgroup(index, subgroup)
+004BC070	Usage: PromoteToLeader(name)
+004BC150	Usage: PromoteToAssistant(name)
+004BC230	Usage: DemoteAssistant(name)
+004BC310	.\RaidInfo.cpp
+004BD2E0	.?AUTUTORIALTIMER@@
+004C0800	INT_SPELL_POINTS_SPREAD_TEMPLATE | INT_SPELL_DURATION | SPELL_DURATION | SPELL_DURATION_UNTIL_CANCELLED | HOME_INN
+004C1100	Usage: BankButtonIDToInvSlotID(buttonID)
+004C1270	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004C12F0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004C1360	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004C1AE0	Usage: GetSpellTabInfo(index)
+004C1CA0	Usage: GetShapeshiftFormCooldown(index)
+004C2B60	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004C2C90	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004C2CC0	Usage: GetShapeshiftFormInfo(index)
+004C2F00	Usage: CastShapeshiftForm(index)
+004C42E0	Usage: CastSpellByName(name [, target])
+004C49B0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004C9180	Usage: %s:SetArrowModel("file")
+004C9260	Usage: %s:SetPlayerModel("file")
+004C9FD0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004CA260	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004CD5B0	Usage: %s:SetMaskTexture("file")
+004CD700	Usage: %s:SetIconTexture("file")
+004CD850	Usage: %s:SetBlipTexture("file")
+004CDB90	Usage: GetMerchantItemLink(index)
+004CDC60	Usage: GetMerchantItemMaxStack(index)
+004CE040	Usage: GetMerchantItemCostInfo(index)
+004CE710	Usage: GetMerchantItemInfo(index)
+004CE9B0	Usage: GetBuybackItemInfo(slot)
+004CEC50	Usage: GetBuybackItemLink(slot)
+004CED30	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h | .\MerchantFrame.cpp
+004CEE40	Usage: BuyMerchantItem(index)
+004CEF40	Usage: BuybackItem(slot)
+004CF040	Usage: ShowMerchantSellCursor(index)
+004CF1B0	Usage: ShowBuybackSellCursor(index)
+004CF580	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004D0010	Usage: GetTradeTargetItemLink(index)
+004D01B0	Usage: PickupTradeMoney(amount)
+004D0210	Usage: SetTradeMoney(amount)
+004D0370	Usage: ClickTargetTradeButton(index)
+004D03F0	Usage: GetTradePlayerItemLink(index)
+004D0F60	Usage: ClickTradeButton(index)
+004D11D0	Usage: GetTradeTargetItemInfo(index)
+004D1460	Usage: GetTradePlayerItemInfo(index)
+004D1BF0	Usage: GetLootSlotInfo(slot)
+004D1D30	Usage: GetLootSlotLink(slot)
+004D1DE0	Usage: LootSlotIsItem(slot)
+004D1E70	Usage: LootSlotIsCoin(slot)
+004D1F70	Usage: GetMasterLootCandidate(index)
+004D2020	Usage: GetLootRollItemInfo(id)
+004D2200	Usage: GetLootRollItemLink(id)
+004D22C0	Usage: GetLootRollTimeLeft(id)
+004D2500	.\LootFrame.cpp
+004D2B20	Usage: LootSlot(slot)
+004D2B90	Usage: LootSlot(slot)
+004D4E20	SetModifiedClick(): Unknown action (%s) or binding (%s)
+004D88D0	SPELL %s
+004D89E0	ITEM %s
+004D8AF0	MACRO %s
+004D8C00	LeftButton | CLICK %s:%s
+004D8E30	SPELL %s | Usage: SetOverrideBindingSpell(owner, isPriority, "KEY", "spellname")
+004D8F70	ITEM %s | Usage: SetOverrideBindingItem(owner, isPriority, "KEY", "itemname")
+004D90B0	MACRO %s | Usage: SetOverrideBindingMacro(owner, isPriority, "KEY", "macroname"|macroid)
+004D91F0	LeftButton | CLICK %s:%s | Usage: SetOverrideBindingClick(owner, isPriority, "KEY", "buttonName"[, "mouseButton"])
+004D9360	Usage: LoadBindings(0||1||2)
+004D93B0	Usage: SaveBindings(1||2)
+004D9BD0	.\ItemTextFrame.cpp
+004D9C20	.\ItemTextFrame.cpp
+004DA430	.\ItemTextFrame.cpp
+004DB330	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004DB3F0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004DB520	Usage: SelectGossipAvailableQuest(index)
+004DB590	Usage: SelectGossipActiveQuest(index)
+004DC5D0	.\QuestFrame.cpp
+004DCD80	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004DCE50	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004DD070	Invalid reward choice in GetQuestReward([choice])
+004DD260	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004DD680	.\QuestFrame.cpp
+004DD990	Usage: TaxiNodeName(slot)
+004DDD30	Usage: TaxiNodeTaxiNodeLocation(slot)
+004DDDE0	Usage: TaxiNodeGetType(slot)
+004DE270	Usage: TaxiNodeCost(slot)
+004DE310	Usage: TakeTaxiNode(slot)
+004DEA50	Usage: TaxiNodeSetCurrent(slot)
+004E0080	Usage: GetTrainerServiceTypeFilter("type")
+004E0120	Usage: GetTrainerSkillLineFilter(index)
+004E0670	Usage: SelectTrainerService(index)
+004E0730	Usage: GetTrainerServiceCost(index)
+004E07E0	Usage: GetTrainerServiceLevelReq(index)
+004E0860	Usage: GetTrainerServiceAbilityReq(index)
+004E12D0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004E1320	Usage: GetTrainerServiceInfo(index)
+004E13E0	Usage: GetTrainerServiceIcon(index)
+004E1590	Usage: GetTrainerServiceSkillLine(index)
+004E1700	Usage: GetTrainerServiceSkillReq(index)
+004E1850	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h | %s (%s)
+004E1A90	Usage: GetTrainerServiceStepReq(index)
+004E1C70	Usage: GetTrainerServiceDescription(index)
+004E1DF0	Usage: IsTrainerServiceSkillStep(index)
+004E1ED0	Usage: GetTrainerServiceStepIncrease(index)
+004E2120	Usage: BuyTrainerService(index)
+004E2180	Usage: SetTrainerServiceTypeFilter("type", on/off [, exclusive])
+004E22B0	Usage: SetTrainerSkillLineFilter(index [, on\off, exclusive])
+004E23D0	Usage: CollapseTrainerSkillLine(index)
+004E2460	Usage: ExpandTrainerSkillLine(index)
+004E24F0	Usage: GetTrainerServiceItemLink(index)
+004E3960	Usage: GetPetActionCooldown(index)
+004E3A90	Usage: IsPetAttackActive(index)
+004E3B60	.\PetInfo.cpp
+004E3BF0	.\PetInfo.cpp
+004E3C80	.\PetInfo.cpp
+004E3D30	.\PetInfo.cpp
+004E3DD0	.\PetInfo.cpp
+004E3E90	.\PetInfo.cpp
+004E3F60	.\PetInfo.cpp
+004E40D0	.\PetInfo.cpp
+004E41C0	.\PetInfo.cpp
+004E4D90	Usage: GetPetActionInfo(index)
+004E5260	.\PetInfo.cpp
+004E5400	Usage: GetPossessInfo(index)
+004E5FF0	Usage: PickupPetAction(index)
+004E6110	Usage: TogglePetAutocast(index)
+004E61D0	Usage: CastPetAction(index, target)
+004E6B70	Usage: SetUnit("unit")
+004E84B0	Invalid variationIndex in CycleVariation
+004E8740	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004E8810	<unnamed> | %s:GetUpperEmblemTexture(): Couldn't find 'this' in texture object
+004E8B10	%s:GetLowerEmblemTexture(): Couldn't find 'this' in texture object
+004E91B0	Usage: BuyGuildCharter(guildName)
+004E9230	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004E9260	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004E9590	Usage: SecureCmdOptionParse("options")
+004E9920	Usage: GetMacroIconInfo(index)
+004E9A30	Usage: GetMacroItemIconInfo(index)
+004EAF60	Usage: RunMacroText("text" [, "button"])
+004EB220	Usage: GetMacroIndexByName(name)
+004EBCF0	Usage: SetMacroItem(macro, item [,target])
+004EBE20	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004EBF70	Usage: SetMacroSpell(macro, spell [,target])
+004ECCF0	CreateMacro() failed, already have %d macros
+004ED210	Usage: SetSendMailShowing(bool)
+004ED2B0	Usage: SetSendMailCOD(amount)
+004EE060	Usage: GetStationeryInfo(index)
+004EE1C0	Usage: SelectStationery(index)
+004EE2F0	Usage: GetPackageInfo(index)
+004EE3F0	Usage: SelectPackage(index)
+004EE460	.\MailInfo.cpp
+004EE500	Usage: GetInboxHeaderInfo(index)
+004EE9F0	Usage: GetInboxInvoiceInfo(index)
+004EEDC0	Usage: GetInboxItemLink(messageIndex, attachIndex)
+004EEF10	Usage: TakeInboxMoney(index)
+004EF010	Usage: TakeInboxTextItem(index)
+004EF130	Usage: ReturnInboxItem(index)
+004EF270	Usage: DeleteInboxItem(index)
+004EF3B0	Usage: InboxItemCanDelete(index)
+004EFFA0	Usage: SetSendMailMoney(amount)
+004F0030	.\MailInfo.cpp | %s%s%s
+004F0230	Usage: SendMail(target, subject, body)
+004F0610	Usage: GetInboxText(index)
+004F08D0	Usage: GetInboxItem(messageIndex, attachIndex)
+004F0B90	Usage: TakeInboxItem(messageIndex, attachIndex)
+004F0D20	Usage: ComplainInboxItem(index)
+004F0D90	Usage: InboxItemCanComplain(index)
+004F1E40	Usage: GetBattlefieldPortExpiration(index)
+004F1FF0	Usage: GetBattlefieldEstimatedWaitTime(index)
+004F2090	Usage: GetBattlefieldTimeWaited(index)
+004F2400	Usage: GetBattlefieldTeamInfo(index)
+004F32E0	Usage: SetSelectedBattlefield(index)
+004F33D0	Usage: GetBattlefieldStatus(index)
+004F3620	Usage: GetBattlefieldScore(index)
+004F3970	Usage: GetBattlefieldStatInfo(index)
+004F3A50	Usage: GetBattlefieldPosition(index)
+004F4670	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004F47E0	Usage: GetBattlefieldInfo(index)
+004F4900	Usage: AcceptBattlefieldPort(index, accept)
+004F4AA0	Usage: ShowBattlefieldList(index)
+004F4C30	Usage: GetBattlefieldFlagPosition(index)
+004F4D60	Usgae: SortBattlefieldScoreData("type")
+004F5AA0	bidder
+004F5BD0	Usage: SortAuctionClearSort("type")
+004F6720	Usage: GetNumAuctionItems("type")
+004F6850	bidder
+004F6A00	Usage: GetAuctionItemSubClasses(index)
+004F6B10	INVTYPE_HEAD
+004F6EA0	Usage: GetSelectedAuctionItem("type")
+004F6F70	Usage: SortAuctionApplySort("type")
+004F7350	Usage: CalculateAuctionDeposit(runTime)
+004F74A0	.\AuctionHouse.cpp
+004F76B0	.\AuctionHouse.cpp | %s%s%s | e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004F78C0	.\AuctionHouse.cpp
+004F8110	bidder | %s%s%s
+004F85B0	bidder
+004F8970	Usage: SetSelectedAuctionItem(index)
+004F9AB0	bidder
+004FAD30	Usage: PickupStablePet(index)
+004FAFD0	Usage: GetStablePetInfo(index)
+004FB1B0	SetPetStablePaperdoll(): Couldn't find 'this' in frame object
+004FB320	Usage: GetStablePetInfo(index)
+004FB650	Usage: UnstablePet(index)
+004FB750	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004FB810	Usage: ClickStablePet(index)
+004FBB70	Usage: GetPetitionItemInfo(index)
+004FC2F0	Usage: TurnInArenaPetition(teamSize)
+004FC440	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004FC560	Usage: GetNumArenaTeamMembers(team [,showOffline])
+004FCEE0	Usage: GetArenaTeamRosterSelection(team)
+004FCF60	Usgae: SortArenaTeamRoster("type")
+004FD270	Usage: GetArenaTeam(team)
+004FD6F0	Usage: ArenaTeamRoster(team)
+004FDDD0	Usage: PickupGuildBankMoney(amount)
+004FDE60	Usage: SetCurrentTab(tab)
+004FDFC0	Usage: GetNumGuildBankTransactions(tab)
+004FE080	Usage: GetGuildBankMoneyTransaction(index)
+004FE230	Usage: GetGuildBankText(tab)
+004FF760	Usage: QueryGuildBankTab(tab)
+004FF7B0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004FF8A0	Usage: DepositGuildBankMoney(money)
+004FF910	Usage: WithdrawGuildBankMoney(money)
+004FF980	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004FFA20	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h | %s%s%s
+004FFC60	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+004FFE60	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00500050	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00500240	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h | Usage: GetGuildBankTabInfo(tab)
+00500480	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00500590	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00500600	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00500810	Usage: QueryGuildBankLog(tab)
+00500880	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00500BE0	Usage: QueryGuildBankLog(tab)
+005023D0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00502430	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+005024D0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00502570	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h | Usage: CommentatorGetMapInfo(mapIndex)
+005026B0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00502870	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h | Unable to enter instance.
+00502930	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+005029A0	Usage: CommentatorGetNumPlayers(faction)
+00502A80	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h | Error: faction index too large
+00502CC0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h | Error: faction index too large
+00502E40	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h | Error: faction index too large
+00502FB0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h | no map at that index
+005030F0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h | Error: faction index too large
+00503240	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00503410	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+005034F0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00503580	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h | Battlemaster must be set first.
+005037B0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h | A player must be targeted.
+005039D0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h | Must select an instance first.
+00503B70	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h | Battlemaster must be targeted.
+00503C50	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h | Usage: CommentatorSetMoveSpeed(speed)
+00503CD0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h | Usage: CommentatorSetCameraCollision(bool enable)
+00503D70	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h | Usage: CommentatorSetTargetHeightOffset(float offset)
+00504FB0	Usage: GetLFGTypeEntries(type)
+00505FE0	Usage: SetLookingForGroup(slot, type, index)
+005061F0	Usage: SetLFGType(slot, type)
+00507480	Usage: LFGQuery(typeID, lfgNdx [, class])
+005075C0	Usage: CanSendLFGQuery(typeID, lfgNdx
+00507690	Usage: GetLFGResults(type, lfgNdx)
+005077D0	Usage: GetLFGResults(type, lfgNdx, index)
+00507B80	Usage: GetLFGPartyResults(type, lfgNdx, index, partyIndex)
+00507E00	Usage: SortLfg("type")
+00508C80	Usage: GetSocketType(index)
+00509080	.\ItemSocketInfo.cpp | %s%s%s
+005091B0	Usage: GetNewSocketInfo(index)
+00509390	Usage: GetNewSocketLink(index)
+00509440	Usage: ClickSocketButton(index)
+00509700	Usage: GetExistingSocketInfo(index)
+00509920	Usage: GetExistingSocketLink(index)
+0050A0E0	Usage: GetTalentTabInfo(index [,isInspect])
+0050A250	Usage: GetNumTalents(tabIndex [,isInspect])
+0050A410	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0050A910	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0050B270	Usage: GuildControlSetRank(rank)
+0050B2C0	Usage: GuildControlSetRankFlag(index, enabled)
+0050B9D0	Usage: GetGuildRosterLastOnline(index)
+0050BB30	Usage: SetGuildRosterSelection(index)
+0050BBF0	Usage: SortGuildRoster("type")
+0050BE70	Usage: GetGuildBankTabPermissions(tab)
+0050BFB0	Usage: Script_SetGuildBankWithdrawLimit(amount)
+0050C950	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0050C9E0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0050CA70	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0050CB00	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0050CB90	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0050CC20	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0050CCB0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0050CD40	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0050CDD0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0050CE60	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0050CEF0	Usage: CanEditGuildTabInfo(tab)
+0050CFC0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0050D050	Usage: GuildControlSaveRank(name)
+0050D290	Usage: GuildControlAddRank(name)
+0050D400	Usage: SetGuildInfoText(text)
+0050D540	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0050DAA0	Usage: GetGuildRosterInfo(index)
+0050DD70	Usage: GuildControlGetRankName(index)
+0050DEA0	Usage: GetGuildEventInfo(index)
+0050E9A0	Usage: SetSelectedSkill(index)
+0050EF50	Usage: GetSkillLineInfo(index)
+0050F3F0	Usage: AbandonSkill(index)
+0050F4D0	Usage: CollapseSkillHeader(index)
+0050F530	Usage: ExpandSkillHeader(index)
+0050F590	Usage: AddSkillUp(index)
+0050F600	Usage: RemoveSkillUp(index)
+0050F670	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0050F7F0	Usage: BuySkillTier(index)
+0050FF30	Usage: GetPetitionNameInfo(index)
+00510140	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00510310	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h | .\PetitionInfo.cpp
+00510510	Usage(RenamePetition("name")
+005115E0	Usage: IsFactionInactive(index)
+00511650	Usage: SetSelectedFaction(index)
+00511F10	Usage: GetFactionInfo(index)
+00512260	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+005123A0	Usage: FactionToggleAtWar(index)
+00512420	Usage: SetFactionInactive(index)
+005124A0	Usage: SetFactionActive(index)
+00512520	Usage: CollapseFactionHeader(index)
+00512570	Usage: ExpandFactionHeader(index)
+005125C0	Usage: SetWatchedFactionIndex(index)
+00512E70	Usage: GetCraftFilter(index)
+00513340	Usage: SelectCraft(index)
+005133C0	Usage: GetCraftSkillLine(index)
+00513460	Usage: DoCraft(index)
+00513520	Usage: GetCraftCooldown(index)
+00513B90	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00513C30	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00513D40	Usage: GetCraftInfo(index)
+00513FD0	Usage: GetTradeSkillIcon(index)
+005140C0	Usage: GetCraftItemLink(index)
+00514250	Usage: GetCraftNumReagents(index)
+00514700	Usage: GetCraftRecipeLink(index)
+00514900	Usage: GetCraftSpellFocus(index)
+00514B30	Usage: GetCraftDescription(index)
+00514D00	Usage: CollapseCraftSkillLine(index)
+00514D90	Usage: ExpandCraftSkillLine(index)
+00514E20	Usage: Script_GetCraftNumMade(index)
+005159B0	Usage: SetCraftFilter(index)
+00515B90	Usage: ContainerIDToInventoryID(containerID)
+00515D70	Usage: SetBagPortraitTexture(texture, slot)
+00516420	Usage: GetContainerNumSlots(index)
+00516510	Usage: GetContainerFreeSlots(index)
+00516800	%s%s%s
+00516D40	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00517270	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+005173D0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+005177B0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00517960	Usage: GetBagName(index)
+00517F30	Usage: GetTradeSkillSubClassFilter(index)
+005184D0	Usage: SelectTradeSkill(index)
+00518550	Usage: GetTradeSkillCooldown(index)
+00518760	Usage: DoTradeSkill(index [, repeat])
+00518B70	Usage: GetTradeSkillInfo(index)
+00518D40	Usage: GetTradeSkillIcon(index)
+00518EA0	Usage: GetTradeSkillNumMade(index)
+00518FD0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+005190F0	Usage: GetTradeSkillRecipeLink(index)
+00519270	Usage: GetTradeSkillItemLink(index)
+00519370	Usage: GetTradeSkillNumReagents(index)
+00519660	Usage: GetTradeSkillInvSlotFilter(index)
+0051A770	Usage: SetTradeSkillSubClassFilter(index [, on\off, exclusive])
+0051A8A0	Usage: SetTradeSkillInvSlotFilter(index [, on\off, exclusive])
+0051AA50	Usage: CollapseTradeSkillSubClass(index)
+0051AAE0	Usage: ExpandTradeSkillSubClass(index)
+0051B4D0	Usage: GetTradeSkillItemStats(index)
+0051CD80	Usage: GetTradeSkillTools(index)
+0051D9F0	choice | reward
+0051DCD0	Usage: IsQuestWatched(index)
+0051F5F0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0051F7F0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0051FA70	.\QuestLog.cpp
+0051FB90	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0051FC40	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0051FD00	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0051FD80	Usage: GetQuestLogRewardInfo(index)
+0051FF50	Usage: GetQuestLogRewardInfo(index)
+005201E0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00520290	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00520600	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00520680	Usage: GetQuestIndexForTimer(index)
+005207D0	Usage: CollapseQuestHeader(index)
+00520820	Usage: ExpandQuestHeader(index)
+005208A0	Usage: GetQuestIndexForWatch(index)
+00520990	Usage: GetQuestLink(questID)
+00520B30	Usage: GetQuestLogLeaderBoard(index)
+00520C50	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00521380	Usage: KeyRingButtonIDToInvSlotID(buttonID)
+00521A00	Invalid inventory slot in GetInventorySlotInfo
+00521B00	Usage: GetInventoryAlertStatus(index)
+00521B90	Usage: GetInspectArenaTeamData(index)
+00523B80	Usage: GetInventoryItemDurability(slot)
+005241A0	Usage: SetInventoryPortraitTexture(texture, unit, slot)
+00524310	Usage: GetGuildInfo("unit")
+00524460	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+005244E0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+005246D0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h | .\PaperDollInfoFrame.cpp
+005249A0	Usage: GetPlayerBuff(index [, "filter"])
+00524B40	Usage: GetPlayerBuffTimeLeft(buffIndex)
+00525160	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00526910	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+005277E8	.\ActionBarFrame.cpp
+00533F90	.\InputControl.cpp
+00534400	.\InputControl.cpp
+005355C0	Usage: SetMouselookOverrideBinding("key", "binding" or nil)
+00537220	Usage: SaveView(viewModeIndex)
+00537280	Usage: FlipCameraYaw(degrees)
+0053C120	Usage: SetView(viewModeIndex)
+0053C880	Usage: ResetView(viewModeIndex)
+0053F880	Usage: ConsoleExec("console_command")
+0053F8D0	Access Denied
+00541F30	.\ScriptEvents.cpp
+005420F0	.\ScriptEvents.cpp
+00542170	Usage: UnitIsInMyGuild("name")
+005422A0	.\ScriptEvents.cpp
+00542300	.\ScriptEvents.cpp
+00542640	Usage: UnitIsAFK("unit")
+00542740	Usage: UnitIsDND("unit")
+00542800	Usage: UnitIsPVP("unit")
+00542940	Usage: UnitIsPVPFreeForAll("unit")
+00542A30	Usage: UnitFactionGroup("unit")
+00542D60	.\ScriptEvents.cpp | player
+00542EA0	.\ScriptEvents.cpp | player
+005432A0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00543300	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00543360	Usage: IsArenaTeamCaptain(index)
+00543430	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00543490	Usage: GetCombatRating(ratingIndex)
+00543550	Usage: GetCombatRatingBonus(ratingIndex)
+00543610	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00543670	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+005436D0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00543750	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+005437B0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00543810	Usage: GetCritChanceFromAgility("unit")
+00543890	Usage: GetSpellCritChanceFromIntellect("unit")
+00543910	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00543970	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+005439F0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00543A90	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00543AF0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00543B60	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00543BD0	Usage: Script_GetAttackPowerForStat(stat, value)
+00543CA0	Usage: UnitGUID("unit")
+00543DC0	Usage: UnitName("unit")
+00543FC0	Usage: UnitPVPName("unit")
+00544090	Usage: UnitXP("unit")
+00544110	Usage: UnitXPMax("unit")
+00544190	Usage: UnitHealth("unit")
+005442A0	Usage: UnitHealthMax("unit")
+00544360	Usage: UnitMana("unit")
+005444F0	Usage: UnitManaMax("unit")
+00544630	Usage: UnitPowerType("unit")
+00544700	Usage: UnitOnTaxi("unit")
+00544780	Usage: UnitIsFeignDeath("unit")
+00544830	Usage: UnitIsDead("unit")
+00544910	Usage: UnitIsGhost("unit")
+005449F0	Usage: UnitIsDeadOrGhost("unit")
+00544AE0	Usage: UnitIsConnected("unit")
+00544BA0	Usage: UnitAffectingCombat("unit")
+00544C20	Usage: UnitSex("unit")
+00544D30	Usage: UnitLevel("unit")
+00544ED0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00544F70	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00544FF0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00545070	Usage: UnitRace("unit")
+005451F0	Usage: UnitClass("unit")
+00545370	Usage: UnitRaceBase("unit")
+005454C0	Usage: UnitClassBase("unit")
+005458C0	Usage: UnitAttackBothHands("unit")
+005459C0	Usage: UnitRangedDamage("unit")
+00545C40	Usage: UnitRangedAttack("unit")
+00545CD0	Usage: UnitDamage("unit")
+00545E70	Usage: UnitAttackSpeed("unit")
+00545FC0	Usage: UnitAttackPower("unit")
+00546110	Usage: UnitAttackPower("unit")
+00546260	Usage: UnitDefense("unit")
+00546340	Usage: UnitArmor("unit")
+00546430	Usage: UnitCharacterPoints("unit")
+00546520	.\ScriptEvents.cpp
+005468C0	.\ScriptEvents.cpp
+00546CC0	Usage: UnitIsTapped("unit")
+00546D40	Usage: UnitIsTappedByPlayer("unit")
+00546DC0	Usage: UnitIsTrivial("unit")
+00546E40	Usage: UnitHasRelicSlot("unit")
+00546EF0	.\ScriptEvents.cpp
+00547080	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+005470F0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00547170	Usage: UnitCreatureType("unit")
+00547210	Usage: UnitCreatureFamily("unit")
+005472B0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h | INT_GENERAL_DURATION
+00547410	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+005474C0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00547570	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00547630	Usage: UnitPVPRank("unit")
+005476A0	Usage: GetPVPRankInfo(rank [, unit])
+00547800	Usage: UnitCastingInfo("unit")
+00547A70	Usage: UnitChannelInfo("unit")
+00547C10	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00547C70	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00547CD0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00547D30	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00547D90	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00547DF0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00547E50	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00547EB0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00548090	Usage: GetUnitHealthModifier("unit")
+00548110	Usage: GetUnitMaxHealthModifier("unit")
+005481B0	Usage: GetUnitPowerModifier("unit")
+00548230	Usage: GetUnitHealthRegenRateFromSpirit("unit")
+005482B0	Usage: GetUnitManaRegenRateFromSpirit("unit")
+00548340	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+005483E0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+005484A0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+00548550	Usage: NotifyUnitIsPVPAFK("unit")
+00548600	Usage: UnitInRange("unit")
+0054BF50	Usage: %s:SetMinimumWidth(width [,force])
+0054C070	<unnamed> | %s:IsOwned(): Couldn't find 'this' in frame object
+0054C260	Usage: %s:SetAnchorType( anchorType [,Xoffset] [,Yoffset] )
+0054C4B0	ANCHOR_LEFT
+0054C720	Usage: %s:IsUnit("unit")
+0054D390	<unnamed> | %s:SetOwner(): Couldn't find 'this' in frame object
+0054D770	.\Tooltip.cpp
+0054E270	<unnamed> | Usage: %s:AddFontStrings(leftstring, rightstring)
+0054E680	SPELL_TIME_REMAINING
+00551DC0	UberTooltips
+00551F60	UberTooltips
+005520F0	SPELL_TIME_REMAINING
+00552440	<unnamed> | Usage: %s:SetUnit("unit")
+00552520	.\Tooltip.cpp | SPELL_TIME_REMAINING
+005528A0	.\Tooltip.cpp | SPELL_TIME_REMAINING
+00557E00	<unnamed> | Usage: %s:SetInventoryItem(unit, slot [, nameOnly])
+00558990	Invalid craft item in SetCraftItem(index, reagent)
+00558EE0	.\Tooltip.cpp
+00559300	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h | .\Tooltip.cpp
+00559650	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+005597A0	.\Tooltip.cpp
+005598C0	<unnamed> | Usage: %s:SetInboxItem(messageIndex, attachmentIndex)
+00559B10	.\Tooltip.cpp
+00559BD0	bidder
+0055A040	<unnamed> | Usage: %s:SetHyperlinkCompareItem("hyperlink" [, offset])
+0055A180	Usage: %s:SetBuybackItem(slot)
+0055A2D0	Usage: %s:SetLootRollItem(id)
+0055A3E0	.\Tooltip.cpp
+0055A480	Usage: %s:SetSocketGem(index)
+0055A5B0	Usage: %s:SetSocketGem(index, [toDestroy])
+0055A700	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+0055AB10	ATTACK | e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h | UberTooltips
+005965D0	.?AUGxDrawListEntry@@
+00596649	.?AUGxDrawListEntry@@
+00597775	.P6AXXZ
+0059778D	devicePtr == g_theGxDevicePtr
+00598280	Logs\gx.log
+005984E0	.?AUCGxAppRenderState@@
+00598577	.?AUCGxAppRenderState@@
+00598590	.?AVCGxStateBom@@
+0059860C	.?AVCGxStateBom@@
+0059BD60	.\CGxDevice\CGxDevice.cpp
+0059BDC0	.\CGxDevice\CGxDevice.cpp
+0059C020	Stream_vtx | Stream_idx
+0059EBD1	CGxDevice::DeviceAdapterID(): RET: %d, VID: %x, DID: %x, DVER: %x.%x
+0059ECFB	CGxDevice::DeviceAdapterInfer(): RET: %d, DID: %x
+0059EDA0	.\CGxDeviceD3d\CGxDeviceD3d.cpp
+0059EE60	.?AUCGxMonitorMode@@
+0059EEDC	.?AUCGxMonitorMode@@
+005A1260	.\CGxDeviceOpenGL\CGxDeviceOpenGl.cpp
+005A1281	delete
+005A4330	d3d9.dll | CGxDeviceD3d::ILoadD3dLib(): unable to LoadLibrary()
+005A435F	Direct3DCreate9 | CGxDeviceD3d::ILoadD3dLib(): unable to GetProcAddress()
+005A4376	CGxDeviceD3d::ILoadD3dLib(): unable to d3dCreateProc()
+005B33C0	Data\base.MPQ | telemetry.dat
+005B3D12	us.logon.worldofwarcraft.com:3724 | Address of realm list server | realmList | decorateAccountName | realmlist.wtf
+005B3D6D	Last realm connected to | realmName
+005B6800	Usage: GetFriendInfo(index)
+005B6A90	Usage: SetSelectedFriend(index)
+005B6C70	Usage: GetIgnoreName(index)
+005B6DB0	Usage: GetMuteName(index)
+005B6EF0	Usage: SetSelectedIgnore(index)
+005B6F60	Usage: SetSelectedMute(index)
+005B7050	Usage: GetWhoInfo(index)
+005B7480	Usage: SortWho("type")
+005B9440	Usage: SendWho("filter")
+005BFD80	fontHeight || ( flags & EGxStringFlags_FixedSize )
+005BFD9B	vertJustification < GxVJ_Last
+005BFDA8	horzJustification < GxHJ_Last
+005C5C90	.?AUVERT@@
+005C5D17	.?AUVERT@@
+005C6490	.?AUVERT@@
+005C64AB	.?AVCImVector@NTempest@@
+005C64C9	.?AVCImVector@NTempest@@
+005C64E6	.?AUVERT@@
+005C6B10	delete
+005C7330	.?AUGXUFONTHYPERLINKINFO@@
+005C73A7	.?AUGXUFONTHYPERLINKINFO@@
+005C73C0	.?AUGXUEMBEDDEDTEXTUREINFO@@
+005C743F	.?AUGXUEMBEDDEDTEXTUREINFO@@
+005C7A10	.\GxuFontString.cpp
+005C7A44	.\GxuFontString.cpp
+005C8767	.?AUCGxString@@
+005F0075	LOOT_ROLL_NEED_SELF | LOOT_ROLL_ROLLED_GREED | LOOT_ROLL_ROLLED_NEED | LOOT_ROLL_GREED | LOOT_ROLL_PASSED_AUTO | LOOT_ROLL_PASSED | LOOT_ROLL_NEED | delete
+00628730	Usage: CombatLogSetRetentionTime(seconds)
+0062A6F0	Usage: CombatLogSetCurrentEntry(index [,ignoreFilter])
+0062A840	Usage: CombatLogAdvanceEntry(count [,ignoreFilter])
+0062ABC0	.?AUCombatLogFilter@@ | CombatLogAddFilter(): incomplete filter for srcMask
+0063A97D	ValidateFormatMonitor(): unable to find monitor refresh
+0063A994	ValidateFormatMonitor(): invalid refresh rate %d, set to %d
+0063ABB0	.\ConsoleClient.cpp
+0063B36D	.?AUCONSOLELINE@@
+0063B38B	.?AUCONSOLELINE@@ | .\ConsoleClient.cpp
+0063BEE0	.?AUCONSOLELINE@@
+0063BF72	.\ConsoleClient.cpp
+0063D110	Allow widescreen support | widescreen
+0063D162	toggle fullscreen/window | gxWindow
+0063D196	maximize game window | gxMaximize | color bits | gxColorBits | depth bits | gxDepthBits | 640x480 | resolution | gxResolution | refresh rate | gxRefresh | triple buffer | gxTripleBuffer | direct3d | graphics api | vsync on or off | gxVSync | constrain window aspect | gxAspect | toggle hardware cursor | gxCursor | multisample | gxMultisample | multisample quality | gxMultisampleQuality | prevent cursor lag | gxFixLag | gx overrides | gxOverride | Set FPS limit | maxFPS | Set background FPS limit | maxFPSBk | Video options version | videoOptionsVersion | prevent resizing in windowed mode | windowResizeLock
+0063D4B0	gxRestart
+0063D530	do hardware detection | hwDetect
+0063D634	ConsoleDeviceInitialize(): hwDetect = %d, hwChanged = %d
+0063D74D	OpenGl
+0063D882	ConsoleDeviceInitialize(): output device does not have dual TMUs!
+0063D916	ConsoleDeviceInitialize(): no output device available!
+0063D95D	World of Warcraft
+0063D9A8	World of Warcraft was unable to start up 3D acceleration.
+0063D9C7	World of Warcraft
+0063D9F0	ConsoleDeviceInitialize(): output device has 0 streams
+0063DB76	.\ConsoleClient.cpp
+0063DBDB	delete[]
+0063DBF5	Unknown command
+0063E4E1	.?AV?$TSExplicitList@UCONSOLECOMMAND@@$0?CCCCCCCD@@@
+0063E5AF	.?AV?$TSExplicitList@UCONSOLECOMMAND@@$0?CCCCCCCD@@@
+0063F200	Provides help information about a command. | setmap
+0063F360	WTF\%s
+0063F598	.\ConsoleVar.cpp
+0063F5B1	.\ConsoleVar.cpp
+0063F5D6	.\ConsoleVar.cpp
+0063F5F7	.\ConsoleVar.cpp
+0063F6FE	.\ConsoleVar.cpp
+0063F721	.\ConsoleVar.cpp
+0063F81D	.\ConsoleVar.cpp
+0063FB60	cvar_reset | cvar_default | cvarlist
+0063FC61	.?AV?$TSExplicitList@UCVar@@$0?CCCCCCCD@@@
+0063FD2F	.?AV?$TSExplicitList@UCVar@@$0?CCCCCCCD@@@
+00640753	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\storm\h\stpl.h
+006407A0	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\storm\h\stpl.h
+00640940	Set the value of a CVar | Set the value of a CVar to it's startup value | cvar_reset | Set the value of a CVar to it's coded default value | cvar_default | List cvars | cvarlist
+00640C09	World of Warcraft
+00640C50	World of Warcraft\Client
+00640C7B	World of Warcraft\Client
+00640C9C	World of Warcraft\Client
+00640CBD	World of Warcraft\Client
+00640D62	World of Warcraft
+00640D84	Hardware changed.  Reload default settings?
+00640DAB	World of Warcraft\Client
+00640E10	%s already loaded! Aborting to prevent memory leak!
+00640E39	Unable to open %s
+00640EC5	%s has wrong number of columns (found %i, expected %i)
+00640EFD	%s has wrong row size (found %i, expected %i)
+00640F35	%s: Cannot read string table
+00640FD0	Running World of Warcraft through a Remote Desktop connection is not supported.  Exiting program.
+00641009	.\ConsoleDetect.cpp
+006410A4	Failed to find a suitable display device.  Exiting program.
+006410EF	DetectHardware():
+006412D0	Canceled File Creation
+00641320	You must type 'y' to confirm overwrite. Process aborted!
+0064132D	Begin Typing the commands
+0064304B	SMem3: Break On AllocId
+00643051	SMem3: Heap corrupt; block header has been overwritten
+00643057	SMem3: Pointer does not refer to a valid allocated block of memory
+0064305D	SMem3: Not initialized.  Verify linker entrypoint is set to 'StormStaticEntryPoint' (defined in StormStartup.h)
+00643063	SMem3: Memory was allocated and never released
+00643140	Requested %u bytes of memory
+00643815	.\SMem3.cpp
+006456F6	.\W32\SThread.cpp
+00645A4E	Software\Battle.net\
+00645A69	Software\Blizzard Entertainment\
+006463B0	.\SSignature.cpp
+00646562	.\SSignature.cpp | delete
+00646750	No Minidumps | Internal
+00646780	KERNEL32.DLL | IsDebuggerPresent
+006469C9	Errors\
+006469EA	%04d-%02d-%02d %02d.%02d.%02d %s.%s
+00646BA1	Assertion Failure
+00646BA7	Not Archive
+00646BAD	Version Mismatch
+00646BB3	Memory Already Freed
+00646BB9	Memory Corrupt
+00646BBF	Memory Invalid Block
+00646BC5	Memory Never Released
+00646BCB	Handle Never Released
+00646BD1	Access Out Of Bounds
+00646BD7	File Corrupt
+00646BDD	Fatal Exception
+00646BE3	Fatal Condition
+00646BE8	DATATYPE_MISALIGNMENT
+006475A6	 : error %u: 
+006480F0	.\SCmd.cpp
+00648117	.\SCmd.cpp
+006482E7	.\SCmd.cpp
+00648406	namelength < 16
+00648420	(!variablebytes) || variableptr
+00648433	(((flags) & ((0 << 24) | (1 << 24) | (2 << 24))) != (2 << 24)) || (!s_addedoptional)
+00648458	(((flags) & ((0 << 24) | (1 << 24) | (2 << 24))) != (0 << 24)) || (namelength > 0)
+00648467	(((flags) & ((0 << 16) | (1 << 16) | (2 << 16))) != (0 << 16)) || (!variableptr) || (variablebytes == sizeof(DWORD))
+00648499	.?AUCMDDEF@@
+00648625	.?AUCMDDEF@@
+00648710	.\SCmd.cpp
+00648768	.\SCmd.cpp
+00648B33	.\SCmd.cpp
+00648C00	buffer
+00648C11	bufferchars
+00648CD0	listptr
+00648E40	cmdline
+006496D0	SUAREVTYPE | SUMREVTYPE
+006496F5	IAllocEvent: too many %s event allocs
+00649770	SUAREVTYPE | SUMREVTYPE
+0064979F	IFreeEvent: too many %s event frees
+00649A00	SEvent::SEvent: CreateEvent failed
+00649B9B	.\W32\SLock.cpp
+00649CAB	.\W32\SLock.cpp
+00649D50	.\W32\SLock.cpp
+00649D80	.\W32\SLock.cpp
+0064AA50	%u/%u %02u:%02u:%02u.%03u  
+0064C1B0	.?AU_FOUNDPARAM@@
+0064C1C6	.?AURECTF@@
+0064C1DC	.?AU_SOURCE@@
+0064C1F2	.?AURGN@@
+0064C920	delete
+0064DF10	.\SComp.cpp
+00650790	.\SBig.cpp
+00650F62	delete
+00651F00	dbghelp.dll
+00651F52	StackWalk | SymFunctionTableAccess | SymGetLineFromAddr | SymGetModuleBase | SymGetModuleInfo | SymGetOptions | SymGetSymFromAddr | SymInitialize | SymCleanup | SymSetOptions | SymEnumerateModules | SymEnumerateSymbols
+00652034	MiniDumpWriteDump
+006520D0	    %s
+006521B0	%08X:  | %02X %02X %02X %02X  
+006522CE	<can't read from this address>
+00652380	%-10s%s
+006523FE	%-10s%3s %2d, %4d %2d:%02d:%02d.%03d %cM
+00652440	<unknown>
+0065249A	%-10s%s
+006524C0	<unknown>
+00652505	Computer: | %-10s%s
+00652530	Memory Dump | Code: %d bytes starting at (EIP = %08X)
+00652586	Stack: %d bytes starting at (ESP = %08X)
+00652690	0x%08X - 0x%08X  %s
+0065270B	0x%08X - ??????????  %s
+0065271E	    Dumping Symbols | ****  SymEnumerateModules couldn't enumerate symbols, error: %d
+00652790	<unknown>
+006527E5	<unknown>
+00652925	<unknown module> | nown module> |  module>
+00652A90	<unknown symbol> | nown symbol> |  symbol>
+00652AF0	**** SymGetModuleInfo() failed, error: %d
+00652B5F	**** SymGetLineFromAddr() failed, error: %d
+00652B82	**** SymGetSymFromAddr() failed, error: %d
+00652B9F	%08X %-12s %s+%d (0x%08X,0x%08X,0x%08X,0x%08X) (%s,%d) | %08X %-12s %s+%d (0x%08X,0x%08X,0x%08X,0x%08X)
+00652C08	%08X %-12s %s+%d (%s,%d) | %08X %-12s %s+%d
+00652E00	**** StackWalk() returned zero address - skipping stack frame
+00652E6E	**** StackWalk() returned FALSE, error: %d
+00652E90	Stack Trace (Using DBGHELP.DLL) | ****  Couldn't load DBGHELP.DLL, error: %d
+00652EFB	****  Couldn't initialize Debug Help library, error: %d
+00652F33	Showing %d/%d threads...
+00652FA7	--- Thread ID: %d [Current Thread] --- | --- Thread ID: %d ---
+00653013	**** Unable to gain access to the thread, error: 
+00653034	**** Unable to retrieve thread context, error: %d
+00653180	Loaded Modules
+00653258	****  SymEnumerateModules couldn't enumerate modules, error: %d
+006532B0	Stack Trace (Manual) | Address  Frame    Logical addr  Module | Showing %d/%d threads...
+00653375	--- Thread ID: %d [Current Thread] --- | --- Thread ID: %d ---
+006533E8	**** Unable to retrieve thread context, error: %d
+006534A8	%08X %08X %04X:%08X %s
+00653590	x86 Registers | EAX=%08X  EBX=%08X  ECX=%08X  EDX=%08X  ESI=%08X | EDI=%08X  EBP=%08X  ESP=%08X  EIP=%08X  FLG=%08X | CS =%04X      DS =%04X      ES =%04X      SS =%04X      FS =%04X      GS =%04X
+006539F0	psapi.dll
+00653B2A	.?AUWNDREC@@
+00653C20	kernel32.dll | TryEnterCriticalSection
+00653C87	delete
+00653CAD	.\SEvt.cpp | delete
+00653D17	delete
+00653D44	delete
+006577C1	.\SFile2-Core.cpp
+006578C8	.\SFile2-Core.cpp
+0065EFDC	allocation failed
+0065F06C	get size failed
+0065F6B2	String::Duplicate
+00661770	(attributes)
+00661A70	http://%s/repair/%s/%s/%s
+00661CC0	Blizzard Web Client
+00668100	FileManifest::ReadDirectFile - LoadFile failed
+00668132	FileManifest::ReadDirectFile - ReadDirectFileFromBuffer failed
+00669570	map/set<T> too long
+00669770	vector<T> too long
+006697F0	invalid map/set<T> iterator
+00669D30	invalid map/set<T> iterator
+0066E170	invalid map/set<T> iterator
+0066E660	map/set<T> too long
+0066E860	map/set<T> too long
+0066EA60	map/set<T> too long
+006759F0	version
+00675AC7	Transport::ReadDirectFile - GetItemTag failed
+00675FD4	version
+00676041	source
+0067621D	SourceManifest::ReadDirectfile - GetItemTag failed
+00676450	map/set<T> too long
+00676990	Transport::ReadDirectFile - failed to load file
+00676E20	SourceManifest::ReadDirectfile - failed to load file
+00676EC0	Blizzard::Thread | Blizzard::Memory | Blizzard::ThreadLocalStorage
+0067A300	Transport::ReadIndirectFile - DownloadURL failed
+0067A318	url=%s | Transport::ReadIndirectFile - URL download failed | Failed to load transport manifest.
+0067AC90	SourceManifest::ReadIndirectFile - DownloadURL failed
+0067ACA8	url=%s | SourceManifest::ReadIndirectFile - URL download failed | Failed to load source manifest.
+0067AD40	Storage::Initialize - s_storageReady said we've been here
+0067AF10	Storage::Initialize - MakeAbsolutePath failed
+0067CBC3	http://
+0067CD2D	http://
+0067E594	version
+0067E600	manifest | sourcemanifest | FileManifest::ReadDirectFileFromBuffer - SourceManifest::Initialize failed
+0067E655	transportmanifest | FileManifest::ReadDirectFileFromBuffer - Transport::Initialize failed
+0067E692	source
+0067E717	bgpreloadsleep
+0067E967	FileManifest::ReadDirectFileFromBuffer - GetItemTag failed
+0067E978	http://
+0067FEE0	FileManifest::ReadIndirectFile - DownloadURL failed
+0067FEF8	url=%s | FileManifest::ReadIndirectFile - URL download failed | Failed to load file manifest.
+0068014A	FileManifest::Initialize failed - Transport
+00680179	http://
+00680225	InitializeStreaming failed - could not load manifest
+0068024C	InitializeStreaming failed - could not initialize storage
+006802A9	InitializeStreaming failed - storageFile was not named
+006803C5	http://eu.tracker.worldofwarcraft.com:3724/announce
+006803CC	http://us.tracker.worldofwarcraft.com:3724/announce
+00680A6A	?info_hash= | &peer_id= | &port= | &uploaded=0 | &downloaded=0 | &left=2 | &event=started | &stats=v,%d | &downloaded=%d | &left=0 | &event=completed | &event=stopped | &downloaded=1 | &left=1
+006A0000	delete
+006A006A	.?AVCMapRenderChunk@@
+006AED95	.PAUCGxBuf@@
+006D9443	.?AV?$TSExplicitList@UTALKINGPLAYER@@$0?CCCCCCCD@@@
+006F0B85	SPELL_FAILED_AFFECTING_COMBAT
+006F0B8B	SPELL_FAILED_ALREADY_AT_FULL_HEALTH
+006F0B91	SPELL_FAILED_ALREADY_AT_FULL_MANA
+006F0B97	SPELL_FAILED_ALREADY_AT_FULL_POWER
+006F0B9D	SPELL_FAILED_ALREADY_BEING_TAMED
+006F0BA3	SPELL_FAILED_ALREADY_HAVE_CHARM
+006F0BA9	SPELL_FAILED_ALREADY_HAVE_SUMMON
+006F0BAF	SPELL_FAILED_ALREADY_OPEN
+006F0BB5	SPELL_FAILED_AURA_BOUNCED
+006F0BBB	SPELL_FAILED_AUTOTRACK_INTERRUPTED
+006F0BC1	SPELL_FAILED_BAD_IMPLICIT_TARGETS
+006F0BC7	SPELL_FAILED_BAD_TARGETS
+006F0BCD	SPELL_FAILED_CANT_BE_CHARMED
+006F0BD3	SPELL_FAILED_CANT_BE_DISENCHANTED
+006F0BD9	SPELL_FAILED_CANT_BE_DISENCHANTED_SKILL
+006F0BDF	SPELL_FAILED_CANT_BE_PROSPECTED
+006F0BE5	SPELL_FAILED_CANT_CAST_ON_TAPPED
+006F0BEB	SPELL_FAILED_CANT_DUEL_WHILE_INVISIBLE
+006F0BF1	SPELL_FAILED_CANT_DUEL_WHILE_STEALTHED
+006F0BF7	SPELL_FAILED_CANT_STEALTH
+006F0BFD	SPELL_FAILED_CASTER_AURASTATE
+006F0C03	SPELL_FAILED_CASTER_DEAD
+006F0C09	SPELL_FAILED_CHARMED
+006F0C0F	SPELL_FAILED_CHEST_IN_USE
+006F0C15	SPELL_FAILED_CONFUSED
+006F0C1B	SPELL_FAILED_DONT_REPORT
+006F0C21	SPELL_FAILED_EQUIPPED_ITEM
+006F0C27	SPELL_FAILED_EQUIPPED_ITEM_CLASS
+006F0C2D	SPELL_FAILED_EQUIPPED_ITEM_CLASS_MAINHAND
+006F0C33	SPELL_FAILED_EQUIPPED_ITEM_CLASS_OFFHAND
+006F0C39	SPELL_FAILED_ERROR
+006F0C3F	SPELL_FAILED_FIZZLE
+006F0C45	SPELL_FAILED_FLEEING
+006F0C4B	SPELL_FAILED_FOOD_LOWLEVEL
+006F0C51	SPELL_FAILED_HIGHLEVEL
+006F0C57	SPELL_FAILED_HUNGER_SATIATED
+006F0C5D	SPELL_FAILED_IMMUNE
+006F0C63	SPELL_FAILED_INTERRUPTED
+006F0C69	SPELL_FAILED_INTERRUPTED_COMBAT
+006F0C6F	SPELL_FAILED_ITEM_ALREADY_ENCHANTED
+006F0C75	SPELL_FAILED_ITEM_GONE
+006F0C7B	SPELL_FAILED_ITEM_NOT_FOUND
+006F0C81	SPELL_FAILED_ITEM_NOT_READY
+006F0C87	SPELL_FAILED_LEVEL_REQUIREMENT
+006F0C8D	SPELL_FAILED_LINE_OF_SIGHT
+006F0C93	SPELL_FAILED_LOWLEVEL
+006F0C99	SPELL_FAILED_LOW_CASTLEVEL
+006F0C9F	SPELL_FAILED_MAINHAND_EMPTY
+006F0CA5	SPELL_FAILED_MOVING
+006F0CAB	SPELL_FAILED_NEED_AMMO
+006F0CB1	SPELL_FAILED_NEED_AMMO_POUCH
+006F0CB7	SPELL_FAILED_NEED_EXOTIC_AMMO
+006F0CBD	SPELL_FAILED_NOPATH
+006F0CC3	SPELL_FAILED_NOT_BEHIND
+006F0CC9	SPELL_FAILED_NOT_FISHABLE
+006F0CCF	SPELL_FAILED_NOT_FLYING
+006F0CD5	SPELL_FAILED_NOT_HERE
+006F0CDB	SPELL_FAILED_NOT_INFRONT
+006F0CE1	SPELL_FAILED_NOT_IN_CONTROL
+006F0CE7	SPELL_FAILED_NOT_KNOWN
+006F0CED	SPELL_FAILED_NOT_MOUNTED
+006F0CF3	SPELL_FAILED_NOT_ON_TAXI
+006F0CF9	SPELL_FAILED_NOT_ON_TRANSPORT
+006F0CFF	SPELL_FAILED_NOT_READY
+006F0D05	SPELL_FAILED_NOT_SHAPESHIFT
+006F0D0B	SPELL_FAILED_NOT_STANDING
+006F0D11	SPELL_FAILED_NOT_TRADEABLE
+006F0D17	SPELL_FAILED_NOT_TRADING
+006F0D1D	SPELL_FAILED_NOT_UNSHEATHED
+006F0D23	SPELL_FAILED_NOT_WHILE_GHOST
+006F0D29	SPELL_FAILED_NO_AMMO
+006F0D2F	SPELL_FAILED_NO_CHARGES_REMAIN
+006F0D35	SPELL_FAILED_NO_CHAMPION
+006F0D3B	SPELL_FAILED_NO_COMBO_POINTS
+006F0D41	SPELL_FAILED_NO_DUELING
+006F0D47	SPELL_FAILED_NO_ENDURANCE
+006F0D4D	SPELL_FAILED_NO_FISH
+006F0D53	SPELL_FAILED_NO_ITEMS_WHILE_SHAPESHIFTED
+006F0D59	SPELL_FAILED_NO_MOUNTS_ALLOWED
+006F0D5F	SPELL_FAILED_NO_PET
+006F0D65	SPELL_FAILED_NO_POWER
+006F0D6B	SPELL_FAILED_NOTHING_TO_DISPEL
+006F0D71	SPELL_FAILED_NOTHING_TO_STEAL
+006F0D77	SPELL_FAILED_ONLY_ABOVEWATER
+006F0D7D	SPELL_FAILED_ONLY_DAYTIME
+006F0D83	SPELL_FAILED_ONLY_INDOORS
+006F0D89	SPELL_FAILED_ONLY_MOUNTED
+006F0D8F	SPELL_FAILED_ONLY_NIGHTTIME
+006F0D95	SPELL_FAILED_ONLY_OUTDOORS
+006F0D9B	SPELL_FAILED_ONLY_SHAPESHIFT
+006F0DA1	SPELL_FAILED_ONLY_STEALTHED
+006F0DA7	SPELL_FAILED_ONLY_UNDERWATER
+006F0DAD	SPELL_FAILED_OUT_OF_RANGE
+006F0DB3	SPELL_FAILED_PACIFIED
+006F0DB9	SPELL_FAILED_POSSESSED
+006F0DBF	SPELL_FAILED_REAGENTS
+006F0DC5	SPELL_FAILED_REQUIRES_AREA
+006F0DCB	SPELL_FAILED_REQUIRES_SPELL_FOCUS
+006F0DD1	SPELL_FAILED_ROOTED
+006F0DD7	SPELL_FAILED_SILENCED
+006F0DDD	SPELL_FAILED_SPELL_IN_PROGRESS
+006F0DE3	SPELL_FAILED_SPELL_LEARNED
+006F0DE9	SPELL_FAILED_SPELL_UNAVAILABLE
+006F0DEF	SPELL_FAILED_STUNNED
+006F0DF5	SPELL_FAILED_TARGETS_DEAD
+006F0DFB	SPELL_FAILED_TARGET_AFFECTING_COMBAT
+006F0E01	SPELL_FAILED_TARGET_AURASTATE
+006F0E07	SPELL_FAILED_TARGET_DUELING
+006F0E0D	SPELL_FAILED_TARGET_ENEMY
+006F0E13	SPELL_FAILED_TARGET_ENRAGED
+006F0E19	SPELL_FAILED_TARGET_FRIENDLY
+006F0E1F	SPELL_FAILED_TARGET_IN_COMBAT
+006F0E25	SPELL_FAILED_TARGET_IS_PLAYER
+006F0E2B	SPELL_FAILED_TARGET_IS_PLAYER_CONTROLLED
+006F0E31	SPELL_FAILED_TARGET_NOT_DEAD
+006F0E37	SPELL_FAILED_TARGET_NOT_IN_PARTY
+006F0E3D	SPELL_FAILED_TARGET_NOT_LOOTED
+006F0E43	SPELL_FAILED_TARGET_NOT_PLAYER
+006F0E49	SPELL_FAILED_TARGET_NO_POCKETS
+006F0E4F	SPELL_FAILED_TARGET_NO_WEAPONS
+006F0E55	SPELL_FAILED_TARGET_UNSKINNABLE
+006F0E5B	SPELL_FAILED_THIRST_SATIATED
+006F0E61	SPELL_FAILED_TOO_CLOSE
+006F0E67	SPELL_FAILED_TOO_MANY_OF_ITEM
+006F0E6D	SPELL_FAILED_TOTEM_CATEGORY
+006F0E73	SPELL_FAILED_TOTEMS
+006F0E79	SPELL_FAILED_TRAINING_POINTS
+006F0E7F	SPELL_FAILED_TRY_AGAIN
+006F0E85	SPELL_FAILED_UNIT_NOT_BEHIND
+006F0E8B	SPELL_FAILED_UNIT_NOT_INFRONT
+006F0E91	SPELL_FAILED_WRONG_PET_FOOD
+006F0E97	SPELL_FAILED_NOT_WHILE_FATIGUED
+006F0E9D	SPELL_FAILED_TARGET_NOT_IN_INSTANCE
+006F0EA3	SPELL_FAILED_NOT_WHILE_TRADING
+006F0EA9	SPELL_FAILED_TARGET_NOT_IN_RAID
+006F0EAF	SPELL_FAILED_DISENCHANT_WHILE_LOOTING
+006F0EB5	SPELL_FAILED_PROSPECT_WHILE_LOOTING
+006F0EBB	SPELL_FAILED_PROSPECT_NEED_MORE
+006F0EC1	SPELL_FAILED_TARGET_FREEFORALL
+006F0EC7	SPELL_FAILED_NO_EDIBLE_CORPSES
+006F0ECD	SPELL_FAILED_ONLY_BATTLEGROUNDS
+006F0ED3	SPELL_FAILED_TARGET_NOT_GHOST
+006F0ED9	SPELL_FAILED_TOO_MANY_SKILLS
+006F0EDF	SPELL_FAILED_TRANSFORM_UNUSABLE
+006F0EE5	SPELL_FAILED_WRONG_WEATHER
+006F0EEB	SPELL_FAILED_DAMAGE_IMMUNE
+006F0EF1	SPELL_FAILED_PREVENTED_BY_MECHANIC
+006F0EF7	SPELL_FAILED_PLAY_TIME
+006F0EFD	SPELL_FAILED_REPUTATION
+006F0F03	SPELL_FAILED_MIN_SKILL
+006F0F09	SPELL_FAILED_NOT_IN_ARENA
+006F0F0F	SPELL_FAILED_NOT_ON_SHAPESHIFT
+006F0F15	SPELL_FAILED_NOT_ON_STEALTHED
+006F0F1B	SPELL_FAILED_NOT_ON_DAMAGE_IMMUNE
+006F0F21	SPELL_FAILED_NOT_ON_MOUNTED
+006F0F27	SPELL_FAILED_TOO_SHALLOW
+006F0F2D	SPELL_FAILED_TARGET_NOT_IN_SANCTUARY
+006F0F33	SPELL_FAILED_TARGET_IS_TRIVIAL
+006F0F39	SPELL_FAILED_BM_OR_INVISGOD
+006F0F3F	SPELL_FAILED_EXPERT_RIDING_REQUIREMENT
+006F0F45	SPELL_FAILED_ARTISAN_RIDING_REQUIREMENT
+006F0F4B	SPELL_FAILED_NOT_IDLE
+006F0F51	SPELL_FAILED_NOT_INACTIVE
+006F0F57	SPELL_FAILED_PARTIAL_PLAYTIME
+006F0F5D	SPELL_FAILED_NO_PLAYTIME
+006F0F63	SPELL_FAILED_NOT_IN_BATTLEGROUND
+006F0F69	SPELL_FAILED_NOT_IN_RAID_INSTANCE
+006F0F6F	SPELL_FAILED_ONLY_IN_ARENA
+006F0F75	SPELL_FAILED_TARGET_LOCKED_TO_RAID_INSTANCE | SPELL_FAILED_UNKNOWN
+006F3900	e:\BuildServer\bs2\work\WoW-code\branches\wow-patch-2_4_3-branch\WoW\Source\Object/ObjectClient/Player_C.h
+006F6120	Usage: SpellCanTargetUnit("unit")
+006FC7A0	Usage: SpellTargetUnit("unit")
+00704980	Usage: issecurevariable([table,] "variable")
+00704CE0	hooksecurefunc(): %s is not a function
+007053E0	 in function `%s' |  in main chunk |  in function <%s:%d>
+00708870	Usage: GetText("token" [,gender] [,ordinal])
+00708900	Usage: CreateFont("name")
+00708AB0	EnumerateFrames: Couldn't find 'this' in current object
+00708C10	CreateFrame: Couldn't find 'this' in parent object
+00708F80	Usage: GetFramesRegisteredForEvent("event")
+0071B957	.\M2Model.cpp
+007319C0	wrong number of arguments
+00731D50	'setn' is obsolete
+00731D80	wrong number of arguments to 'insert'
+00731EC0	table contains non-strings
+00732A50	invalid value
+00732B30	unable to dump given function
+00733880	'string.gfind' was renamed to 'string.gmatch'
+00733DE0	[-+ #0]*(%d*)%.?(%d*) | invalid format (width or precision too long) | invalid option in `format'
+00734420	nil or table expected | __metatable | cannot change a protected metatable
+00734740	collect
+007349A0	assertion failed!
+00734BB0	__tostring
+00734E40	coroutine expected
+00734F30	Lua function expected
+00734FE0	coroutine expected | running | normal | suspended
+007498C0	.\W32\TimeManager.cpp
+00749900	delete
+00749A70	Logs\cpu.log | UNABLE TO IDENTIFY CPU
+00749AD0	vendor: %d | features: %08X | sockets: %d | cores: %d | processors: %d | vendor id string= %s | standard (%d): 1b=%08X 1d=%08x 4a=%08X | extended (%d): 1c=%08X 1d=%08x 8c=%08X
+00749BBE	processor brand string= %s
+0074A116	Unable to find .text section
+0074A19F	Invalid function pointer: %p
+0074A310	powrprof.dll | CallNtPowerInformation
+0074A6B3	GenuineIntelAuthenticAMDCyrixInsteadCentaurHalls
+0074A6FD	AuthenticAMDCyrixInsteadCentaurHalls
+0074A736	CyrixInsteadCentaurHalls | CentaurHalls
+0074B0A0	OsGuiPointer
+0074C2D0	t[0x%08x] se[%u] we[%u] 
+0074D203	.\W32\OsTcp.cpp
+0074D2A9	.\W32\OsTcp.cpp
+0074D880	.\W32\OsTcp.cpp
+0074D8D5	.\W32\OsTcp.cpp
+0074E4BB	delete
+0074E5CE	delete
+0074E5DC	.\W32\OsCall.cpp
+0074E601	%s [%u]
+0074E680	.\W32\OsCall.cpp
+00751BE0	.?AVCShaderEffect@@
+00751E90	delete
+0075F676	Unknown exception
+00769586	string too long
+007695C5	invalid string position | SetWindowLongA | user32.dll | GetWindowLongA | CreateProcessW | kernel32.dll | RegQueryValueExW | advapi32.dll | RegOpenKeyExW | RegSetValueExW | RegCreateKeyExW | CreateFileW | GetVersionExW | SHGetPathFromIDListW | shell32.dll | ShellExecuteW | CreateEventW | CreateSemaphoreW | GetCurrentDirectoryW | GetComputerNameW | GetModuleFileNameW | GetModuleHandleW | GetDiskFreeSpaceW | LoadLibraryW | GetFileAttributesExW | SetCurrentDirectoryW | FindNextFileW | FindFirstFileW | GetFileAttributesW | GetDiskFreeSpaceExW | GetShortPathNameW | CreateDirectoryW | MoveFileW | SetFileAttributesW | DeleteFileW | RemoveDirectoryW | GetPropA | SetPropA | RemovePropA | EnableWindow
+0077DC10	DBFilesClient\VideoHardware.dbc
+0079239A	delete
+00792470	.\CDataRecycler.cpp
+00792545	.\CDataAllocator.cpp
+00794000	Invalid model file: %s
+00794310	<unnamed> | Error: %s:SetSequence(sequence) exceeds valid range of 0 - %d
+007A42F0	%s:SetColorWheelTexture(): Couldn't find 'this' in texture
+007A44F0	%s:SetColorWheelThumbTexture(): Couldn't find 'this' in texture
+007A4720	%s:SetColorValueTexture(): Couldn't find 'this' in texture
+007A4920	%s:SetColorValueThumbTexture(): Couldn't find 'this' in texture
+007A5190	%s:SetCheckedTexture(): Couldn't find 'this' in texture
+007A55E0	%s:SetThumbTexture(): Couldn't find 'this' in texture
+007A75B0	BOTTOM
+007A7E70	BOTTOM
+007A99B0	Usage: %s:SetBlinkSpeed(speed)
+007A9B00	Usage: %s:SetText("text")
+007A9C10	Usage: %s:SetNumber(number)
+007A9DB0	Usage: %s:AddHistoryLine("text")
+007AA1B0	Usage: %s:SetMaxBytes(max)
+007AA2C0	Usage: %s:SetMaxLetters(max)
+007AA9A0	%s:SetCheckedTexture(): Couldn't find 'this' in texture
+007AABD0	%s:SetDisabledCheckedTexture(): Couldn't find 'this' in texture
+007AB4E0	<unnamed>
+007AB5A0	<unnamed>
+007AB600	%s:SetFontString(): Couldn't find 'this' in fontstring
+007ABF10	SetNormalTexture
+007ABF50	SetPushedTexture
+007ABF90	SetDisabledTexture
+007ABFD0	%s:SetHighlightTexture(): Couldn't find 'this' in texture
+007AC580	LeftButton
+007B6BC0	Usage: PlayMusic("musicfile")
+007B6C20	Usage: PlaySoundFile("soundfile")
+007B6CD0	Usage: Sound_ChatSystem_GetInputDriverNameByIndex(InputDriverIndex)
+007B6DD0	Usage: Sound_ChatSystem_GetOutputDriverNameByIndex(OutputDriverIndex)
+007B6ED0	Usage: Sound_GameSystem_GetInputDriverNameByIndex(InputDriverIndex)
+007B6FD0	Usage: Sound_GetOutputDriverNameByIndex(OutputDriverIndex)
+007B70C0	Usage: VoiceChat_RecordLoopbackSound(MaxRecordTimeInSeconds)
+007B7250	VoiceChatOn | VoiceChatOff
+007B7350	EnableMicrophone | EnableVoiceChat
+007EF2EE	..\..\src\fmod_dspi.cpp
+007FA9F7	..\..\src\fmod_soundi.cpp
+007FABA2	(null)
+007FAE32	..\..\src\fmod_soundi.cpp
+007FCB5E	..\..\src\fmod_soundi.cpp
+007FE046	..\..\src\fmod_plugin.cpp
+008102B4	..\src\fmod_codec_asf.cpp
+0081FA68	Number of channels | ..\..\src\fmod_codec_s3m.cpp | Sample name %d
+0082008C	..\..\src\fmod_codec_s3m.cpp
+0082A482	..\..\src\fmod_output.cpp
+0082E3F6	..\..\src\fmod_output_software.cpp
+0082E4F7	..\..\src\fmod_output_software.cpp
+0082F9C9	..\..\src\fmod_dsp_resampler.cpp
+0082FB10	..\..\src\fmod_dsp_resampler.cpp
+008305DC	..\..\src\fmod_codec.cpp
+0083327E	..\..\src\fmod_file_net.cpp
+008332CD	StreamTitle=' | ARTIST | StreamUrl='
+008335F8	..\..\src\fmod_file_net.cpp
+00833865	..\src\fmod_file_cdda.cpp
+00833CC2	..\src\fmod_file_cdda.cpp
+0083495A	..\..\src\fmod_output_emulated.cpp
+00836A4E	..\..\src\fmod_dsp_codec.cpp
+00839110	..\..\src\fmod_dsp_soundcard.cpp
+00839186	..\..\src\fmod_dsp_soundcard.cpp
+008429A7	FMOD Resampler Unit
+00843158	FMOD Channel DSPHead Unit | FMOD WaveTable Unit
+0084A427	..\..\src\fmod_sample_software.cpp
+0084FC8C	EmulatedChannel DSPHead Unit
+0084FDB7	..\src\fmod_channel_openal.cpp
+0085195D	FMOD Resampler Unit
+00851FAA	FMOD Channel DSPHead Unit | FMOD WaveTable Unit | ..\src\fmod_channel_openal.cpp
+00855000	..\src\fmod_sample_openal.cpp

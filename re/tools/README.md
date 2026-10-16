@@ -15,6 +15,9 @@ inside IDA's IDAPython.
 | `entry_chain.py <Wow.exe>` | Disassemble the entry point and locate the entry-chain functions. |
 | `identify_func.py <Wow.exe> <hex addr>...` | List a function's string and import references to identify it (cross-reference with `git grep` on the 3.3.5a source). |
 | `scan_functions.py <Wow.exe> <outdir>` | Recursive-descent function inventory (precise but incomplete). |
+| `scan_vtables.py <Wow.exe> <outdir>` | Recover virtual methods from MSVC RTTI vtables; merges them into `functions.txt`. |
+| `function_strings.py <Wow.exe> <outdir>` | Dump the string literals each function references. |
+| `hint_functions.py <srcdir> <function_strings.tsv> <out>` | Score functions against the 3.3.5a source by shared strings. |
 | `ida_export_offsets.py` | **Run inside IDA.** Export every function's address and name as `// OFFSET:` lines. |
 
 ## Typical workflow

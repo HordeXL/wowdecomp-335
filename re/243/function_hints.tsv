@@ -1,0 +1,1027 @@
+00401030	1	Engine/Source/Storm/Source/SMem.cpp	WoW/Source/Ui/GMTicketInfo.cpp(1)	delete[]
+00402720	2	WoW/Source/Client.cpp		signaturefile | file: %s
+0040277B	2	WoW/Source/Client.cpp		signaturefile | Could not authenticate the %s file.
+004027E5	2	WoW/Source/Client.cpp		signaturefile | Signature string (%s) in %s file does not match game's signature version (%d).
+0040286F	2	WoW/Source/Client.cpp		RELEASE | signaturefile
+004029B6	2	WoW/Source/Client.cpp		signaturefile | Format version in %s file is not supported.
+00402C40	1	WoW/Source/Client.cpp		InstallPath
+00402CC6	2	WoW/Source/Client.cpp	WoW/Source/Ui/UILCD/LCD.cpp(1);WoW/Source/ConsoleDevice/ConsoleDevice.cpp(1);Engine/Source/Gx/CGxDeviceD3d/CGxDeviceD3d.cpp(1)	InstallPath | World of Warcraft
+00402CF0	1	WoW/Source/Client.cpp		Blizzard Entertainment World of Warcraft
+00402D00	1	WoW/Source/Client.cpp		WoW.stor
+00404830	1	WoW/Source/DB/WowClientDB.h		%s already loaded! Aborting to prevent memory leak!
+00404859	1	WoW/Source/DB/WowClientDB.h		Unable to open %s
+004048E5	1	WoW/Source/DB/WowClientDB.h		%s has wrong number of columns (found %i, expected %i)
+0040491D	1	WoW/Source/DB/WowClientDB.h		%s has wrong row size (found %i, expected %i)
+00404955	1	WoW/Source/DB/WowClientDB.h		%s: Cannot read string table
+00405260	13	WoW/Source/WowServices/PatchFiles.cpp	WoW/Source/Client.cpp(1)	Data\%s\ | ..\Data\ | ..\Data\%s\ | patch.MPQ | patch-?.MPQ | patch-%s-?.MPQ | patch-%s.MPQ | patch-4.MPQ | patch-3.MPQ | patch-%s-4.MPQ | patch-%s-3.MPQ | patch-2.MPQ | patch-%s-2.MPQ
+00405510	1	WoW/Source/Client.cpp	WoW/Source/Ui/BugReport.cpp(1)	locale
+004057A2	1	WoW/Source/Client.cpp		Missing or corrupted data
+00405927	5	WoW/Source/Client.cpp	Engine/Source/Frame/CScriptRegion.cpp(1)	Wow.ini | Region | WoW Config | Language | Country
+00405A8A	1	WoW/Source/Client.cpp	WoW/Source/Ui/BugReport.cpp(1)	locale
+00405D80	2	WoW/Source/Client.cpp		%sWTF\ | RunOnce*.wtf
+00405F09	1	WoW/Source/Ui/UILCD/LCD.cpp	WoW/Source/ConsoleDevice/ConsoleDevice.cpp(1);Engine/Source/Gx/CGxDeviceD3d/CGxDeviceD3d.cpp(1);Engine/Source/Gx/CGxDeviceD3d9Ex/CGxDeviceD3d9Ex.cpp(1)	World of Warcraft
+00405F35	1	WoW/Source/Client.cpp		Unknown Error
+004063B0	2	WoW/Source/Client.cpp		WoW.mfil | Config.wtf
+0040641C	4	WoW/Source/Client.cpp	WoW/Source/DB/DBClient/DBClient.cpp(1);WoW/Source/Ui/BugReport.cpp(1)	Database compression | dbCompress | Set the game locale | locale
+0040647E	1	WoW/Source/Client.cpp	WoW/Source/Ui/BugReport.cpp(1)	locale
+00406595	2	WoW/Source/Client.cpp		Sets which core(s) WoW may execute on - changes require restart to take effect | processAffinityMask
+00406606	6	WoW/Source/Client.cpp	WoW/Source/Client_Console.cpp(3)	Error reported by the timing validation system | timingTestError | Desired method for game timing | timingMethod | timingInfo | Timing test error: %d
+00406716	1	WoW/Source/Ui/UILCD/LCD.cpp	WoW/Source/ConsoleDevice/ConsoleDevice.cpp(1);Engine/Source/Gx/CGxDeviceD3d/CGxDeviceD3d.cpp(1);Engine/Source/Gx/CGxDeviceD3d9Ex/CGxDeviceD3d9Ex.cpp(1)	World of Warcraft
+00406790	2	WoW/Source/Client.cpp	WoW/Source/ConsoleDevice/ConsoleDetect.cpp(1)	SendErrorLogs | World of Warcraft\Client
+0040C759	1	Engine/Source/Storm/Source/Win64/SErr.cpp	Engine/Source/Storm/Source/Win32/SErr.cpp(1)	KERNEL32.DLL
+0040C7D0	1	Engine/Source/Storm/Source/Win64/SErr.cpp	Engine/Source/Storm/Source/Win32/SErr.cpp(1)	KERNEL32.DLL
+0040C8B6	1	Engine/Source/Storm/Source/Win64/SErr.cpp	Engine/Source/Storm/Source/Win32/SErr.cpp(1)	KERNEL32.DLL
+0040CB8E	1	Engine/Source/Storm/Source/Win64/SErr.cpp	Engine/Source/Storm/Source/Win32/SErr.cpp(1)	KERNEL32.DLL
+0041049A	1	Engine/Source/Os/Win32/OsSecureRandom.cpp	Engine/Source/Os/Win64/OsSecureRandom.cpp(1);Engine/Source/Storm/Source/Win64/SServer.cpp(1);Engine/Source/Storm/Source/Win32/SServer.cpp(1)	kernel32.dll
+0041BDF0	1	WoW/Source/DB/Rec/Startup_StringsRec.cpp		DBFilesClient\Startup_Strings.dbc
+00427AA0	1	WoW/Source/WorldClient/MapObj.cpp	WoW/Source/WorldClient/MapWeather.cpp(1);WoW/Source/Game/GameClient/Win32/WardenClient.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1)	delete
+00427D90	1	WoW/Source/WorldClient/MapObj.cpp	WoW/Source/WorldClient/MapWeather.cpp(1);WoW/Source/Game/GameClient/Win32/WardenClient.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1)	delete
+00428A0B	1	Engine/Source/Event/EvtSched.cpp		EvtShutdown
+00428A34	1	WoW/Source/WorldClient/MapObj.cpp	WoW/Source/WorldClient/MapWeather.cpp(1);WoW/Source/Game/GameClient/Win32/WardenClient.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1)	delete
+00428AD2	1	WoW/Source/WorldClient/MapObj.cpp	WoW/Source/WorldClient/MapWeather.cpp(1);WoW/Source/Game/GameClient/Win32/WardenClient.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1)	delete
+00428B20	1	WoW/Source/WorldClient/MapObj.cpp	WoW/Source/WorldClient/MapWeather.cpp(1);WoW/Source/Game/GameClient/Win32/WardenClient.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1)	delete
+00428B64	1	Engine/Source/Storm/Source/SMem.cpp	WoW/Source/Ui/GMTicketInfo.cpp(1)	delete[]
+00428BBF	1	Engine/Source/Storm/Source/SMem.cpp	WoW/Source/Ui/GMTicketInfo.cpp(1)	delete[]
+00429AEC	1	Engine/Source/Event/EvtSched.cpp		Engine %x
+00429D70	1	Engine/Source/Event/EvtSched.cpp		IEvtScheduler already initialized
+00429F1F	1	Engine/Source/Event/EvtSched.cpp		EvtSched#%d
+00429F98	1	WoW/Source/WorldClient/MapObj.cpp	WoW/Source/WorldClient/MapWeather.cpp(1);WoW/Source/Game/GameClient/Win32/WardenClient.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1)	delete
+0042A082	1	Engine/Source/Event/EvtSched.cpp		Context: interactive = %u, idleTime = %u
+0042A700	1	Engine/Source/Event/EvtQueue.cpp	Engine/Source/Event/EvtTimer.cpp(1);Engine/Source/Event/EvtInput.cpp(1)	context
+0042ABB0	1	Engine/Source/Event/EvtQueue.cpp	Engine/Source/Event/EvtTimer.cpp(1);Engine/Source/Event/EvtInput.cpp(1)	context
+0042AD60	1	Engine/Source/Event/EvtQueue.cpp	Engine/Source/Event/EvtTimer.cpp(1);Engine/Source/Event/EvtInput.cpp(1)	context
+0042AEA0	1	Engine/Source/Event/EvtQueue.cpp	Engine/Source/Event/EvtTimer.cpp(1);Engine/Source/Event/EvtInput.cpp(1)	context
+0042B270	1	Engine/Source/Event/EvtQueue.cpp	Engine/Source/Event/EvtTimer.cpp(1);Engine/Source/Event/EvtInput.cpp(1)	context
+0042B2D2	1	Engine/Source/Event/EvtQueue.cpp	Engine/Source/Event/EvtTimer.cpp(1);Engine/Source/Event/EvtInput.cpp(1)	context
+0042B380	1	Engine/Source/Event/EvtQueue.cpp	Engine/Source/Event/EvtTimer.cpp(1);Engine/Source/Event/EvtInput.cpp(1)	context
+0042B480	1	Engine/Source/Event/EvtQueue.cpp	Engine/Source/Event/EvtTimer.cpp(1);Engine/Source/Event/EvtInput.cpp(1)	context
+0042B4E6	1	Engine/Source/Storm/H/stpl.h		list != this
+0042B503	1	Engine/Source/Storm/H/stpl.h		list->m_linkoffset == m_linkoffset
+004354A0	1	Engine/Source/Frame/CSimpleFontString_Scripts.cpp	Engine/Source/Frame/CSimpleFont_Scripts.cpp(1)	%s:SetFontObject(): Couldn't find 'this' in font object
+004358D0	2	Engine/Source/Frame/CSimpleFontString_Scripts.cpp	Engine/Source/Frame/CSimpleScaleAnim.cpp(1);Engine/Source/FrameScript/FrameScript_Object.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1)	<unnamed> | %s:SetText(): Font not set
+00435950	2	Engine/Source/Frame/CSimpleFontString_Scripts.cpp	Engine/Source/Frame/CSimpleScaleAnim.cpp(1);Engine/Source/FrameScript/FrameScript_Object.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1)	<unnamed> | %s:SetText(): Font not set
+00435FA0	1	Engine/Source/Frame/CSimpleScaleAnim.cpp	Engine/Source/FrameScript/FrameScript_Object.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1);Engine/Source/Frame/CScriptRegion_Scripts.cpp(1)	<unnamed>
+00436330	1	Engine/Source/Frame/CSimpleTexture_Scripts.cpp		Usage: %s:SetTexCoord(minX, maxX, minY, maxY) or SetTexCoord(ULx, ULy, LLx, LLy, URx, URy, LRx, LRy)
+0043F210	2	Engine/Source/Frame/CSimpleFontString_Scripts.cpp	Engine/Source/Frame/CSimpleTexture_Scripts.cpp(2);Engine/Source/Frame/CSimpleFont_Scripts.cpp(2);Engine/Source/Frame/CSimpleScaleAnim.cpp(1)	<unnamed> | Usage: %s:IsObjectType("TYPE")
+004409B0	2	Engine/Source/Frame/CSimpleFontString_Scripts.cpp	Engine/Source/Frame/CSimpleTexture_Scripts.cpp(2);Engine/Source/Frame/CSimpleFont_Scripts.cpp(2);Engine/Source/Frame/CSimpleScaleAnim.cpp(1)	<unnamed> | Usage: %s:IsObjectType("TYPE")
+00440FB0	2	Engine/Source/Frame/CSimpleFrame_Scripts.cpp	Engine/Source/Frame/CSimpleAnimGroup_Scripts.cpp(2);Engine/Source/Frame/CSimpleAnim_Scripts.cpp(2);Engine/Source/Frame/CSimpleScaleAnim.cpp(1)	<unnamed> | Usage: %s:HasScript("type")
+00441070	2	Engine/Source/Frame/CSimpleFrame_Scripts.cpp	Engine/Source/Frame/CSimpleAnimGroup_Scripts.cpp(2);Engine/Source/Frame/CSimpleAnim_Scripts.cpp(2);Engine/Source/Frame/CSimpleScaleAnim.cpp(1)	<unnamed> | Usage: %s:GetScript("type")
+004411A0	2	Engine/Source/Frame/CSimpleFrame_Scripts.cpp	Engine/Source/Frame/CSimpleAnimGroup_Scripts.cpp(2);Engine/Source/Frame/CSimpleAnim_Scripts.cpp(2);Engine/Source/Frame/CSimpleScaleAnim.cpp(1)	<unnamed> | %s doesn't have a "%s" script
+00441300	2	Engine/Source/Frame/CSimpleFrame_Scripts.cpp	Engine/Source/Frame/CSimpleAnimGroup_Scripts.cpp(2);Engine/Source/Frame/CSimpleAnim_Scripts.cpp(2);Engine/Source/Frame/CSimpleScaleAnim.cpp(1)	<unnamed> | %s doesn't have a "%s" script
+00443070	1	Engine/Source/Frame/CSimpleFrame_Scripts.cpp		Frame %s is not movable
+00443160	1	Engine/Source/Frame/CSimpleFrame_Scripts.cpp		Frame %s is not resizable
+004432E0	1	Engine/Source/Frame/CSimpleFrame_Scripts.cpp		Frame %s is not movable or resizable
+00444290	2	Engine/Source/Frame/CSimpleFrame_Scripts.cpp	Engine/Source/Frame/CSimpleScaleAnim.cpp(1);Engine/Source/FrameScript/FrameScript_Object.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1)	<unnamed> | %s:CreateTexture(): Couldn't find inherited node "%s"
+00444490	2	Engine/Source/Frame/CSimpleFrame_Scripts.cpp	Engine/Source/Frame/CSimpleScaleAnim.cpp(1);Engine/Source/FrameScript/FrameScript_Object.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1)	<unnamed> | %s:CreateFontString(): Couldn't find inherited node "%s"
+00444720	2	Engine/Source/Frame/CSimpleFrame_Scripts.cpp	Engine/Source/Frame/CSimpleScaleAnim.cpp(1);Engine/Source/FrameScript/FrameScript_Object.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1)	<unnamed> | %s:GetRegions(): Stack overflow
+00444890	2	Engine/Source/Frame/CSimpleFrame_Scripts.cpp	Engine/Source/Frame/CSimpleScaleAnim.cpp(1);Engine/Source/FrameScript/FrameScript_Object.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1)	<unnamed> | %s:GetChildren(): Stack overflow
+004465C0	2	Engine/Source/Frame/CSimpleFontString_Scripts.cpp	Engine/Source/Frame/CSimpleTexture_Scripts.cpp(2);Engine/Source/Frame/CSimpleFont_Scripts.cpp(2);Engine/Source/Frame/CSimpleScaleAnim.cpp(1)	<unnamed> | Usage: %s:IsObjectType("TYPE")
+0045A560	1	Engine/Source/Services/Profile.cpp		section
+0045A5F0	1	Engine/Source/Services/Profile.cpp		section
+004712E0	1	WoW/Source/Glue/GlueScriptEvents_Scripts.cpp		RELEASE_BUILD
+00471360	1	WoW/Source/Glue/GlueScriptEvents_Scripts.cpp		Usage: SetSavedAccountName("accountName")
+004713E0	1	WoW/Source/Glue/GlueScriptEvents_Scripts.cpp		Usage: SetCurrentScreen("screen")
+00471440	1	WoW/Source/Glue/GlueScriptEvents_Scripts.cpp		Usage: PlayGlueMusic("filename")
+00471490	1	WoW/Source/Glue/GlueScriptEvents_Scripts.cpp		Usage: PlayGlueAmbience("sound name", "(optional)fade in time")
+00471530	1	WoW/Source/Glue/GlueScriptEvents_Scripts.cpp		Usage: PlayCreditsMusic( "Sound kit name" )
+004715A0	1	WoW/Source/ConsoleDevice/ConsoleDevice_CVar.cpp	WoW/Source/Ui/Screen.cpp(1);WoW/Source/Ui/VideoOptions_Scripts.cpp(1);WoW/Source/Ui/GameUI.cpp(1)	gxResolution
+004715F0	1	WoW/Source/Glue/GlueScriptEvents_Scripts.cpp		Usage: LaunchURL("URL")
+004717D0	1	WoW/Source/Glue/GlueScriptEvents_Scripts.cpp		Usage: MatrixEntered(number)
+004719D0	1	WoW/Source/Glue/GlueScriptEvents_Scripts.cpp		Usage: GetAddOnInfo(index)
+00471BD0	1	WoW/Source/Glue/GlueScriptEvents_Scripts.cpp		Usage: LaunchAddOnURL(index)
+00471C70	1	WoW/Source/Glue/GlueScriptEvents_Scripts.cpp		Usage: GetAddOnEnableState("character", index)
+00471D50	1	WoW/Source/Glue/GlueScriptEvents_Scripts.cpp		Usage: EnableAddOn("character", index)
+00471E60	1	WoW/Source/Glue/GlueScriptEvents_Scripts.cpp		Usage: DisableAddOn("character", index)
+00472210	1	WoW/Source/Glue/GlueScriptEvents_Scripts.cpp		Usage: Script_GetCreditText(versionIndex)
+00472320	1	WoW/Source/Glue/GlueScriptEvents_Scripts.cpp	WoW/Source/Ui/GameUI_Scripts.cpp(1)	Usage: SetCVar("cvar", value [, "scriptCvar")
+00472A40	1	WoW/Source/Glue/GlueScriptEvents_Scripts.cpp		Usage: GetAddOnDependencies(index)
+00472D90	1	WoW/Source/Glue/GlueScriptEvents_Scripts.cpp		Usage: SetRealmSplitState(1 or 2)
+00473650	1	WoW/Source/Glue/RealmList_Scripts.cpp		Usage: GetRealmInfo(category, index)
+00473A00	1	WoW/Source/Glue/RealmList_Scripts.cpp		Usage: ChangeRealm(category, index)
+00473B60	1	WoW/Source/WowSvcs/WowSvcsClient/FriendList.cpp	WoW/Source/UIUtil/Tooltip.cpp(1);WoW/Source/WowSvcs/WowSvcsClient/FriendList_Scripts.cpp(1);WoW/Source/Ui/GameUI.cpp(1)	UNKNOWN
+00473C10	1	WoW/Source/Glue/RealmList_Scripts.cpp		Usage: IsInvalidTournamentRealmCategory(category)
+00473CB0	1	WoW/Source/Glue/RealmList_Scripts.cpp		Usage: IsTournamentRealmCategory(category)
+00473D30	1	WoW/Source/Glue/RealmList_Scripts.cpp		Usage: Script_IsInvalidLocale(category)
+00473DE0	1	WoW/Source/Glue/RealmList_Scripts.cpp		Usage: SetPreferredInfo(index, pvp, rp)
+00473E60	1	WoW/Source/Glue/RealmList_Scripts.cpp		Usgae: SortRealms("type")
+00474FF0	1	WoW/Source/Glue/CharacterCreation_Scripts.cpp		Usage: SetCharCustomizeFrame("frameName")
+00475060	1	WoW/Source/Glue/CharacterCreation_Scripts.cpp		Usage: SetCharCustomizeBackground("filename")
+004753E0	1	WoW/Source/Glue/CharacterCreation_Scripts.cpp		Usage: SetSelectedSex(index)
+00475450	1	WoW/Source/Glue/CharacterCreation_Scripts.cpp		Usage: SetSelectedClass(index)
+00475630	1	WoW/Source/Glue/CharacterCreation_Scripts.cpp		Usage: SetCharacterCreateFacing(degrees)
+00475DF0	1	WoW/Source/Glue/CharacterCreation_Scripts.cpp		Usage: SetSelectedRace(index)
+00476590	1	WoW/Source/Glue/CharacterSelection_Scripts.cpp		Usage: SetCharSelectModelFrame("frameName")
+00476640	1	WoW/Source/Glue/CharacterSelection_Scripts.cpp		Usage: SetCharacterSelectFacing(degrees)
+00477130	1	WoW/Source/Glue/CharacterSelection_Scripts.cpp		Usage: SetCharSelectBackground("filename")
+004771B0	1	WoW/Source/Glue/CharacterSelection_Scripts.cpp		Usage: GetCharacterInfo(index)
+004773D0	1	WoW/Source/Glue/CharacterSelection_Scripts.cpp		Usage: DeleteCharacter(index)
+00477440	1	WoW/Source/Glue/CharacterSelection_Scripts.cpp		Usage: RenameCharacter(index, name)
+00477560	1	WoW/Source/Glue/CharacterSelection_Scripts.cpp		Usage: DeclineCharacter(index, name1, name2, name3, name4, name5)
+004776F0	1	WoW/Source/Glue/CharacterSelection_Scripts.cpp		Usage: SelectCharacter(index)
+004812E0	1	WoW/Source/Ui/ChatFrame_Scripts.cpp		Usage: GetChatWindowInfo(index)
+00481490	1	WoW/Source/Ui/ChatFrame_Scripts.cpp		Usage: GetChatWindowMessages(index)
+00481700	1	WoW/Source/Ui/ChatFrame_Scripts.cpp		Usage: SetChatWindowName(index, "name")
+00481A40	1	WoW/Source/Ui/ChatFrame_Scripts.cpp		Usage: SetChatWindowLocked(index, locked)
+00481AC0	1	WoW/Source/Ui/ChatFrame_Scripts.cpp		Usage: SetChatWindowDocked(index, docked)
+00481B70	1	WoW/Source/Ui/ChatFrame_Scripts.cpp		Usage: SetChatWindowShown(index, shown)
+004835D0	1	WoW/Source/Ui/ChatFrame_Scripts.cpp		ListChannelByName
+004837B0	1	WoW/Source/Ui/ChatFrame_Scripts.cpp		SetChannelOwner
+004837D0	1	WoW/Source/Ui/ChatFrame_Scripts.cpp		DisplayChannelOwner
+004838D0	1	WoW/Source/Ui/ChatFrame_Scripts.cpp		ChannelModerator
+004838F0	1	WoW/Source/Ui/ChatFrame_Scripts.cpp		ChannelUnmoderator
+00483910	1	WoW/Source/Ui/ChatFrame_Scripts.cpp		ChannelMute
+00483930	1	WoW/Source/Ui/ChatFrame_Scripts.cpp		ChannelUnmute
+00483950	1	WoW/Source/Ui/ChatFrame_Scripts.cpp		ChannelInvite
+00483970	1	WoW/Source/Ui/ChatFrame_Scripts.cpp		ChannelKick
+00483990	1	WoW/Source/Ui/ChatFrame_Scripts.cpp		ChannelBan
+004839B0	1	WoW/Source/Ui/ChatFrame_Scripts.cpp		ChannelUnban
+004839D0	1	WoW/Source/Ui/ChatFrame_Scripts.cpp		ChannelToggleAnnouncements
+004839F0	1	WoW/Source/Ui/ChatFrame_Scripts.cpp		ChannelVoiceOn
+00483A10	1	WoW/Source/Ui/ChatFrame_Scripts.cpp		ChannelVoiceOff
+00483A30	1	WoW/Source/Ui/ChatFrame_Scripts.cpp		DisplayChannelVoiceOn
+00483A50	1	WoW/Source/Ui/ChatFrame_Scripts.cpp		DisplayChannelVoiceOff
+00483A70	1	WoW/Source/Ui/ChatFrame.cpp	WoW/Source/Ui/ChatFrame_Scripts.cpp(1)	%s%f%f%f
+00483CA0	1	WoW/Source/Ui/Calendar.cpp	WoW/Source/Ui/ChatFrame.cpp(1)	SYSTEM
+00483D50	1	WoW/Source/Ui/ChatFrame_Scripts.cpp		Usage: GetChatTypeIndex(type)
+00483E60	1	WoW/Source/Ui/ChatFrame_Scripts.cpp		Usage: GetChatWindowChannels(index)
+00484130	1	WoW/Source/Ui/ChatFrame_Scripts.cpp		Usage: GetSavedInstanceInfo(index)
+004842D0	1	WoW/Source/Ui/ChatFrame_Scripts.cpp		Usage: GetChannelDisplayInfo(index)
+00484950	1	WoW/Source/Ui/ChatFrame_Scripts.cpp		SetChannelWatch
+004849E0	1	WoW/Source/Ui/ChatFrame_Scripts.cpp		DeclineInvite
+00485190	1	WoW/Source/Ui/ChatFrame_Scripts.cpp		Usage: SendAddonMessage("prefix", "message" [,"type"] [,"target"])
+004854B0	1	WoW/Source/Ui/ChatFrame_Scripts.cpp		Usage: GetLanguageByIndex(index)
+00485DA0	2	WoW/Source/Ui/ChatFrame_Scripts.cpp		BATTLEFIELDS | ChannelSilenceVoice
+00485EB0	1	WoW/Source/Ui/ChatFrame_Scripts.cpp		ChannelSilenceAll
+00485F50	2	WoW/Source/Ui/ChatFrame_Scripts.cpp		BATTLEFIELDS | ChannelUnSilenceVoice
+00486060	1	WoW/Source/Ui/ChatFrame_Scripts.cpp		ChannelUnSilenceAll
+00486B30	3	WoW/Source/Ui/ChatFrame.cpp	WoW/Source/Ui/ChatFrame_Scripts.cpp(2);WoW/Source/Ui/Calendar.cpp(1)	SYSTEM | CHANNEL%d | %s%f%f%f
+00489780	1	WoW/Source/Ui/ChatFrame_Scripts.cpp		GetChannelRosterInfo
+00490430	3	WoW/Source/Ui/ChatFrame_Scripts.cpp		SendChatMessage(): Unknown chat type | SendChatMessage(): Chat message must be UTF-8 text | SendChatMessage(): Unknown language
+004951A0	1	WoW/Source/Glue/GlueScriptEvents_Scripts.cpp	WoW/Source/Ui/GameUI_Scripts.cpp(1)	Usage: GetCVar("cvar")
+004953D0	1	WoW/Source/Ui/GameUI_Scripts.cpp		Usage: SetWaterDetail(value)
+00495400	1	WoW/Source/WorldClient/WorldParam_CVar.cpp	WoW/Source/Glue/GlueScriptEvents_Scripts.cpp(1);WoW/Source/Ui/GameUI_Scripts.cpp(1)	farclip
+00495430	1	WoW/Source/Ui/GameUI_Scripts.cpp		Usage: SetFarclip(value)
+004954D0	1	WoW/Source/Ui/VideoOptions_Scripts.cpp	WoW/Source/WorldClient/WorldParam_CVar.cpp(1)	shadowLevel
+00495500	1	WoW/Source/Ui/VideoOptions_Scripts.cpp		Usage: SetTerrainMip(value)
+004955A0	1	WoW/Source/WorldClient/WorldParam_CVar.cpp	WoW/Source/Ui/GameUI_Scripts.cpp(1)	texLodBias
+004955D0	1	WoW/Source/Ui/GameUI_Scripts.cpp		Usage: SetTexLodBias(value)
+004956A0	1	WoW/Source/Ui/VideoOptions_Scripts.cpp		Usage: SetGamma(value)
+00495740	1	WoW/Source/WorldClient/WorldParam_CVar.cpp	WoW/Source/Ui/GameUI_Scripts.cpp(1)	baseMip
+00495770	1	WoW/Source/Ui/GameUI_Scripts.cpp		Usage: SetBaseMip(value)
+004958E0	40	WoW/Source/Ui/GameUI_Scripts.cpp		POINT_CURSOR | CAST_CURSOR | BUY_CURSOR | ATTACK_CURSOR | INTERACT_CURSOR | SPEAK_CURSOR | INSPECT_CURSOR | PICKUP_CURSOR | TAXI_CURSOR | TRAINER_CURSOR | MINE_CURSOR | SKIN_CURSOR | GATHER_CURSOR | LOCK_CURSOR | MAIL_CURSOR | LOOT_ALL_CURSOR | REPAIR_CURSOR | REPAIRNPC_CURSOR | ITEM_CURSOR | SKIN_HORDE_CURSOR | SKIN_ALLIANCE_CURSOR | INNKEEPER_CURSOR | QUEST_CURSOR | QUEST_REPEATABLE_CURSOR | QUEST_TURNIN_CURSOR | POINT_ERROR_CURSOR | CAST_ERROR_CURSOR | BUY_ERROR_CURSOR | ATTACK_ERROR_CURSOR | INTERACT_ERROR_CURSOR | SPEAK_ERROR_CURSOR | INSPECT_ERROR_CURSOR | PICKUP_ERROR_CURSOR | TAXI_ERROR_CURSOR | TRAINER_ERROR_CURSOR | MINE_ERROR_CURSOR | SKIN_ERROR_CURSOR | GATHER_ERROR_CURSOR | LOCK_ERROR_CURSOR | MAIL_ERROR_CURSOR
+00495D40	1	WoW/Source/Ui/GameUI_Scripts.cpp		Usage: ReportBug("description")
+00495D90	1	WoW/Source/Ui/GameUI_Scripts.cpp		Usage: ReportSuggestion("description")
+00495F20	1	WoW/Source/Ui/GameUI_Scripts.cpp		Usage: GetCoinIcon(amount)
+00495FE0	1	WoW/Source/Ui/GameUI_Scripts.cpp		Usage: GetCoinText(amount [,separator])
+004960C0	1	WoW/Source/Glue/GlueScriptEvents_Scripts.cpp	WoW/Source/ConsoleDevice/ConsoleDevice.cpp(1)	gxRestart
+00496130	1	WoW/Source/Ui/GameUI_Scripts.cpp		Usage: GetItemQualityColor(index)
+00496430	1	WoW/Source/Glue/GlueScriptEvents_Scripts.cpp	WoW/Source/Ui/GameUI_Scripts.cpp(1)	AddOn index must be in the range of 1 to %d
+00496670	1	WoW/Source/Glue/GlueScriptEvents_Scripts.cpp	WoW/Source/Ui/GameUI_Scripts.cpp(1)	AddOn index must be in the range of 1 to %d
+00496770	1	WoW/Source/Glue/GlueScriptEvents_Scripts.cpp	WoW/Source/Ui/GameUI_Scripts.cpp(1)	AddOn index must be in the range of 1 to %d
+004968A0	1	WoW/Source/Glue/GlueScriptEvents_Scripts.cpp	WoW/Source/Ui/GameUI_Scripts.cpp(1)	AddOn index must be in the range of 1 to %d
+00496960	1	WoW/Source/Ui/GameUI_Scripts.cpp		Usage: GetFunctionCPUUsage(function[, includeSubroutines])
+00496A80	1	WoW/Source/Glue/GlueScriptEvents_Scripts.cpp	WoW/Source/Ui/GameUI_Scripts.cpp(1)	AddOn index must be in the range of 1 to %d
+00496B80	1	WoW/Source/Glue/GlueScriptEvents_Scripts.cpp	WoW/Source/Ui/GameUI_Scripts.cpp(1)	AddOn index must be in the range of 1 to %d
+00496CA0	1	WoW/Source/Glue/GlueScriptEvents_Scripts.cpp	WoW/Source/Ui/GameUI_Scripts.cpp(1)	AddOn index must be in the range of 1 to %d
+00496D70	1	WoW/Source/Glue/GlueScriptEvents_Scripts.cpp	WoW/Source/Ui/GameUI_Scripts.cpp(1)	AddOn index must be in the range of 1 to %d
+00496F70	1	WoW/Source/Glue/GlueScriptEvents_Scripts.cpp	WoW/Source/Ui/GameUI_Scripts.cpp(1)	Usage: GetNumDeclensionSets("name", gender)
+004997A0	1	WoW/Source/Glue/GlueScriptEvents_Scripts.cpp	WoW/Source/Ui/GameUI_Scripts.cpp(1)	Usage: SetCVar("cvar", value [, "scriptCvar")
+0049A6F0	1	WoW/Source/Ui/GameUI_Scripts.cpp		Usage: ArenaTeamLeave(team)
+0049A9F0	1	WoW/Source/Ui/GameUI_Scripts.cpp		Usage: ArenaTeamDisband(team)
+0049ACD0	1	WoW/Source/Ui/VideoOptions_Scripts.cpp		SetupFullscreenScale(): Couldn't find 'this' in frame object
+0049B060	1	WoW/Source/Ui/GMTicketInfo_Scripts.cpp		Usage: GMSurveyCommentSubmit(comment)
+0049B300	1	WoW/Source/Ui/GameUI_Scripts.cpp		SetPortraitToTexture(): Couldn't find texture named '%s'
+0049B6F0	1	WoW/Source/Ui/LootFrame_Scripts.cpp	WoW/Source/Ui/PaperDollInfoFrame_Scripts.cpp(1);WoW/Source/Ui/ItemSocketInfo_Scripts.cpp(1);WoW/Source/UIUtil/Tooltip.cpp(1)	%s%s%s
+0049B990	1	WoW/Source/Ui/LootFrame_Scripts.cpp	WoW/Source/Ui/PaperDollInfoFrame_Scripts.cpp(1);WoW/Source/Ui/ItemSocketInfo_Scripts.cpp(1);WoW/Source/UIUtil/Tooltip.cpp(1)	%s%s%s
+0049BC70	1	WoW/Source/Ui/VideoOptions_Scripts.cpp		SetupFullscreenScale(): Couldn't find 'this' in frame object
+0049BD90	1	WoW/Source/Glue/GlueScriptEvents_Scripts.cpp	WoW/Source/Ui/GameUI_Scripts.cpp(1)	AddOn index must be in the range of 1 to %d
+0049BE80	1	WoW/Source/Ui/GameUI_Scripts.cpp		Usage: GetMirrorTimerInfo("timer")
+0049C0A0	1	WoW/Source/Ui/GameUI_Scripts.cpp		Usage: GetTotemTimeLeft(slot)
+0049C150	1	WoW/Source/Ui/GameUI_Scripts.cpp		Usage: DestroyTotem(slot)
+0049E3B0	1	WoW/Source/Ui/GameUI_Scripts.cpp		Usage: EquipPendingItem(index)
+0049E440	1	WoW/Source/Ui/GameUI_Scripts.cpp		Usage: CancelPendingEquip(index)
+0049E920	1	WoW/Source/WowSvcs/WowSvcsClient/FriendList.cpp	WoW/Source/UIUtil/Tooltip.cpp(1);WoW/Source/WowSvcs/WowSvcsClient/FriendList_Scripts.cpp(1);WoW/Source/Ui/GameUI.cpp(1)	UNKNOWN
+0049F040	1	WoW/Source/Ui/GameUI_Scripts.cpp		Usage: SetCurrentTitle(titleMaskID)
+0049F110	1	WoW/Source/Ui/GameUI_Scripts.cpp		Usage: IsTitleKnown(titleMaskID)
+0049F1D0	1	WoW/Source/Ui/GameUI_Scripts.cpp		Usage: GetTitleName(titleMaskID)
+0049F520	1	WoW/Source/Ui/GMTicketInfo_Scripts.cpp		Usage: GMSurveyGetQuestion(index)
+0049F9C0	1	WoW/Source/Ui/GameUI_Scripts.cpp		sanctuary
+004A1480	1	WoW/Source/Ui/GameUI_Scripts.cpp		Usage: GetTotemInfo(slot)
+004A3410	1	WoW/Source/Ui/GameUI_Scripts.cpp		Usage: EquipCursorItem(slot)
+004A3830	1	WoW/Source/Ui/GameUI_Scripts.cpp		Usage: CanInspect(unit [, showError])
+004A3990	1	WoW/Source/Ui/GameUI_Scripts.cpp		Usage: NotifyInspect(unit)
+004A3A80	1	WoW/Source/Ui/GameUI_Scripts.cpp		Usage: SetDungeonDifficulty(difficulty)
+004A3BD0	1	WoW/Source/Ui/GameUI_Scripts.cpp		Usage: DropItemOnUnit("unit")
+004A3D20	1	WoW/Source/Ui/GameUI_Scripts.cpp		Usage: GetMirrorTimerInfo("timer")
+004A5260	1	WoW/Source/Ui/GameUI_Scripts.cpp		Usage: PickupPlayerMoney(amount)
+004A56C0	2	WoW/Source/ConsoleDevice/ConsoleDevice_CVar.cpp	WoW/Source/Ui/Screen.cpp(2);WoW/Source/Ui/VideoOptions_Scripts.cpp(2);WoW/Source/Ui/GameUI.cpp(1)	gxResolution | %d%c%d
+004A5790	2	WoW/Source/ConsoleDevice/ConsoleDevice_CVar.cpp	WoW/Source/Ui/Screen.cpp(2);WoW/Source/Ui/VideoOptions_Scripts.cpp(2);WoW/Source/Glue/GlueScriptEvents_Scripts.cpp(2)	gxResolution | %d%c%d | gxRestart
+004A5B10	3	WoW/Source/Ui/VideoOptions_Scripts.cpp	WoW/Source/ConsoleDevice/ConsoleDevice_CVar.cpp(3);Engine/Source/FFX/FFX.cpp(1)	gxColorBits | gxDepthBits | gxMultisample
+004A5BE0	3	WoW/Source/Ui/VideoOptions_Scripts.cpp	WoW/Source/ConsoleDevice/ConsoleDevice_CVar.cpp(3);Engine/Source/FFX/FFX.cpp(1);WoW/Source/Glue/GlueScriptEvents_Scripts.cpp(1)	gxColorBits | gxDepthBits | gxMultisample | gxRestart
+004A86E0	1	WoW/Source/Glue/GlueScriptEvents_Scripts.cpp	WoW/Source/Ui/GameUI_Scripts.cpp(1)	AddOn index must be in the range of 1 to %d
+004AB050	1	WoW/Source/Ui/GameUI_Scripts.cpp		RegisterForSave() is only available to Blizzard scripts
+004AB0C0	1	WoW/Source/Ui/GameUI_Scripts.cpp		RegisterForSavePerCharacter() is only available to Blizzard scripts
+004B01A0	1	WoW/Source/Ui/WorldMap_Scripts.cpp		Unknown frame point
+004B0480	1	WoW/Source/Ui/WorldMap_Scripts.cpp		Unknown frame point
+004B1B50	1	WoW/Source/Ui/WorldMap_Scripts.cpp		Usage: GetMapZones(continentIndex)
+004B2450	1	WoW/Source/Ui/WorldMap_Scripts.cpp		Usage: GetPlayerMapPosition("player")
+004B25A0	1	WoW/Source/Ui/WorldMap_Scripts.cpp		Usage: GetMapLandmarkInfo(index)
+004B2810	1	WoW/Source/Ui/WorldMap_Scripts.cpp		Usage: GetMapOverlayInfo(index)
+004B2A20	1	WoW/Source/Ui/WorldMap_Scripts.cpp		CreateWorldMapArrowFrame(): Couldn't find 'this' in parent object
+004B2AE0	1	WoW/Source/Ui/WorldMap_Scripts.cpp		CreateMiniWorldMapArrowFrame(): Couldn't find 'this' in parent object
+004B2BB0	1	WoW/Source/Ui/WorldMap_Scripts.cpp		InitWorldMapPing(): Couldn't find 'this' in parent object
+004B3450	1	WoW/Source/Ui/WorldMap_Scripts.cpp		Usage: SetMapZoom(continentIndex [,zoneIndex])
+004B49E0	1	WoW/Source/Ui/CGWorldStateInfo_Scripts.cpp		Usage: GetWorldStateUIInfo(index)
+004B54E0	1	WoW/Source/Ui/CAccountMsgHeaders_Scripts.cpp		AccountMsg_GetNumTotalMsgs() failed because the headers are not loaded
+004B5530	1	WoW/Source/Ui/CAccountMsgHeaders_Scripts.cpp		AccountMsg_GetHeaderSubject() failed because the headers are not loaded
+004B55D0	1	WoW/Source/Ui/CAccountMsgHeaders_Scripts.cpp		AccountMsg_GetHeaderPriority() failed because the headers are not loaded
+004B5680	1	WoW/Source/Ui/CAccountMsgHeaders_Scripts.cpp		AccountMsg_LoadBody() failed because the headers are not loaded
+004B5730	1	WoW/Source/Ui/CAccountMsgHeaders_Scripts.cpp		AccountMsg_GetBody() failed because the body was not loaded
+004B5AC0	1	WoW/Source/Ui/CAccountMsgHeaders_Scripts.cpp		AccountMsg_GetNumUnreadMsgs() failed because the headers are not loaded
+004B5B10	1	WoW/Source/Ui/CAccountMsgHeaders_Scripts.cpp		AccountMsg_GetNumUnreadMsgs() failed because the headers are not loaded
+004B5B60	1	WoW/Source/Ui/CAccountMsgHeaders_Scripts.cpp		AccountMsg_GetHeaderSubject() failed because the headers are not loaded
+004B5BE0	1	WoW/Source/Ui/CAccountMsgHeaders_Scripts.cpp		AccountMsg_GetHeaderSubject() failed because the headers are not loaded
+004B5C80	1	WoW/Source/Ui/CAccountMsgHeaders_Scripts.cpp		AccountMsg_SetMsgRead() failed because the headers are not loaded
+004B6020	1	WoW/Source/Ui/CAccountMsgHeaders_Scripts.cpp		AccountMsg_LoadHeaders() failed
+004B6EF0	1	WoW/Source/Ui/KnowledgeBase_Scripts.cpp		KBSetup_GetLanguageCount() failed because setup is not loaded
+004B6F30	1	WoW/Source/Ui/KnowledgeBase_Scripts.cpp		KBSetup_GetLanguageData() failed because setup is not loaded
+004B6FE0	1	WoW/Source/Ui/KnowledgeBase_Scripts.cpp		KBSetup_GetCategoryCount() failed because setup is not loaded
+004B7020	1	WoW/Source/Ui/KnowledgeBase_Scripts.cpp		KBSetup_GetCategoryData() failed because setup is not loaded
+004B70D0	1	WoW/Source/Ui/KnowledgeBase_Scripts.cpp		KBSetup_GetArticleHeaderCount() failed because setup is not loaded
+004B7110	1	WoW/Source/Ui/KnowledgeBase_Scripts.cpp		KBSetup_GetArticleHeaderData() failed because setup is not loaded
+004B71E0	1	WoW/Source/Ui/KnowledgeBase_Scripts.cpp		KBSetup_GetTotalArticleCount() failed because setup is not loaded
+004B7260	1	WoW/Source/Ui/KnowledgeBase_Scripts.cpp		KBQuery_GetArticleHeaderCount() failed because query is not loaded
+004B72A0	1	WoW/Source/Ui/KnowledgeBase_Scripts.cpp		KBQuery_GetArticleHeaderData() failed because query is not loaded
+004B7370	1	WoW/Source/Ui/KnowledgeBase_Scripts.cpp		KBQuery_GetTotalArticleCount() failed because query is not loaded
+004B7430	1	WoW/Source/Ui/KnowledgeBase_Scripts.cpp		KBArticle_GetData() failed because article is not loaded
+004B7950	1	WoW/Source/Ui/KnowledgeBase_Scripts.cpp		KBSetup_GetSubCategoryCount() failed because setup is not loaded
+004B79C0	1	WoW/Source/Ui/KnowledgeBase_Scripts.cpp		KBSetup_GetSubCategoryData() failed because setup is not loaded
+004B7A80	1	WoW/Source/Ui/KnowledgeBase_Scripts.cpp		KBQuery_BeginLoading() failed because setup is not loaded
+004B89D0	5	WoW/Source/Ui/PartyFrame_Scripts.cpp		freeforall | roundrobin | master | needbeforegreed | ERROR!
+004B8B40	1	WoW/Source/Ui/PartyFrame_Scripts.cpp		Usage: GetPartyAssignment("assignment" [,"raidmember"] [,exactMatch])
+004B9C40	2	WoW/Source/Ui/PartyFrame_Scripts.cpp		OPT_OUT_LOOT_TOGGLE_ON | OPT_OUT_LOOT_TOGGLE_OFF
+004BA8A0	1	WoW/Source/Ui/RaidInfo_Scripts.cpp		Usage: GetRaidTargetIndex(unit)
+004BA9B0	1	WoW/Source/Ui/RaidInfo_Scripts.cpp		Usage: SetRaidRosterSelection(index)
+004BB290	1	WoW/Source/Ui/RaidInfo_Scripts.cpp		Usage: GetRaidRosterInfo(index)
+004BBD20	1	WoW/Source/Ui/RaidInfo_Scripts.cpp		Usage: SetRaidSubgroup(index, subgroup)
+004BC070	1	WoW/Source/Ui/RaidInfo_Scripts.cpp		Usage: PromoteToLeader(name)
+004BC150	1	WoW/Source/Ui/RaidInfo_Scripts.cpp		Usage: PromoteToAssistant(name)
+004BC230	1	WoW/Source/Ui/RaidInfo_Scripts.cpp		Usage: DemoteAssistant(name)
+004C0800	5	WoW/Source/Ui/QuestTextParser.cpp	WoW/Source/Object/ObjectClient/Player_C.cpp(2);WoW/Source/Ui/PartyFrame.cpp(1);WoW/Source/UIUtil/Tooltip.cpp(1)	INT_SPELL_POINTS_SPREAD_TEMPLATE | INT_SPELL_DURATION | SPELL_DURATION | SPELL_DURATION_UNTIL_CANCELLED | HOME_INN
+004C1100	1	WoW/Source/Ui/CGBankInfo_Scripts.cpp		Usage: BankButtonIDToInvSlotID(buttonID)
+004C1AE0	1	WoW/Source/Ui/SpellBookFrame_Scripts.cpp		Usage: GetSpellTabInfo(index)
+004C1CA0	1	WoW/Source/Ui/SpellBookFrame_Scripts.cpp		Usage: GetShapeshiftFormCooldown(index)
+004C2CC0	1	WoW/Source/Ui/SpellBookFrame_Scripts.cpp		Usage: GetShapeshiftFormInfo(index)
+004C2F00	1	WoW/Source/Ui/SpellBookFrame_Scripts.cpp		Usage: CastShapeshiftForm(index)
+004CD5B0	1	WoW/Source/Ui/MinimapFrame_Scripts.cpp		Usage: %s:SetMaskTexture("file")
+004CD700	1	WoW/Source/Ui/MinimapFrame_Scripts.cpp		Usage: %s:SetIconTexture("file")
+004CD850	1	WoW/Source/Ui/MinimapFrame_Scripts.cpp		Usage: %s:SetBlipTexture("file")
+004CDB90	1	WoW/Source/Ui/MerchantFrame_Scripts.cpp		Usage: GetMerchantItemLink(index)
+004CDC60	1	WoW/Source/Ui/MerchantFrame_Scripts.cpp		Usage: GetMerchantItemMaxStack(index)
+004CE040	1	WoW/Source/Ui/MerchantFrame_Scripts.cpp		Usage: GetMerchantItemCostInfo(index)
+004CE710	1	WoW/Source/Ui/MerchantFrame_Scripts.cpp		Usage: GetMerchantItemInfo(index)
+004CE9B0	1	WoW/Source/Ui/MerchantFrame_Scripts.cpp		Usage: GetBuybackItemInfo(slot)
+004CEC50	1	WoW/Source/Ui/MerchantFrame_Scripts.cpp		Usage: GetBuybackItemLink(slot)
+004CEE40	1	WoW/Source/Ui/MerchantFrame_Scripts.cpp		Usage: BuyMerchantItem(index)
+004CEF40	1	WoW/Source/Ui/MerchantFrame_Scripts.cpp		Usage: BuybackItem(slot)
+004CF040	1	WoW/Source/Ui/MerchantFrame_Scripts.cpp		Usage: ShowMerchantSellCursor(index)
+004CF1B0	1	WoW/Source/Ui/MerchantFrame_Scripts.cpp		Usage: ShowBuybackSellCursor(index)
+004D0010	1	WoW/Source/Ui/TradeFrame_Scripts.cpp		Usage: GetTradeTargetItemLink(index)
+004D01B0	1	WoW/Source/Ui/TradeFrame_Scripts.cpp		Usage: PickupTradeMoney(amount)
+004D0210	1	WoW/Source/Ui/TradeFrame_Scripts.cpp		Usage: SetTradeMoney(amount)
+004D0370	1	WoW/Source/Ui/TradeFrame_Scripts.cpp		Usage: ClickTargetTradeButton(index)
+004D03F0	1	WoW/Source/Ui/TradeFrame_Scripts.cpp		Usage: GetTradePlayerItemLink(index)
+004D0F60	1	WoW/Source/Ui/TradeFrame_Scripts.cpp		Usage: ClickTradeButton(index)
+004D11D0	1	WoW/Source/Ui/TradeFrame_Scripts.cpp		Usage: GetTradeTargetItemInfo(index)
+004D1460	1	WoW/Source/Ui/TradeFrame_Scripts.cpp		Usage: GetTradePlayerItemInfo(index)
+004D1BF0	1	WoW/Source/Ui/LootFrame_Scripts.cpp		Usage: GetLootSlotInfo(slot)
+004D1D30	1	WoW/Source/Ui/LootFrame_Scripts.cpp		Usage: GetLootSlotLink(slot)
+004D1DE0	1	WoW/Source/Ui/LootFrame_Scripts.cpp		Usage: LootSlotIsItem(slot)
+004D1E70	1	WoW/Source/Ui/LootFrame_Scripts.cpp		Usage: LootSlotIsCoin(slot)
+004D1F70	1	WoW/Source/Ui/LootFrame_Scripts.cpp		Usage: GetMasterLootCandidate(index)
+004D2020	1	WoW/Source/Ui/LootFrame_Scripts.cpp		Usage: GetLootRollItemInfo(id)
+004D2200	1	WoW/Source/Ui/LootFrame_Scripts.cpp		Usage: GetLootRollItemLink(id)
+004D22C0	1	WoW/Source/Ui/LootFrame_Scripts.cpp		Usage: GetLootRollTimeLeft(id)
+004D2B20	1	WoW/Source/Ui/LootFrame_Scripts.cpp		Usage: LootSlot(slot)
+004D2B90	1	WoW/Source/Ui/LootFrame_Scripts.cpp		Usage: LootSlot(slot)
+004D4E20	1	WoW/Source/Ui/UIBindings_Scripts.cpp		SetModifiedClick(): Unknown action (%s) or binding (%s)
+004D88D0	1	WoW/Source/Ui/UIBindings_Scripts.cpp		SPELL %s
+004D89E0	1	WoW/Source/Ui/UIBindings_Scripts.cpp		ITEM %s
+004D8AF0	1	WoW/Source/Ui/UIBindings_Scripts.cpp		MACRO %s
+004D8C00	2	WoW/Source/Ui/UIBindings_Scripts.cpp	WoW/Source/Ui/UIBindings.cpp(1);WoW/Source/Ui/UIMacroOptions.cpp(1);Engine/Source/Frame/CSimpleButton.cpp(1)	LeftButton | CLICK %s:%s
+004D8E30	2	WoW/Source/Ui/UIBindings_Scripts.cpp		SPELL %s | Usage: SetOverrideBindingSpell(owner, isPriority, "KEY", "spellname")
+004D8F70	2	WoW/Source/Ui/UIBindings_Scripts.cpp		ITEM %s | Usage: SetOverrideBindingItem(owner, isPriority, "KEY", "itemname")
+004D90B0	2	WoW/Source/Ui/UIBindings_Scripts.cpp		MACRO %s | Usage: SetOverrideBindingMacro(owner, isPriority, "KEY", "macroname"|macroid)
+004D91F0	3	WoW/Source/Ui/UIBindings_Scripts.cpp	WoW/Source/Ui/UIBindings.cpp(1);WoW/Source/Ui/UIMacroOptions.cpp(1);Engine/Source/Frame/CSimpleButton.cpp(1)	LeftButton | CLICK %s:%s | Usage: SetOverrideBindingClick(owner, isPriority, "KEY", "buttonName"[, "mouseButton"])
+004D9360	1	WoW/Source/Ui/UIBindings_Scripts.cpp		Usage: LoadBindings(0||1||2)
+004D93B0	1	WoW/Source/Ui/UIBindings_Scripts.cpp		Usage: SaveBindings(1||2)
+004DB520	1	WoW/Source/Ui/GossipInfo_Scripts.cpp		Usage: SelectGossipAvailableQuest(index)
+004DB590	1	WoW/Source/Ui/GossipInfo_Scripts.cpp		Usage: SelectGossipActiveQuest(index)
+004DD070	1	WoW/Source/Ui/QuestFrame_Scripts.cpp		Invalid reward choice in GetQuestReward([choice])
+004DD990	1	WoW/Source/Ui/TaxiMapFrame_Scripts.cpp		Usage: TaxiNodeName(slot)
+004DDDE0	1	WoW/Source/Ui/TaxiMapFrame_Scripts.cpp		Usage: TaxiNodeGetType(slot)
+004DE270	1	WoW/Source/Ui/TaxiMapFrame_Scripts.cpp		Usage: TaxiNodeCost(slot)
+004DE310	1	WoW/Source/Ui/TaxiMapFrame_Scripts.cpp		Usage: TakeTaxiNode(slot)
+004DEA50	1	WoW/Source/Ui/TaxiMapFrame_Scripts.cpp		Usage: TaxiNodeSetCurrent(slot)
+004E0080	1	WoW/Source/Ui/ClassTrainerFrame_Scripts.cpp		Usage: GetTrainerServiceTypeFilter("type")
+004E0120	1	WoW/Source/Ui/ClassTrainerFrame_Scripts.cpp		Usage: GetTrainerSkillLineFilter(index)
+004E0670	1	WoW/Source/Ui/ClassTrainerFrame_Scripts.cpp		Usage: SelectTrainerService(index)
+004E0730	1	WoW/Source/Ui/ClassTrainerFrame_Scripts.cpp		Usage: GetTrainerServiceCost(index)
+004E07E0	1	WoW/Source/Ui/ClassTrainerFrame_Scripts.cpp		Usage: GetTrainerServiceLevelReq(index)
+004E0860	1	WoW/Source/Ui/ClassTrainerFrame_Scripts.cpp		Usage: GetTrainerServiceAbilityReq(index)
+004E1320	1	WoW/Source/Ui/ClassTrainerFrame_Scripts.cpp		Usage: GetTrainerServiceInfo(index)
+004E13E0	1	WoW/Source/Ui/ClassTrainerFrame_Scripts.cpp		Usage: GetTrainerServiceIcon(index)
+004E1590	1	WoW/Source/Ui/ClassTrainerFrame_Scripts.cpp		Usage: GetTrainerServiceSkillLine(index)
+004E1700	1	WoW/Source/Ui/ClassTrainerFrame_Scripts.cpp		Usage: GetTrainerServiceSkillReq(index)
+004E1850	1	WoW/Source/Object/ObjectClient/UnitCombatLog_C.cpp	WoW/Source/Ui/PetInfo.cpp(1);WoW/Source/Ui/SpellBookFrame.cpp(1);Engine/Source/Storm/Source/Win64/SErr.cpp(1)	%s (%s)
+004E1A90	1	WoW/Source/Ui/ClassTrainerFrame_Scripts.cpp		Usage: GetTrainerServiceStepReq(index)
+004E1C70	1	WoW/Source/Ui/ClassTrainerFrame_Scripts.cpp		Usage: GetTrainerServiceDescription(index)
+004E1DF0	1	WoW/Source/Ui/ClassTrainerFrame_Scripts.cpp		Usage: IsTrainerServiceSkillStep(index)
+004E1ED0	1	WoW/Source/Ui/ClassTrainerFrame_Scripts.cpp		Usage: GetTrainerServiceStepIncrease(index)
+004E2120	1	WoW/Source/Ui/ClassTrainerFrame_Scripts.cpp		Usage: BuyTrainerService(index)
+004E2180	1	WoW/Source/Ui/ClassTrainerFrame_Scripts.cpp		Usage: SetTrainerServiceTypeFilter("type", on/off [, exclusive])
+004E22B0	1	WoW/Source/Ui/ClassTrainerFrame_Scripts.cpp		Usage: SetTrainerSkillLineFilter(index [, on\off, exclusive])
+004E23D0	1	WoW/Source/Ui/ClassTrainerFrame_Scripts.cpp		Usage: CollapseTrainerSkillLine(index)
+004E2460	1	WoW/Source/Ui/ClassTrainerFrame_Scripts.cpp		Usage: ExpandTrainerSkillLine(index)
+004E24F0	1	WoW/Source/Ui/ClassTrainerFrame_Scripts.cpp		Usage: GetTrainerServiceItemLink(index)
+004E3960	1	WoW/Source/Ui/PetInfo_Scripts.cpp		Usage: GetPetActionCooldown(index)
+004E4D90	1	WoW/Source/Ui/PetInfo_Scripts.cpp		Usage: GetPetActionInfo(index)
+004E5400	1	WoW/Source/Ui/PetInfo_Scripts.cpp		Usage: GetPossessInfo(index)
+004E5FF0	1	WoW/Source/Ui/PetInfo_Scripts.cpp		Usage: PickupPetAction(index)
+004E6110	1	WoW/Source/Ui/PetInfo_Scripts.cpp		Usage: TogglePetAutocast(index)
+004E61D0	1	WoW/Source/Ui/PetInfo_Scripts.cpp		Usage: CastPetAction(index, target)
+004E6B70	1	WoW/Source/Ui/CharacterModelBase_Scripts.cpp		Usage: SetUnit("unit")
+004E84B0	1	WoW/Source/Ui/TabardModelFrame_Scripts.cpp		Invalid variationIndex in CycleVariation
+004E8810	2	WoW/Source/Ui/TabardModelFrame_Scripts.cpp	Engine/Source/Frame/CSimpleScaleAnim.cpp(1);Engine/Source/FrameScript/FrameScript_Object.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1)	<unnamed> | %s:GetUpperEmblemTexture(): Couldn't find 'this' in texture object
+004E8B10	1	WoW/Source/Ui/TabardModelFrame_Scripts.cpp		%s:GetLowerEmblemTexture(): Couldn't find 'this' in texture object
+004E91B0	1	WoW/Source/Ui/GuildRegistrar_Scripts.cpp		Usage: BuyGuildCharter(guildName)
+004E9590	1	WoW/Source/Ui/UIMacros_Scripts.cpp		Usage: SecureCmdOptionParse("options")
+004E9920	1	WoW/Source/Ui/UIMacros_Scripts.cpp		Usage: GetMacroIconInfo(index)
+004E9A30	1	WoW/Source/Ui/UIMacros_Scripts.cpp		Usage: GetMacroItemIconInfo(index)
+004EAF60	1	WoW/Source/Ui/UIMacros_Scripts.cpp		Usage: RunMacroText("text" [, "button"])
+004EB220	1	WoW/Source/Ui/UIMacros_Scripts.cpp		Usage: GetMacroIndexByName(name)
+004EBCF0	1	WoW/Source/Ui/UIMacros_Scripts.cpp		Usage: SetMacroItem(macro, item [,target])
+004EBF70	1	WoW/Source/Ui/UIMacros_Scripts.cpp		Usage: SetMacroSpell(macro, spell [,target])
+004ECCF0	1	WoW/Source/Ui/UIMacros_Scripts.cpp		CreateMacro() failed, already have %d macros
+004ED210	1	WoW/Source/Ui/MailInfo_Scripts.cpp		Usage: SetSendMailShowing(bool)
+004ED2B0	1	WoW/Source/Ui/MailInfo_Scripts.cpp		Usage: SetSendMailCOD(amount)
+004EE060	1	WoW/Source/Ui/MailInfo_Scripts.cpp		Usage: GetStationeryInfo(index)
+004EE1C0	1	WoW/Source/Ui/MailInfo_Scripts.cpp		Usage: SelectStationery(index)
+004EE2F0	1	WoW/Source/Ui/MailInfo_Scripts.cpp		Usage: GetPackageInfo(index)
+004EE3F0	1	WoW/Source/Ui/MailInfo_Scripts.cpp		Usage: SelectPackage(index)
+004EE500	1	WoW/Source/Ui/MailInfo_Scripts.cpp		Usage: GetInboxHeaderInfo(index)
+004EE9F0	1	WoW/Source/Ui/MailInfo_Scripts.cpp		Usage: GetInboxInvoiceInfo(index)
+004EEDC0	1	WoW/Source/Ui/MailInfo_Scripts.cpp		Usage: GetInboxItemLink(messageIndex, attachIndex)
+004EEF10	1	WoW/Source/Ui/MailInfo_Scripts.cpp		Usage: TakeInboxMoney(index)
+004EF010	1	WoW/Source/Ui/MailInfo_Scripts.cpp		Usage: TakeInboxTextItem(index)
+004EF130	1	WoW/Source/Ui/MailInfo_Scripts.cpp		Usage: ReturnInboxItem(index)
+004EF270	1	WoW/Source/Ui/MailInfo_Scripts.cpp		Usage: DeleteInboxItem(index)
+004EF3B0	1	WoW/Source/Ui/MailInfo_Scripts.cpp		Usage: InboxItemCanDelete(index)
+004EFFA0	1	WoW/Source/Ui/MailInfo_Scripts.cpp		Usage: SetSendMailMoney(amount)
+004F0030	1	WoW/Source/Ui/LootFrame_Scripts.cpp	WoW/Source/Ui/PaperDollInfoFrame_Scripts.cpp(1);WoW/Source/Ui/ItemSocketInfo_Scripts.cpp(1);WoW/Source/UIUtil/Tooltip.cpp(1)	%s%s%s
+004F0230	1	WoW/Source/Ui/MailInfo_Scripts.cpp		Usage: SendMail(target, subject, body)
+004F0610	1	WoW/Source/Ui/MailInfo_Scripts.cpp		Usage: GetInboxText(index)
+004F08D0	1	WoW/Source/Ui/MailInfo_Scripts.cpp		Usage: GetInboxItem(messageIndex, attachIndex)
+004F0B90	1	WoW/Source/Ui/MailInfo_Scripts.cpp		Usage: TakeInboxItem(messageIndex, attachIndex)
+004F0D20	1	WoW/Source/Ui/MailInfo_Scripts.cpp		Usage: ComplainInboxItem(index)
+004F0D90	1	WoW/Source/Ui/MailInfo_Scripts.cpp		Usage: InboxItemCanComplain(index)
+004F1E40	1	WoW/Source/Ui/BattlefieldInfo_Scripts.cpp		Usage: GetBattlefieldPortExpiration(index)
+004F1FF0	1	WoW/Source/Ui/BattlefieldInfo_Scripts.cpp		Usage: GetBattlefieldEstimatedWaitTime(index)
+004F2090	1	WoW/Source/Ui/BattlefieldInfo_Scripts.cpp		Usage: GetBattlefieldTimeWaited(index)
+004F2400	1	WoW/Source/Ui/BattlefieldInfo_Scripts.cpp		Usage: GetBattlefieldTeamInfo(index)
+004F32E0	1	WoW/Source/Ui/BattlefieldInfo_Scripts.cpp		Usage: SetSelectedBattlefield(index)
+004F33D0	1	WoW/Source/Ui/BattlefieldInfo_Scripts.cpp		Usage: GetBattlefieldStatus(index)
+004F3620	1	WoW/Source/Ui/BattlefieldInfo_Scripts.cpp		Usage: GetBattlefieldScore(index)
+004F3970	1	WoW/Source/Ui/BattlefieldInfo_Scripts.cpp		Usage: GetBattlefieldStatInfo(index)
+004F3A50	1	WoW/Source/Ui/BattlefieldInfo_Scripts.cpp		Usage: GetBattlefieldPosition(index)
+004F47E0	1	WoW/Source/Ui/BattlefieldInfo_Scripts.cpp		Usage: GetBattlefieldInfo(index)
+004F4900	1	WoW/Source/Ui/BattlefieldInfo_Scripts.cpp		Usage: AcceptBattlefieldPort(index, accept)
+004F4C30	1	WoW/Source/Ui/BattlefieldInfo_Scripts.cpp		Usage: GetBattlefieldFlagPosition(index)
+004F4D60	1	WoW/Source/Ui/BattlefieldInfo_Scripts.cpp		Usgae: SortBattlefieldScoreData("type")
+004F5AA0	1	WoW/Source/Ui/AuctionHouse.cpp	WoW/Source/UIUtil/Tooltip_Scripts.cpp(1);WoW/Source/Ui/AuctionHouse_Scripts.cpp(1)	bidder
+004F5BD0	1	WoW/Source/Ui/AuctionHouse_Scripts.cpp		Usage: SortAuctionClearSort("type")
+004F6720	1	WoW/Source/Ui/AuctionHouse_Scripts.cpp		Usage: GetNumAuctionItems("type")
+004F6850	1	WoW/Source/Ui/AuctionHouse.cpp	WoW/Source/UIUtil/Tooltip_Scripts.cpp(1);WoW/Source/Ui/AuctionHouse_Scripts.cpp(1)	bidder
+004F6A00	1	WoW/Source/Ui/AuctionHouse_Scripts.cpp		Usage: GetAuctionItemSubClasses(index)
+004F6B10	1	WoW/Source/UIUtil/Tooltip.cpp	WoW/Source/Ui/AuctionHouse_Scripts.cpp(1)	INVTYPE_HEAD
+004F6EA0	1	WoW/Source/Ui/AuctionHouse_Scripts.cpp		Usage: GetSelectedAuctionItem("type")
+004F6F70	1	WoW/Source/Ui/AuctionHouse_Scripts.cpp		Usage: SortAuctionApplySort("type")
+004F7350	1	WoW/Source/Ui/AuctionHouse_Scripts.cpp		Usage: CalculateAuctionDeposit(runTime)
+004F76B0	1	WoW/Source/Ui/LootFrame_Scripts.cpp	WoW/Source/Ui/PaperDollInfoFrame_Scripts.cpp(1);WoW/Source/Ui/ItemSocketInfo_Scripts.cpp(1);WoW/Source/UIUtil/Tooltip.cpp(1)	%s%s%s
+004F8110	2	WoW/Source/Ui/AuctionHouse_Scripts.cpp	WoW/Source/Ui/AuctionHouse.cpp(1);WoW/Source/UIUtil/Tooltip_Scripts.cpp(1);WoW/Source/Ui/LootFrame_Scripts.cpp(1)	bidder | %s%s%s
+004F85B0	1	WoW/Source/Ui/AuctionHouse.cpp	WoW/Source/UIUtil/Tooltip_Scripts.cpp(1);WoW/Source/Ui/AuctionHouse_Scripts.cpp(1)	bidder
+004F8970	1	WoW/Source/Ui/AuctionHouse_Scripts.cpp		Usage: SetSelectedAuctionItem(index)
+004F9AB0	1	WoW/Source/Ui/AuctionHouse.cpp	WoW/Source/UIUtil/Tooltip_Scripts.cpp(1);WoW/Source/Ui/AuctionHouse_Scripts.cpp(1)	bidder
+004FAD30	1	WoW/Source/Ui/StableInfo_Scripts.cpp		Usage: PickupStablePet(index)
+004FAFD0	1	WoW/Source/Ui/StableInfo_Scripts.cpp		Usage: GetStablePetInfo(index)
+004FB1B0	1	WoW/Source/Ui/StableInfo_Scripts.cpp		SetPetStablePaperdoll(): Couldn't find 'this' in frame object
+004FB320	1	WoW/Source/Ui/StableInfo_Scripts.cpp		Usage: GetStablePetInfo(index)
+004FB650	1	WoW/Source/Ui/StableInfo_Scripts.cpp		Usage: UnstablePet(index)
+004FB810	1	WoW/Source/Ui/StableInfo_Scripts.cpp		Usage: ClickStablePet(index)
+004FBB70	1	WoW/Source/Ui/PetitionVendor_Scripts.cpp		Usage: GetPetitionItemInfo(index)
+004FC2F0	1	WoW/Source/Ui/PetitionVendor_Scripts.cpp		Usage: TurnInArenaPetition(teamSize)
+004FC560	1	WoW/Source/Ui/ArenaTeamInfo_Scripts.cpp		Usage: GetNumArenaTeamMembers(team [,showOffline])
+004FCEE0	1	WoW/Source/Ui/ArenaTeamInfo_Scripts.cpp		Usage: GetArenaTeamRosterSelection(team)
+004FCF60	1	WoW/Source/Ui/ArenaTeamInfo_Scripts.cpp		Usgae: SortArenaTeamRoster("type")
+004FD270	1	WoW/Source/Ui/ArenaTeamInfo_Scripts.cpp		Usage: GetArenaTeam(team)
+004FD6F0	1	WoW/Source/Ui/ArenaTeamInfo_Scripts.cpp		Usage: ArenaTeamRoster(team)
+004FDDD0	1	WoW/Source/Ui/GuildBankFrame_Scripts.cpp		Usage: PickupGuildBankMoney(amount)
+004FDE60	1	WoW/Source/Ui/GuildBankFrame_Scripts.cpp		Usage: SetCurrentTab(tab)
+004FDFC0	1	WoW/Source/Ui/GuildBankFrame_Scripts.cpp		Usage: GetNumGuildBankTransactions(tab)
+004FE080	1	WoW/Source/Ui/GuildBankFrame_Scripts.cpp		Usage: GetGuildBankMoneyTransaction(index)
+004FE230	1	WoW/Source/Ui/GuildBankFrame_Scripts.cpp		Usage: GetGuildBankText(tab)
+004FF760	1	WoW/Source/Ui/GuildBankFrame_Scripts.cpp		Usage: QueryGuildBankTab(tab)
+004FF8A0	1	WoW/Source/Ui/GuildBankFrame_Scripts.cpp		Usage: DepositGuildBankMoney(money)
+004FF910	1	WoW/Source/Ui/GuildBankFrame_Scripts.cpp		Usage: WithdrawGuildBankMoney(money)
+004FFA20	1	WoW/Source/Ui/LootFrame_Scripts.cpp	WoW/Source/Ui/PaperDollInfoFrame_Scripts.cpp(1);WoW/Source/Ui/ItemSocketInfo_Scripts.cpp(1);WoW/Source/UIUtil/Tooltip.cpp(1)	%s%s%s
+00500240	1	WoW/Source/Ui/GuildBankFrame_Scripts.cpp		Usage: GetGuildBankTabInfo(tab)
+00500810	1	WoW/Source/Ui/GuildBankFrame_Scripts.cpp		Usage: QueryGuildBankLog(tab)
+00500BE0	1	WoW/Source/Ui/GuildBankFrame_Scripts.cpp		Usage: QueryGuildBankLog(tab)
+00502570	1	WoW/Source/Ui/CommentatorFrame_Scripts.cpp		Usage: CommentatorGetMapInfo(mapIndex)
+00502870	1	WoW/Source/Ui/CommentatorFrame_Scripts.cpp		Unable to enter instance.
+005029A0	1	WoW/Source/Ui/CommentatorFrame_Scripts.cpp		Usage: CommentatorGetNumPlayers(faction)
+00502A80	1	WoW/Source/Ui/CommentatorFrame_Scripts.cpp		Error: faction index too large
+00502CC0	1	WoW/Source/Ui/CommentatorFrame_Scripts.cpp		Error: faction index too large
+00502E40	1	WoW/Source/Ui/CommentatorFrame_Scripts.cpp		Error: faction index too large
+00502FB0	1	WoW/Source/Ui/CommentatorFrame_Scripts.cpp		no map at that index
+005030F0	1	WoW/Source/Ui/CommentatorFrame_Scripts.cpp		Error: faction index too large
+00503580	1	WoW/Source/Ui/CommentatorFrame_Scripts.cpp		Battlemaster must be set first.
+005037B0	1	WoW/Source/Ui/CommentatorFrame_Scripts.cpp		A player must be targeted.
+005039D0	1	WoW/Source/Ui/CommentatorFrame_Scripts.cpp		Must select an instance first.
+00503B70	1	WoW/Source/Ui/CommentatorFrame_Scripts.cpp		Battlemaster must be targeted.
+00503C50	1	WoW/Source/Ui/CommentatorFrame_Scripts.cpp		Usage: CommentatorSetMoveSpeed(speed)
+00503CD0	1	WoW/Source/Ui/CommentatorFrame_Scripts.cpp		Usage: CommentatorSetCameraCollision(bool enable)
+00503D70	1	WoW/Source/Ui/CommentatorFrame_Scripts.cpp		Usage: CommentatorSetTargetHeightOffset(float offset)
+00508C80	1	WoW/Source/Ui/ItemSocketInfo_Scripts.cpp		Usage: GetSocketType(index)
+00509080	1	WoW/Source/Ui/LootFrame_Scripts.cpp	WoW/Source/Ui/PaperDollInfoFrame_Scripts.cpp(1);WoW/Source/Ui/ItemSocketInfo_Scripts.cpp(1);WoW/Source/UIUtil/Tooltip.cpp(1)	%s%s%s
+005091B0	1	WoW/Source/Ui/ItemSocketInfo_Scripts.cpp		Usage: GetNewSocketInfo(index)
+00509390	1	WoW/Source/Ui/ItemSocketInfo_Scripts.cpp		Usage: GetNewSocketLink(index)
+00509440	1	WoW/Source/Ui/ItemSocketInfo_Scripts.cpp		Usage: ClickSocketButton(index)
+00509700	1	WoW/Source/Ui/ItemSocketInfo_Scripts.cpp		Usage: GetExistingSocketInfo(index)
+00509920	1	WoW/Source/Ui/ItemSocketInfo_Scripts.cpp		Usage: GetExistingSocketLink(index)
+0050B270	1	WoW/Source/Ui/GuildInfo_Scripts.cpp		Usage: GuildControlSetRank(rank)
+0050B2C0	1	WoW/Source/Ui/GuildInfo_Scripts.cpp		Usage: GuildControlSetRankFlag(index, enabled)
+0050B9D0	1	WoW/Source/Ui/GuildInfo_Scripts.cpp		Usage: GetGuildRosterLastOnline(index)
+0050BB30	1	WoW/Source/Ui/GuildInfo_Scripts.cpp		Usage: SetGuildRosterSelection(index)
+0050BBF0	1	WoW/Source/Ui/GuildInfo_Scripts.cpp		Usage: SortGuildRoster("type")
+0050BE70	1	WoW/Source/Ui/GuildInfo_Scripts.cpp		Usage: GetGuildBankTabPermissions(tab)
+0050BFB0	1	WoW/Source/Ui/GuildInfo_Scripts.cpp		Usage: Script_SetGuildBankWithdrawLimit(amount)
+0050CEF0	1	WoW/Source/Ui/GuildInfo_Scripts.cpp		Usage: CanEditGuildTabInfo(tab)
+0050D050	1	WoW/Source/Ui/GuildInfo_Scripts.cpp		Usage: GuildControlSaveRank(name)
+0050D290	1	WoW/Source/Ui/GuildInfo_Scripts.cpp		Usage: GuildControlAddRank(name)
+0050D400	1	WoW/Source/Ui/GuildInfo_Scripts.cpp		Usage: SetGuildInfoText(text)
+0050DAA0	1	WoW/Source/Ui/GuildInfo_Scripts.cpp		Usage: GetGuildRosterInfo(index)
+0050DD70	1	WoW/Source/Ui/GuildInfo_Scripts.cpp		Usage: GuildControlGetRankName(index)
+0050DEA0	1	WoW/Source/Ui/GuildInfo_Scripts.cpp		Usage: GetGuildEventInfo(index)
+0050E9A0	1	WoW/Source/Ui/SkillInfo_Scripts.cpp		Usage: SetSelectedSkill(index)
+0050EF50	1	WoW/Source/Ui/SkillInfo_Scripts.cpp		Usage: GetSkillLineInfo(index)
+0050F3F0	1	WoW/Source/Ui/SkillInfo_Scripts.cpp		Usage: AbandonSkill(index)
+0050F4D0	1	WoW/Source/Ui/SkillInfo_Scripts.cpp		Usage: CollapseSkillHeader(index)
+0050F530	1	WoW/Source/Ui/SkillInfo_Scripts.cpp		Usage: ExpandSkillHeader(index)
+0050F590	1	WoW/Source/Ui/SkillInfo_Scripts.cpp		Usage: AddSkillUp(index)
+0050F600	1	WoW/Source/Ui/SkillInfo_Scripts.cpp		Usage: RemoveSkillUp(index)
+0050F7F0	1	WoW/Source/Ui/SkillInfo_Scripts.cpp		Usage: BuySkillTier(index)
+0050FF30	1	WoW/Source/Ui/PetitionInfo_Scripts.cpp		Usage: GetPetitionNameInfo(index)
+00510510	1	WoW/Source/Ui/PetitionInfo_Scripts.cpp		Usage(RenamePetition("name")
+005115E0	1	WoW/Source/Ui/ReputationInfo_Scripts.cpp		Usage: IsFactionInactive(index)
+00511650	1	WoW/Source/Ui/ReputationInfo_Scripts.cpp		Usage: SetSelectedFaction(index)
+00511F10	1	WoW/Source/Ui/ReputationInfo_Scripts.cpp		Usage: GetFactionInfo(index)
+005123A0	1	WoW/Source/Ui/ReputationInfo_Scripts.cpp		Usage: FactionToggleAtWar(index)
+00512420	1	WoW/Source/Ui/ReputationInfo_Scripts.cpp		Usage: SetFactionInactive(index)
+005124A0	1	WoW/Source/Ui/ReputationInfo_Scripts.cpp		Usage: SetFactionActive(index)
+00512520	1	WoW/Source/Ui/ReputationInfo_Scripts.cpp		Usage: CollapseFactionHeader(index)
+00512570	1	WoW/Source/Ui/ReputationInfo_Scripts.cpp		Usage: ExpandFactionHeader(index)
+005125C0	1	WoW/Source/Ui/ReputationInfo_Scripts.cpp		Usage: SetWatchedFactionIndex(index)
+00513FD0	1	WoW/Source/Ui/TradeSkillFrame_Scripts.cpp		Usage: GetTradeSkillIcon(index)
+00515B90	1	WoW/Source/Ui/ContainerFrame_Scripts.cpp		Usage: ContainerIDToInventoryID(containerID)
+00515D70	1	WoW/Source/Ui/ContainerFrame_Scripts.cpp		Usage: SetBagPortraitTexture(texture, slot)
+00516420	1	WoW/Source/Ui/ContainerFrame_Scripts.cpp		Usage: GetContainerNumSlots(index)
+00516510	1	WoW/Source/Ui/ContainerFrame_Scripts.cpp		Usage: GetContainerFreeSlots(index)
+00516800	1	WoW/Source/Ui/LootFrame_Scripts.cpp	WoW/Source/Ui/PaperDollInfoFrame_Scripts.cpp(1);WoW/Source/Ui/ItemSocketInfo_Scripts.cpp(1);WoW/Source/UIUtil/Tooltip.cpp(1)	%s%s%s
+00517960	1	WoW/Source/Ui/ContainerFrame_Scripts.cpp		Usage: GetBagName(index)
+00517F30	1	WoW/Source/Ui/TradeSkillFrame_Scripts.cpp		Usage: GetTradeSkillSubClassFilter(index)
+005184D0	1	WoW/Source/Ui/TradeSkillFrame_Scripts.cpp		Usage: SelectTradeSkill(index)
+00518550	1	WoW/Source/Ui/TradeSkillFrame_Scripts.cpp		Usage: GetTradeSkillCooldown(index)
+00518760	1	WoW/Source/Ui/TradeSkillFrame_Scripts.cpp		Usage: DoTradeSkill(index [, repeat])
+00518B70	1	WoW/Source/Ui/TradeSkillFrame_Scripts.cpp		Usage: GetTradeSkillInfo(index)
+00518D40	1	WoW/Source/Ui/TradeSkillFrame_Scripts.cpp		Usage: GetTradeSkillIcon(index)
+00518EA0	1	WoW/Source/Ui/TradeSkillFrame_Scripts.cpp		Usage: GetTradeSkillNumMade(index)
+005190F0	1	WoW/Source/Ui/TradeSkillFrame_Scripts.cpp		Usage: GetTradeSkillRecipeLink(index)
+00519270	1	WoW/Source/Ui/TradeSkillFrame_Scripts.cpp		Usage: GetTradeSkillItemLink(index)
+00519370	1	WoW/Source/Ui/TradeSkillFrame_Scripts.cpp		Usage: GetTradeSkillNumReagents(index)
+00519660	1	WoW/Source/Ui/TradeSkillFrame_Scripts.cpp		Usage: GetTradeSkillInvSlotFilter(index)
+0051A770	1	WoW/Source/Ui/TradeSkillFrame_Scripts.cpp		Usage: SetTradeSkillSubClassFilter(index [, on\off, exclusive])
+0051A8A0	1	WoW/Source/Ui/TradeSkillFrame_Scripts.cpp		Usage: SetTradeSkillInvSlotFilter(index [, on\off, exclusive])
+0051AA50	1	WoW/Source/Ui/TradeSkillFrame_Scripts.cpp		Usage: CollapseTradeSkillSubClass(index)
+0051AAE0	1	WoW/Source/Ui/TradeSkillFrame_Scripts.cpp		Usage: ExpandTradeSkillSubClass(index)
+0051CD80	1	WoW/Source/Ui/TradeSkillFrame_Scripts.cpp		Usage: GetTradeSkillTools(index)
+0051D9F0	2	WoW/Source/Ui/QuestLog.cpp	WoW/Source/Ui/QuestFrame.cpp(2);WoW/Source/UIUtil/Tooltip_Scripts.cpp(2);WoW/Source/Ui/QuestLog_Scripts.cpp(2)	choice | reward
+0051DCD0	1	WoW/Source/Ui/QuestLog_Scripts.cpp		Usage: IsQuestWatched(index)
+0051FD80	1	WoW/Source/Ui/QuestLog_Scripts.cpp		Usage: GetQuestLogRewardInfo(index)
+0051FF50	1	WoW/Source/Ui/QuestLog_Scripts.cpp		Usage: GetQuestLogRewardInfo(index)
+00520680	1	WoW/Source/Ui/QuestLog_Scripts.cpp		Usage: GetQuestIndexForTimer(index)
+005207D0	1	WoW/Source/Ui/QuestLog_Scripts.cpp		Usage: CollapseQuestHeader(index)
+00520820	1	WoW/Source/Ui/QuestLog_Scripts.cpp		Usage: ExpandQuestHeader(index)
+005208A0	1	WoW/Source/Ui/QuestLog_Scripts.cpp		Usage: GetQuestIndexForWatch(index)
+00520990	1	WoW/Source/Ui/QuestLog_Scripts.cpp		Usage: GetQuestLink(questID)
+00520B30	1	WoW/Source/Ui/QuestLog_Scripts.cpp		Usage: GetQuestLogLeaderBoard(index)
+00521380	1	WoW/Source/Ui/PaperDollInfoFrame_Scripts.cpp		Usage: KeyRingButtonIDToInvSlotID(buttonID)
+00521A00	1	WoW/Source/Ui/PaperDollInfoFrame_Scripts.cpp		Invalid inventory slot in GetInventorySlotInfo
+00521B00	1	WoW/Source/Ui/PaperDollInfoFrame_Scripts.cpp		Usage: GetInventoryAlertStatus(index)
+00521B90	1	WoW/Source/Ui/PaperDollInfoFrame_Scripts.cpp		Usage: GetInspectArenaTeamData(index)
+00523B80	1	WoW/Source/Ui/PaperDollInfoFrame_Scripts.cpp		Usage: GetInventoryItemDurability(slot)
+005241A0	1	WoW/Source/Ui/PaperDollInfoFrame_Scripts.cpp		Usage: SetInventoryPortraitTexture(texture, unit, slot)
+00524310	1	WoW/Source/Ui/PaperDollInfoFrame_Scripts.cpp		Usage: GetGuildInfo("unit")
+005355C0	1	WoW/Source/UIUtil/InputControl_Scripts.cpp		Usage: SetMouselookOverrideBinding("key", "binding" or nil)
+00537220	1	WoW/Source/UIUtil/Camera_Scripts.cpp		Usage: SaveView(viewModeIndex)
+00537280	1	WoW/Source/UIUtil/Camera_Scripts.cpp		Usage: FlipCameraYaw(degrees)
+0053C120	1	WoW/Source/UIUtil/Camera_Scripts.cpp		Usage: SetView(viewModeIndex)
+0053C880	1	WoW/Source/UIUtil/Camera_Scripts.cpp		Usage: ResetView(viewModeIndex)
+0053F880	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: ConsoleExec("console_command")
+0053F8D0	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp	WoW/Source/Ui/GameUI_Scripts.cpp(1);WoW/Source/Console/ConsoleClient_Console.cpp(1)	Access Denied
+00542170	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitIsInMyGuild("name")
+00542640	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitIsAFK("unit")
+00542740	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitIsDND("unit")
+00542800	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitIsPVP("unit")
+00542940	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitIsPVPFreeForAll("unit")
+00542A30	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitFactionGroup("unit")
+00542D60	1	WoW/Source/Ui/QuestLog.cpp	WoW/Source/Ui/PetInfo.cpp(1);WoW/Source/Magic/MagicClient/Spell_C.cpp(1);WoW/Source/Ui/ScriptEvents.cpp(1)	player
+00542EA0	1	WoW/Source/Ui/QuestLog.cpp	WoW/Source/Ui/PetInfo.cpp(1);WoW/Source/Magic/MagicClient/Spell_C.cpp(1);WoW/Source/Ui/ScriptEvents.cpp(1)	player
+00543360	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: IsArenaTeamCaptain(index)
+00543490	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: GetCombatRating(ratingIndex)
+00543550	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: GetCombatRatingBonus(ratingIndex)
+00543810	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: GetCritChanceFromAgility("unit")
+00543890	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: GetSpellCritChanceFromIntellect("unit")
+00543BD0	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: Script_GetAttackPowerForStat(stat, value)
+00543CA0	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitGUID("unit")
+00543DC0	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitName("unit")
+00543FC0	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitPVPName("unit")
+00544090	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitXP("unit")
+00544110	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitXPMax("unit")
+00544190	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitHealth("unit")
+005442A0	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitHealthMax("unit")
+00544700	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitOnTaxi("unit")
+00544780	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitIsFeignDeath("unit")
+00544830	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitIsDead("unit")
+00544910	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitIsGhost("unit")
+005449F0	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitIsDeadOrGhost("unit")
+00544AE0	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitIsConnected("unit")
+00544BA0	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitAffectingCombat("unit")
+00544C20	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitSex("unit")
+00544D30	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitLevel("unit")
+00545070	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitRace("unit")
+005451F0	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitClass("unit")
+005454C0	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitClassBase("unit")
+005458C0	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitAttackBothHands("unit")
+005459C0	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitRangedDamage("unit")
+00545C40	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitRangedAttack("unit")
+00545CD0	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitDamage("unit")
+00545E70	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitAttackSpeed("unit")
+00545FC0	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitAttackPower("unit")
+00546110	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitAttackPower("unit")
+00546260	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitDefense("unit")
+00546340	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitArmor("unit")
+00546430	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitCharacterPoints("unit")
+00546CC0	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitIsTapped("unit")
+00546D40	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitIsTappedByPlayer("unit")
+00546DC0	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitIsTrivial("unit")
+00546E40	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitHasRelicSlot("unit")
+00547170	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitCreatureType("unit")
+00547210	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitCreatureFamily("unit")
+005472B0	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		INT_GENERAL_DURATION
+00547630	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitPVPRank("unit")
+005476A0	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: GetPVPRankInfo(rank [, unit])
+00547800	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitCastingInfo("unit")
+00547A70	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitChannelInfo("unit")
+00548090	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: GetUnitHealthModifier("unit")
+00548110	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: GetUnitMaxHealthModifier("unit")
+005481B0	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: GetUnitPowerModifier("unit")
+00548230	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: GetUnitHealthRegenRateFromSpirit("unit")
+005482B0	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: GetUnitManaRegenRateFromSpirit("unit")
+00548600	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		Usage: UnitInRange("unit")
+0054BF50	1	WoW/Source/UIUtil/Tooltip_Scripts.cpp		Usage: %s:SetMinimumWidth(width [,force])
+0054C070	2	WoW/Source/UIUtil/Tooltip_Scripts.cpp	Engine/Source/Frame/CSimpleScaleAnim.cpp(1);Engine/Source/FrameScript/FrameScript_Object.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1)	<unnamed> | %s:IsOwned(): Couldn't find 'this' in frame object
+0054C260	1	WoW/Source/UIUtil/Tooltip_Scripts.cpp		Usage: %s:SetAnchorType( anchorType [,Xoffset] [,Yoffset] )
+0054C4B0	1	WoW/Source/UIUtil/Tooltip_Scripts.cpp		ANCHOR_LEFT
+0054C720	1	WoW/Source/UIUtil/Tooltip_Scripts.cpp		Usage: %s:IsUnit("unit")
+0054D390	2	WoW/Source/UIUtil/Tooltip_Scripts.cpp	Engine/Source/Frame/CSimpleScaleAnim.cpp(1);Engine/Source/FrameScript/FrameScript_Object.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1)	<unnamed> | %s:SetOwner(): Couldn't find 'this' in frame object
+0054E270	2	WoW/Source/UIUtil/Tooltip_Scripts.cpp	Engine/Source/Frame/CSimpleScaleAnim.cpp(1);Engine/Source/FrameScript/FrameScript_Object.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1)	<unnamed> | Usage: %s:AddFontStrings(leftstring, rightstring)
+0054E680	1	WoW/Source/UIUtil/Tooltip_Scripts.cpp	WoW/Source/UIUtil/Tooltip.cpp(1);WoW/Source/Ui/UILCD/LCD.cpp(1)	SPELL_TIME_REMAINING
+00551DC0	1	WoW/Source/Ui/GameUI_CVar.cpp	WoW/Source/UIUtil/Tooltip.cpp(1);WoW/Source/UIUtil/Tooltip_Scripts.cpp(1)	UberTooltips
+00551F60	1	WoW/Source/Ui/GameUI_CVar.cpp	WoW/Source/UIUtil/Tooltip.cpp(1);WoW/Source/UIUtil/Tooltip_Scripts.cpp(1)	UberTooltips
+005520F0	1	WoW/Source/UIUtil/Tooltip_Scripts.cpp	WoW/Source/UIUtil/Tooltip.cpp(1);WoW/Source/Ui/UILCD/LCD.cpp(1)	SPELL_TIME_REMAINING
+00552440	1	Engine/Source/Frame/CSimpleScaleAnim.cpp	Engine/Source/FrameScript/FrameScript_Object.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1);Engine/Source/Frame/CScriptRegion_Scripts.cpp(1)	<unnamed>
+00552520	1	WoW/Source/UIUtil/Tooltip_Scripts.cpp	WoW/Source/UIUtil/Tooltip.cpp(1);WoW/Source/Ui/UILCD/LCD.cpp(1)	SPELL_TIME_REMAINING
+005528A0	1	WoW/Source/UIUtil/Tooltip_Scripts.cpp	WoW/Source/UIUtil/Tooltip.cpp(1);WoW/Source/Ui/UILCD/LCD.cpp(1)	SPELL_TIME_REMAINING
+00557E00	2	WoW/Source/UIUtil/Tooltip_Scripts.cpp	Engine/Source/Frame/CSimpleScaleAnim.cpp(1);Engine/Source/FrameScript/FrameScript_Object.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1)	<unnamed> | Usage: %s:SetInventoryItem(unit, slot [, nameOnly])
+005598C0	2	WoW/Source/UIUtil/Tooltip_Scripts.cpp	Engine/Source/Frame/CSimpleScaleAnim.cpp(1);Engine/Source/FrameScript/FrameScript_Object.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1)	<unnamed> | Usage: %s:SetInboxItem(messageIndex, attachmentIndex)
+00559BD0	1	WoW/Source/Ui/AuctionHouse.cpp	WoW/Source/UIUtil/Tooltip_Scripts.cpp(1);WoW/Source/Ui/AuctionHouse_Scripts.cpp(1)	bidder
+0055A040	1	Engine/Source/Frame/CSimpleScaleAnim.cpp	Engine/Source/FrameScript/FrameScript_Object.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1);Engine/Source/Frame/CScriptRegion_Scripts.cpp(1)	<unnamed>
+0055A180	1	WoW/Source/UIUtil/Tooltip_Scripts.cpp		Usage: %s:SetBuybackItem(slot)
+0055A2D0	1	WoW/Source/UIUtil/Tooltip_Scripts.cpp		Usage: %s:SetLootRollItem(id)
+0055A480	1	WoW/Source/UIUtil/Tooltip_Scripts.cpp		Usage: %s:SetSocketGem(index)
+0055A5B0	1	WoW/Source/UIUtil/Tooltip_Scripts.cpp		Usage: %s:SetSocketGem(index, [toDestroy])
+0055AB10	2	WoW/Source/UIUtil/Tooltip_Scripts.cpp	WoW/Source/Ui/PetInfo.cpp(1);WoW/Source/Ui/GameUI_CVar.cpp(1);WoW/Source/UIUtil/Tooltip.cpp(1)	ATTACK | UberTooltips
+0059778D	1	Engine/Source/Gx/Gx.cpp		devicePtr == g_theGxDevicePtr
+00598280	1	Engine/Source/Gx/CGxDevice/CGxDevice.cpp		Logs\gx.log
+0059C020	2	Engine/Source/Gx/CGxDevice/CGxDevice.cpp		Stream_vtx | Stream_idx
+0059EBD1	1	Engine/Source/Gx/CGxDevice/Win64/CGxDevice.cpp	Engine/Source/Gx/CGxDevice/Win32/CGxDevice.cpp(1)	CGxDevice::DeviceAdapterID(): RET: %d, VID: %x, DID: %x, DVER: %x.%x
+0059ECFB	1	Engine/Source/Gx/CGxDevice/Win64/CGxDevice.cpp	Engine/Source/Gx/CGxDevice/Win32/CGxDevice.cpp(1)	CGxDevice::DeviceAdapterInfer(): RET: %d, DID: %x
+005A1281	1	WoW/Source/WorldClient/MapObj.cpp	WoW/Source/WorldClient/MapWeather.cpp(1);WoW/Source/Game/GameClient/Win32/WardenClient.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1)	delete
+005A4330	2	Engine/Source/Gx/CGxDeviceD3d/CGxDeviceD3d.cpp	Engine/Source/Gx/CGxDeviceD3d9Ex/CGxDeviceD3d9Ex.cpp(1)	d3d9.dll | CGxDeviceD3d::ILoadD3dLib(): unable to LoadLibrary()
+005A435F	2	Engine/Source/Gx/CGxDeviceD3d/CGxDeviceD3d.cpp	Engine/Source/Gx/CGxDeviceD3d9Ex/CGxDeviceD3d9Ex.cpp(1)	Direct3DCreate9 | CGxDeviceD3d::ILoadD3dLib(): unable to GetProcAddress()
+005A4376	1	Engine/Source/Gx/CGxDeviceD3d/CGxDeviceD3d.cpp		CGxDeviceD3d::ILoadD3dLib(): unable to d3dCreateProc()
+005B33C0	2	WoW/Source/WowSvcs/WowSvcsClient/ClientServices.cpp		Data\base.MPQ | telemetry.dat
+005B3D12	5	WoW/Source/WowSvcs/WowSvcsClient/ClientServices_CVar.cpp	WoW/Source/Ui/GameUI.cpp(2);WoW/Source/WowServices/GruntLogin.cpp(1);WoW/Source/Ui/BugReport.cpp(1)	us.logon.worldofwarcraft.com:3724 | Address of realm list server | realmList | decorateAccountName | realmlist.wtf
+005B3D6D	2	WoW/Source/WowSvcs/WowSvcsClient/ClientServices.cpp	WoW/Source/Ui/GameUI.cpp(1)	Last realm connected to | realmName
+005B6A90	1	WoW/Source/WowSvcs/WowSvcsClient/FriendList_Scripts.cpp		Usage: SetSelectedFriend(index)
+005B6C70	1	WoW/Source/WowSvcs/WowSvcsClient/FriendList_Scripts.cpp		Usage: GetIgnoreName(index)
+005B6DB0	1	WoW/Source/WowSvcs/WowSvcsClient/FriendList_Scripts.cpp		Usage: GetMuteName(index)
+005B6EF0	1	WoW/Source/WowSvcs/WowSvcsClient/FriendList_Scripts.cpp		Usage: SetSelectedIgnore(index)
+005B6F60	1	WoW/Source/WowSvcs/WowSvcsClient/FriendList_Scripts.cpp		Usage: SetSelectedMute(index)
+005B7050	1	WoW/Source/WowSvcs/WowSvcsClient/FriendList_Scripts.cpp		Usage: GetWhoInfo(index)
+005B7480	1	WoW/Source/WowSvcs/WowSvcsClient/FriendList_Scripts.cpp		Usage: SortWho("type")
+005B9440	1	WoW/Source/WowSvcs/WowSvcsClient/FriendList_Scripts.cpp		Usage: SendWho("filter")
+005BFD80	1	Engine/Source/Gxu/GxuFontMain.cpp		fontHeight || ( flags & EGxStringFlags_FixedSize )
+005BFD9B	1	Engine/Source/Gxu/GxuFontMain.cpp		vertJustification < GxVJ_Last
+005BFDA8	1	Engine/Source/Gxu/GxuFontMain.cpp		horzJustification < GxHJ_Last
+005C6B10	1	WoW/Source/WorldClient/MapObj.cpp	WoW/Source/WorldClient/MapWeather.cpp(1);WoW/Source/Game/GameClient/Win32/WardenClient.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1)	delete
+005F0075	7	WoW/Source/Object/ObjectClient/LootRoll.cpp	WoW/Source/WorldClient/MapObj.cpp(1);WoW/Source/WorldClient/MapWeather.cpp(1);WoW/Source/Game/GameClient/Win32/WardenClient.cpp(1)	LOOT_ROLL_NEED_SELF | LOOT_ROLL_ROLLED_GREED | LOOT_ROLL_ROLLED_NEED | LOOT_ROLL_GREED | LOOT_ROLL_PASSED_AUTO | LOOT_ROLL_PASSED | LOOT_ROLL_NEED | delete
+00628730	1	WoW/Source/Object/ObjectClient/UnitCombatLog_C_Scripts.cpp		Usage: CombatLogSetRetentionTime(seconds)
+0062A6F0	1	WoW/Source/Object/ObjectClient/UnitCombatLog_C_Scripts.cpp		Usage: CombatLogSetCurrentEntry(index [,ignoreFilter])
+0062A840	1	WoW/Source/Object/ObjectClient/UnitCombatLog_C_Scripts.cpp		Usage: CombatLogAdvanceEntry(count [,ignoreFilter])
+0062ABC0	1	WoW/Source/Object/ObjectClient/UnitCombatLog_C_Scripts.cpp		CombatLogAddFilter(): incomplete filter for srcMask
+0063A97D	1	WoW/Source/ConsoleDevice/ConsoleDevice.cpp		ValidateFormatMonitor(): unable to find monitor refresh
+0063A994	1	WoW/Source/ConsoleDevice/ConsoleDevice.cpp		ValidateFormatMonitor(): invalid refresh rate %d, set to %d
+0063D110	2	WoW/Source/ConsoleDevice/ConsoleDevice_CVar.cpp	WoW/Source/Ui/VideoOptions_Scripts.cpp(1);WoW/Source/Ui/Screen.cpp(1)	Allow widescreen support | widescreen
+0063D162	2	WoW/Source/ConsoleDevice/ConsoleDevice_CVar.cpp	WoW/Source/Ui/BugReport.cpp(1)	toggle fullscreen/window | gxWindow
+0063D196	35	WoW/Source/ConsoleDevice/ConsoleDevice_CVar.cpp	WoW/Source/Ui/VideoOptions_Scripts.cpp(4);WoW/Source/Client.cpp(2);WoW/Source/Ui/Screen.cpp(1)	maximize game window | gxMaximize | color bits | gxColorBits | depth bits | gxDepthBits | resolution | gxResolution | refresh rate | gxRefresh | triple buffer | gxTripleBuffer | graphics api | vsync on or off | gxVSync | constrain window aspect | gxAspect | toggle hardware cursor | gxCursor | multisample | gxMultisample | multisample quality | gxMultisampleQuality | prevent cursor lag | gxFixLag | gx overrides | gxOverride | Set FPS limit | maxFPS | Set background FPS limit | maxFPSBk | Video options version | videoOptionsVersion | prevent resizing in windowed mode | windowResizeLock
+0063D4B0	1	WoW/Source/Glue/GlueScriptEvents_Scripts.cpp	WoW/Source/ConsoleDevice/ConsoleDevice.cpp(1)	gxRestart
+0063D530	2	WoW/Source/ConsoleDevice/ConsoleDevice.cpp		do hardware detection | hwDetect
+0063D634	1	WoW/Source/ConsoleDevice/ConsoleDevice.cpp		ConsoleDeviceInitialize(): hwDetect = %d, hwChanged = %d
+0063D882	1	WoW/Source/ConsoleDevice/ConsoleDevice.cpp		ConsoleDeviceInitialize(): output device does not have dual TMUs!
+0063D916	1	WoW/Source/ConsoleDevice/ConsoleDevice.cpp		ConsoleDeviceInitialize(): no output device available!
+0063D95D	1	WoW/Source/Ui/UILCD/LCD.cpp	WoW/Source/ConsoleDevice/ConsoleDevice.cpp(1);Engine/Source/Gx/CGxDeviceD3d/CGxDeviceD3d.cpp(1);Engine/Source/Gx/CGxDeviceD3d9Ex/CGxDeviceD3d9Ex.cpp(1)	World of Warcraft
+0063D9A8	1	WoW/Source/ConsoleDevice/ConsoleDevice.cpp		World of Warcraft was unable to start up 3D acceleration.
+0063D9C7	1	WoW/Source/Ui/UILCD/LCD.cpp	WoW/Source/ConsoleDevice/ConsoleDevice.cpp(1);Engine/Source/Gx/CGxDeviceD3d/CGxDeviceD3d.cpp(1);Engine/Source/Gx/CGxDeviceD3d9Ex/CGxDeviceD3d9Ex.cpp(1)	World of Warcraft
+0063D9F0	1	WoW/Source/ConsoleDevice/ConsoleDevice.cpp		ConsoleDeviceInitialize(): output device has 0 streams
+0063DBDB	1	Engine/Source/Storm/Source/SMem.cpp	WoW/Source/Ui/GMTicketInfo.cpp(1)	delete[]
+0063DBF5	1	WoW/Source/Console/ConsoleClient.cpp		Unknown command
+0063F200	2	Engine/Source/ConsoleBase/ConsoleCommand.cpp		Provides help information about a command. | setmap
+0063F360	1	Engine/Source/ConsoleBase/ConsoleVar.cpp		WTF\%s
+0063FB60	3	Engine/Source/ConsoleBase/ConsoleVar.cpp		cvar_reset | cvar_default | cvarlist
+00640940	7	Engine/Source/ConsoleBase/ConsoleVar.cpp		Set the value of a CVar | Set the value of a CVar to it's startup value | cvar_reset | Set the value of a CVar to it's coded default value | cvar_default | List cvars | cvarlist
+00640C09	1	WoW/Source/Ui/UILCD/LCD.cpp	WoW/Source/ConsoleDevice/ConsoleDevice.cpp(1);Engine/Source/Gx/CGxDeviceD3d/CGxDeviceD3d.cpp(1);Engine/Source/Gx/CGxDeviceD3d9Ex/CGxDeviceD3d9Ex.cpp(1)	World of Warcraft
+00640C50	1	WoW/Source/Client.cpp	WoW/Source/ConsoleDevice/ConsoleDetect.cpp(1)	World of Warcraft\Client
+00640C7B	1	WoW/Source/Client.cpp	WoW/Source/ConsoleDevice/ConsoleDetect.cpp(1)	World of Warcraft\Client
+00640C9C	1	WoW/Source/Client.cpp	WoW/Source/ConsoleDevice/ConsoleDetect.cpp(1)	World of Warcraft\Client
+00640CBD	1	WoW/Source/Client.cpp	WoW/Source/ConsoleDevice/ConsoleDetect.cpp(1)	World of Warcraft\Client
+00640D62	1	WoW/Source/Ui/UILCD/LCD.cpp	WoW/Source/ConsoleDevice/ConsoleDevice.cpp(1);Engine/Source/Gx/CGxDeviceD3d/CGxDeviceD3d.cpp(1);Engine/Source/Gx/CGxDeviceD3d9Ex/CGxDeviceD3d9Ex.cpp(1)	World of Warcraft
+00640D84	1	WoW/Source/ConsoleDevice/ConsoleDetect.cpp		Hardware changed.  Reload default settings?
+00640DAB	1	WoW/Source/Client.cpp	WoW/Source/ConsoleDevice/ConsoleDetect.cpp(1)	World of Warcraft\Client
+00640E10	1	WoW/Source/DB/WowClientDB.h		%s already loaded! Aborting to prevent memory leak!
+00640E39	1	WoW/Source/DB/WowClientDB.h		Unable to open %s
+00640EC5	1	WoW/Source/DB/WowClientDB.h		%s has wrong number of columns (found %i, expected %i)
+00640EFD	1	WoW/Source/DB/WowClientDB.h		%s has wrong row size (found %i, expected %i)
+00640F35	1	WoW/Source/DB/WowClientDB.h		%s: Cannot read string table
+00640FD0	1	WoW/Source/ConsoleDevice/ConsoleDetect.cpp		Running World of Warcraft through a Remote Desktop connection is not supported.  Exiting program.
+006410A4	1	WoW/Source/ConsoleDevice/ConsoleDetect.cpp		Failed to find a suitable display device.  Exiting program.
+006412D0	1	Engine/Source/ConsoleBase/ConsoleCommand.cpp		Canceled File Creation
+00641320	1	Engine/Source/ConsoleBase/ConsoleCommand.cpp		You must type 'y' to confirm overwrite. Process aborted!
+0064132D	1	Engine/Source/ConsoleBase/ConsoleCommand.cpp		Begin Typing the commands
+00643140	1	Engine/Source/Storm/Source/SMem.cpp		Requested %u bytes of memory
+00645A4E	1	Engine/Source/Storm/Source/Win64/SReg.cpp	Engine/Source/Storm/Source/Win32/SReg.cpp(1)	Software\Battle.net\
+00645A69	1	Engine/Source/Storm/Source/Win64/SReg.cpp	Engine/Source/Storm/Source/Win32/SReg.cpp(1)	Software\Blizzard Entertainment\
+00646562	1	WoW/Source/WorldClient/MapObj.cpp	WoW/Source/WorldClient/MapWeather.cpp(1);WoW/Source/Game/GameClient/Win32/WardenClient.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1)	delete
+00646750	2	Engine/Source/Storm/Source/Win64/SErr.cpp	Engine/Source/Storm/Source/Win32/SErr.cpp(2);WoW/Source/WorldClient/MapWeather.cpp(1)	No Minidumps | Internal
+00646780	2	Engine/Source/Storm/Source/Win64/SErr.cpp	Engine/Source/Storm/Source/Win32/SErr.cpp(2)	KERNEL32.DLL | IsDebuggerPresent
+006469C9	1	Engine/Source/Storm/Source/Win64/SErr.cpp	Engine/Source/Storm/Source/Win32/SErr.cpp(1)	Errors\
+006469EA	1	Engine/Source/Storm/Source/Win64/SErr.cpp	Engine/Source/Storm/Source/Win32/SErr.cpp(1)	%04d-%02d-%02d %02d.%02d.%02d %s.%s
+00646BA1	1	Engine/Source/Storm/Source/Win64/SErr.cpp	Engine/Source/Storm/Source/Win32/SErr.cpp(1)	Assertion Failure
+00646BA7	1	Engine/Source/Storm/Source/Win64/SErr.cpp	Engine/Source/Storm/Source/Win32/SErr.cpp(1)	Not Archive
+00646BAD	1	Engine/Source/Storm/Source/Win64/SErr.cpp	Engine/Source/Storm/Source/Win32/SErr.cpp(1)	Version Mismatch
+00646BB3	1	Engine/Source/Storm/Source/Win64/SErr.cpp	Engine/Source/Storm/Source/Win32/SErr.cpp(1)	Memory Already Freed
+00646BB9	1	Engine/Source/Storm/Source/Win64/SErr.cpp	Engine/Source/Storm/Source/Win32/SErr.cpp(1)	Memory Corrupt
+00646BBF	1	Engine/Source/Storm/Source/Win64/SErr.cpp	Engine/Source/Storm/Source/Win32/SErr.cpp(1)	Memory Invalid Block
+00646BC5	1	Engine/Source/Storm/Source/Win64/SErr.cpp	Engine/Source/Storm/Source/Win32/SErr.cpp(1)	Memory Never Released
+00646BCB	1	Engine/Source/Storm/Source/Win64/SErr.cpp	Engine/Source/Storm/Source/Win32/SErr.cpp(1)	Handle Never Released
+00646BD1	1	Engine/Source/Storm/Source/Win64/SErr.cpp	Engine/Source/Storm/Source/Win32/SErr.cpp(1)	Access Out Of Bounds
+00646BD7	1	Engine/Source/Storm/Source/Win64/SErr.cpp	Engine/Source/Storm/Source/Win32/SErr.cpp(1)	File Corrupt
+00646BDD	1	Engine/Source/Storm/Source/Win64/SErr.cpp	Engine/Source/Storm/Source/Win32/SErr.cpp(1)	Fatal Exception
+00646BE3	1	Engine/Source/Storm/Source/Win64/SErr.cpp	Engine/Source/Storm/Source/Win32/SErr.cpp(1)	Fatal Condition
+00646BE8	1	Engine/Source/Storm/Source/Win64/SErr.cpp	Engine/Source/Storm/Source/Win32/SErr.cpp(1)	DATATYPE_MISALIGNMENT
+00648406	1	Engine/Source/Storm/Source/SCmd.cpp		namelength < 16
+00648420	1	Engine/Source/Storm/Source/SCmd.cpp		(!variablebytes) || variableptr
+00648C00	1	Engine/Source/Storm/Source/SCmd.cpp		buffer
+00648C11	1	Engine/Source/Storm/Source/SCmd.cpp		bufferchars
+00648CD0	1	Engine/Source/Storm/Source/SCmd.cpp		listptr
+00648E40	1	Engine/Source/Storm/Source/SCmd.cpp		cmdline
+006496D0	2	Engine/Source/Storm/Source/Win64/SLock.cpp	Engine/Source/Storm/Source/Win32/SLock.cpp(2)	SUAREVTYPE | SUMREVTYPE
+006496F5	1	Engine/Source/Storm/Source/Win64/SLock.cpp	Engine/Source/Storm/Source/Win32/SLock.cpp(1)	IAllocEvent: too many %s event allocs
+00649770	2	Engine/Source/Storm/Source/Win64/SLock.cpp	Engine/Source/Storm/Source/Win32/SLock.cpp(2)	SUAREVTYPE | SUMREVTYPE
+0064979F	1	Engine/Source/Storm/Source/Win64/SLock.cpp	Engine/Source/Storm/Source/Win32/SLock.cpp(1)	IFreeEvent: too many %s event frees
+00649A00	1	Engine/Source/Storm/Source/Win64/SLock.cpp	Engine/Source/Storm/Source/Win32/SLock.cpp(1)	SEvent::SEvent: CreateEvent failed
+0064C920	1	WoW/Source/WorldClient/MapObj.cpp	WoW/Source/WorldClient/MapWeather.cpp(1);WoW/Source/Game/GameClient/Win32/WardenClient.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1)	delete
+00650F62	1	WoW/Source/WorldClient/MapObj.cpp	WoW/Source/WorldClient/MapWeather.cpp(1);WoW/Source/Game/GameClient/Win32/WardenClient.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1)	delete
+00651F00	1	Engine/Source/Storm/Source/Win32/MachineState.cpp	Engine/Source/Storm/Source/Win64/MachineState.cpp(1)	dbghelp.dll
+00651F52	12	Engine/Source/Storm/Source/Win32/MachineState.cpp	Engine/Source/Storm/Source/Win64/MachineState.cpp(12)	StackWalk | SymFunctionTableAccess | SymGetLineFromAddr | SymGetModuleBase | SymGetModuleInfo | SymGetOptions | SymGetSymFromAddr | SymInitialize | SymCleanup | SymSetOptions | SymEnumerateModules | SymEnumerateSymbols
+00652034	1	Engine/Source/Storm/Source/Win32/MachineState.cpp	Engine/Source/Storm/Source/Win64/MachineState.cpp(1)	MiniDumpWriteDump
+006522CE	1	Engine/Source/Storm/Source/Win32/MachineState.cpp	Engine/Source/Storm/Source/Win64/MachineState.cpp(1)	<can't read from this address>
+00652380	1	Engine/Source/Storm/Source/Win32/MachineState.cpp	Engine/Source/Storm/Source/Win64/MachineState.cpp(1)	%-10s%s
+006523FE	1	Engine/Source/Storm/Source/Win32/MachineState.cpp	Engine/Source/Storm/Source/Win64/MachineState.cpp(1)	%-10s%3s %2d, %4d %2d:%02d:%02d.%03d %cM
+00652440	1	Engine/Source/Storm/Source/Win64/MachineState.cpp	Engine/Source/Storm/Source/SComp.cpp(1);Engine/Source/BlizzardCore/Source/System/Log/Win32/Log.cpp(1);Engine/Source/BlizzardCore/Source/System/Log/Win64/Log.cpp(1)	<unknown>
+0065249A	1	Engine/Source/Storm/Source/Win32/MachineState.cpp	Engine/Source/Storm/Source/Win64/MachineState.cpp(1)	%-10s%s
+006524C0	1	Engine/Source/Storm/Source/Win64/MachineState.cpp	Engine/Source/Storm/Source/SComp.cpp(1);Engine/Source/BlizzardCore/Source/System/Log/Win32/Log.cpp(1);Engine/Source/BlizzardCore/Source/System/Log/Win64/Log.cpp(1)	<unknown>
+00652505	2	Engine/Source/Storm/Source/Win32/MachineState.cpp	Engine/Source/Storm/Source/Win64/MachineState.cpp(2)	Computer: | %-10s%s
+00652530	1	Engine/Source/Storm/Source/Win32/MachineState.cpp	Engine/Source/Storm/Source/Win64/MachineState.cpp(1)	Memory Dump
+00652790	1	Engine/Source/Storm/Source/Win64/MachineState.cpp	Engine/Source/Storm/Source/SComp.cpp(1);Engine/Source/BlizzardCore/Source/System/Log/Win32/Log.cpp(1);Engine/Source/BlizzardCore/Source/System/Log/Win64/Log.cpp(1)	<unknown>
+006527E5	1	Engine/Source/Storm/Source/Win64/MachineState.cpp	Engine/Source/Storm/Source/SComp.cpp(1);Engine/Source/BlizzardCore/Source/System/Log/Win32/Log.cpp(1);Engine/Source/BlizzardCore/Source/System/Log/Win64/Log.cpp(1)	<unknown>
+00652925	1	Engine/Source/Storm/Source/Win32/MachineState.cpp	Engine/Source/Storm/Source/Win64/MachineState.cpp(1)	<unknown module>
+00652A90	1	Engine/Source/Storm/Source/Win32/MachineState.cpp	Engine/Source/Storm/Source/Win64/MachineState.cpp(1)	<unknown symbol>
+00652AF0	1	Engine/Source/Storm/Source/Win32/MachineState.cpp	Engine/Source/Storm/Source/Win64/MachineState.cpp(1)	**** SymGetModuleInfo() failed, error: %d
+00652B5F	1	Engine/Source/Storm/Source/Win32/MachineState.cpp	Engine/Source/Storm/Source/Win64/MachineState.cpp(1)	**** SymGetLineFromAddr() failed, error: %d
+00652B82	1	Engine/Source/Storm/Source/Win32/MachineState.cpp	Engine/Source/Storm/Source/Win64/MachineState.cpp(1)	**** SymGetSymFromAddr() failed, error: %d
+00652E00	1	Engine/Source/Storm/Source/Win32/MachineState.cpp	Engine/Source/Storm/Source/Win64/MachineState.cpp(1)	**** StackWalk() returned zero address - skipping stack frame
+00652E6E	1	Engine/Source/Storm/Source/Win32/MachineState.cpp	Engine/Source/Storm/Source/Win64/MachineState.cpp(1)	**** StackWalk() returned FALSE, error: %d
+00652E90	2	Engine/Source/Storm/Source/Win32/MachineState.cpp	Engine/Source/Storm/Source/Win64/MachineState.cpp(2)	Stack Trace (Using DBGHELP.DLL) | ****  Couldn't load DBGHELP.DLL, error: %d
+00652EFB	1	Engine/Source/Storm/Source/Win32/MachineState.cpp	Engine/Source/Storm/Source/Win64/MachineState.cpp(1)	****  Couldn't initialize Debug Help library, error: %d
+00652F33	1	Engine/Source/Storm/Source/Win32/MachineState.cpp	Engine/Source/Storm/Source/Win64/MachineState.cpp(1)	Showing %d/%d threads...
+00652FA7	2	Engine/Source/Storm/Source/Win32/MachineState.cpp	Engine/Source/Storm/Source/Win64/MachineState.cpp(2)	--- Thread ID: %d [Current Thread] --- | --- Thread ID: %d ---
+00653034	1	Engine/Source/Storm/Source/Win32/MachineState.cpp	Engine/Source/Storm/Source/Win64/MachineState.cpp(1)	**** Unable to retrieve thread context, error: %d
+00653180	1	Engine/Source/Storm/Source/Win32/MachineState.cpp	Engine/Source/Storm/Source/Win64/MachineState.cpp(1)	Loaded Modules
+006532B0	3	Engine/Source/Storm/Source/Win32/MachineState.cpp	Engine/Source/Storm/Source/Win64/MachineState.cpp(3)	Stack Trace (Manual) | Address  Frame    Logical addr  Module | Showing %d/%d threads...
+00653375	2	Engine/Source/Storm/Source/Win32/MachineState.cpp	Engine/Source/Storm/Source/Win64/MachineState.cpp(2)	--- Thread ID: %d [Current Thread] --- | --- Thread ID: %d ---
+006533E8	1	Engine/Source/Storm/Source/Win32/MachineState.cpp	Engine/Source/Storm/Source/Win64/MachineState.cpp(1)	**** Unable to retrieve thread context, error: %d
+00653590	4	Engine/Source/Storm/Source/Win32/MachineState.cpp	Engine/Source/Storm/Source/Win64/MachineState.cpp(1)	x86 Registers | EAX=%08X  EBX=%08X  ECX=%08X  EDX=%08X  ESI=%08X | EDI=%08X  EBP=%08X  ESP=%08X  EIP=%08X  FLG=%08X | CS =%04X      DS =%04X      ES =%04X      SS =%04X      FS =%04X      GS =%04X
+006539F0	1	Engine/Source/Storm/Source/Win32/MachineState.cpp	Engine/Source/Storm/Source/Win64/MachineState.cpp(1)	psapi.dll
+00653C20	2	Engine/Source/Storm/Source/Win64/SServer.cpp	Engine/Source/Storm/Source/Win32/SServer.cpp(2);Engine/Source/Os/Win32/OsSecureRandom.cpp(1);Engine/Source/Os/Win64/OsSecureRandom.cpp(1)	kernel32.dll | TryEnterCriticalSection
+00653C87	1	WoW/Source/WorldClient/MapObj.cpp	WoW/Source/WorldClient/MapWeather.cpp(1);WoW/Source/Game/GameClient/Win32/WardenClient.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1)	delete
+00653CAD	1	WoW/Source/WorldClient/MapObj.cpp	WoW/Source/WorldClient/MapWeather.cpp(1);WoW/Source/Game/GameClient/Win32/WardenClient.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1)	delete
+00653D17	1	WoW/Source/WorldClient/MapObj.cpp	WoW/Source/WorldClient/MapWeather.cpp(1);WoW/Source/Game/GameClient/Win32/WardenClient.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1)	delete
+00653D44	1	WoW/Source/WorldClient/MapObj.cpp	WoW/Source/WorldClient/MapWeather.cpp(1);WoW/Source/Game/GameClient/Win32/WardenClient.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1)	delete
+00661770	1	Engine/Source/BlizzardCore/Source/Packages/Mopaq/SFileArchives.cpp	Engine/Source/BlizzardCore/Source/Packages/Mopaq/SFile.cpp(1)	(attributes)
+00661CC0	1	Engine/Source/Os/Win64/OsURLDownload.cpp	Engine/Source/BlizzardCore/Source/System/URL/Win32/URL.cpp(1);Engine/Source/Os/Win32/OsURLDownload.cpp(1);Engine/Source/BlizzardCore/Source/System/URL/Win64/URL.cpp(1)	Blizzard Web Client
+00668100	1	Engine/Source/BlizzardCore/Source/Packages/Streaming/Manifests.cpp		FileManifest::ReadDirectFile - LoadFile failed
+00668132	1	Engine/Source/BlizzardCore/Source/Packages/Streaming/Manifests.cpp		FileManifest::ReadDirectFile - ReadDirectFileFromBuffer failed
+006759F0	1	WoW/Source/WowServices/BattlenetLogin.cpp	Engine/Source/BlizzardCore/Source/Packages/Streaming/Manifests.cpp(1)	version
+00675AC7	1	Engine/Source/BlizzardCore/Source/Packages/Streaming/Manifests.cpp		Transport::ReadDirectFile - GetItemTag failed
+00675FD4	1	WoW/Source/WowServices/BattlenetLogin.cpp	Engine/Source/BlizzardCore/Source/Packages/Streaming/Manifests.cpp(1)	version
+00676041	1	Engine/Source/BlizzardCore/Source/Packages/Streaming/Manifests.cpp		source
+0067621D	1	Engine/Source/BlizzardCore/Source/Packages/Streaming/Manifests.cpp		SourceManifest::ReadDirectfile - GetItemTag failed
+00676990	1	Engine/Source/BlizzardCore/Source/Packages/Streaming/Manifests.cpp		Transport::ReadDirectFile - failed to load file
+00676E20	1	Engine/Source/BlizzardCore/Source/Packages/Streaming/Manifests.cpp		SourceManifest::ReadDirectfile - failed to load file
+00676EC0	3	Engine/Source/BlizzardCore/Source/System/Thread/ThreadAPI.cpp	Engine/Source/BlizzardCore/Source/System/File/File.cpp(2);Engine/Source/BlizzardCore/Source/Packages/Mopaq/MPQGlobals.cpp(2);Engine/Source/BlizzardCore/Source/System/Using/Using.cpp(1)	Blizzard::Thread | Blizzard::Memory | Blizzard::ThreadLocalStorage
+0067A300	1	Engine/Source/BlizzardCore/Source/Packages/Streaming/Win32/Manifests.cpp	Engine/Source/BlizzardCore/Source/Packages/Streaming/Win64/Manifests.cpp(1)	Transport::ReadIndirectFile - DownloadURL failed
+0067A318	1	Engine/Source/BlizzardCore/Source/Packages/Streaming/Win32/Manifests.cpp	Engine/Source/BlizzardCore/Source/Packages/Streaming/Win64/Manifests.cpp(1)	Failed to load transport manifest.
+0067AC90	1	Engine/Source/BlizzardCore/Source/Packages/Streaming/Win32/Manifests.cpp	Engine/Source/BlizzardCore/Source/Packages/Streaming/Win64/Manifests.cpp(1)	SourceManifest::ReadIndirectFile - DownloadURL failed
+0067ACA8	1	Engine/Source/BlizzardCore/Source/Packages/Streaming/Win32/Manifests.cpp	Engine/Source/BlizzardCore/Source/Packages/Streaming/Win64/Manifests.cpp(1)	Failed to load source manifest.
+0067AD40	1	Engine/Source/BlizzardCore/Source/Packages/Streaming/Win32/Storage.cpp	Engine/Source/BlizzardCore/Source/Packages/Streaming/Win64/Storage.cpp(1)	Storage::Initialize - s_storageReady said we've been here
+0067AF10	1	Engine/Source/BlizzardCore/Source/Packages/Streaming/Win32/Storage.cpp	Engine/Source/BlizzardCore/Source/Packages/Streaming/Win64/Storage.cpp(1)	Storage::Initialize - MakeAbsolutePath failed
+0067CBC3	1	Engine/Source/SoundEngine/fmodex/src/fmod_systemi.cpp	Engine/Source/SoundEngine/fmodex/src/fmod_file.cpp(1);Engine/Source/BlizzardCore/Source/Packages/Streaming/Win64/Transport.cpp(1);Engine/Source/BlizzardCore/Source/Packages/Streaming/Manifests.cpp(1)	http://
+0067CD2D	1	Engine/Source/SoundEngine/fmodex/src/fmod_systemi.cpp	Engine/Source/SoundEngine/fmodex/src/fmod_file.cpp(1);Engine/Source/BlizzardCore/Source/Packages/Streaming/Win64/Transport.cpp(1);Engine/Source/BlizzardCore/Source/Packages/Streaming/Manifests.cpp(1)	http://
+0067E594	1	WoW/Source/WowServices/BattlenetLogin.cpp	Engine/Source/BlizzardCore/Source/Packages/Streaming/Manifests.cpp(1)	version
+0067E600	3	Engine/Source/BlizzardCore/Source/Packages/Streaming/Manifests.cpp		manifest | sourcemanifest | FileManifest::ReadDirectFileFromBuffer - SourceManifest::Initialize failed
+0067E655	2	Engine/Source/BlizzardCore/Source/Packages/Streaming/Manifests.cpp		transportmanifest | FileManifest::ReadDirectFileFromBuffer - Transport::Initialize failed
+0067E692	1	Engine/Source/BlizzardCore/Source/Packages/Streaming/Manifests.cpp		source
+0067E717	1	Engine/Source/BlizzardCore/Source/Packages/Streaming/Manifests.cpp		bgpreloadsleep
+0067E967	1	Engine/Source/BlizzardCore/Source/Packages/Streaming/Manifests.cpp		FileManifest::ReadDirectFileFromBuffer - GetItemTag failed
+0067E978	1	Engine/Source/SoundEngine/fmodex/src/fmod_systemi.cpp	Engine/Source/SoundEngine/fmodex/src/fmod_file.cpp(1);Engine/Source/BlizzardCore/Source/Packages/Streaming/Win64/Transport.cpp(1);Engine/Source/BlizzardCore/Source/Packages/Streaming/Manifests.cpp(1)	http://
+00680179	1	Engine/Source/SoundEngine/fmodex/src/fmod_systemi.cpp	Engine/Source/SoundEngine/fmodex/src/fmod_file.cpp(1);Engine/Source/BlizzardCore/Source/Packages/Streaming/Win64/Transport.cpp(1);Engine/Source/BlizzardCore/Source/Packages/Streaming/Manifests.cpp(1)	http://
+006803C5	1	Engine/Source/BlizzardCore/Source/Packages/Streaming/Tracker.cpp		http://eu.tracker.worldofwarcraft.com:3724/announce
+006803CC	1	Engine/Source/BlizzardCore/Source/Packages/Streaming/Tracker.cpp		http://us.tracker.worldofwarcraft.com:3724/announce
+00680A6A	12	Engine/Source/BlizzardCore/Source/Packages/Streaming/Tracker.cpp		?info_hash= | &peer_id= | &port= | &uploaded=0 | &downloaded=0 | &left=2 | &event=started | &left=0 | &event=completed | &event=stopped | &downloaded=1 | &left=1
+006A0000	1	WoW/Source/WorldClient/MapObj.cpp	WoW/Source/WorldClient/MapWeather.cpp(1);WoW/Source/Game/GameClient/Win32/WardenClient.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1)	delete
+006F0B85	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_AFFECTING_COMBAT
+006F0B8B	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_ALREADY_AT_FULL_HEALTH
+006F0B91	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_ALREADY_AT_FULL_MANA
+006F0B97	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_ALREADY_AT_FULL_POWER
+006F0B9D	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_ALREADY_BEING_TAMED
+006F0BA3	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_ALREADY_HAVE_CHARM
+006F0BA9	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_ALREADY_HAVE_SUMMON
+006F0BAF	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_ALREADY_OPEN
+006F0BB5	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_AURA_BOUNCED
+006F0BBB	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_AUTOTRACK_INTERRUPTED
+006F0BC1	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_BAD_IMPLICIT_TARGETS
+006F0BC7	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_BAD_TARGETS
+006F0BCD	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_CANT_BE_CHARMED
+006F0BD3	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_CANT_BE_DISENCHANTED
+006F0BD9	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_CANT_BE_DISENCHANTED_SKILL
+006F0BDF	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_CANT_BE_PROSPECTED
+006F0BE5	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_CANT_CAST_ON_TAPPED
+006F0BEB	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_CANT_DUEL_WHILE_INVISIBLE
+006F0BF1	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_CANT_DUEL_WHILE_STEALTHED
+006F0BF7	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_CANT_STEALTH
+006F0BFD	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_CASTER_AURASTATE
+006F0C03	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_CASTER_DEAD
+006F0C09	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_CHARMED
+006F0C0F	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_CHEST_IN_USE
+006F0C15	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_CONFUSED
+006F0C1B	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_DONT_REPORT
+006F0C21	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_EQUIPPED_ITEM
+006F0C27	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_EQUIPPED_ITEM_CLASS
+006F0C2D	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_EQUIPPED_ITEM_CLASS_MAINHAND
+006F0C33	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_EQUIPPED_ITEM_CLASS_OFFHAND
+006F0C39	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_ERROR
+006F0C3F	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_FIZZLE
+006F0C45	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_FLEEING
+006F0C4B	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_FOOD_LOWLEVEL
+006F0C51	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_HIGHLEVEL
+006F0C57	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_HUNGER_SATIATED
+006F0C5D	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_IMMUNE
+006F0C63	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_INTERRUPTED
+006F0C69	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_INTERRUPTED_COMBAT
+006F0C6F	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_ITEM_ALREADY_ENCHANTED
+006F0C75	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_ITEM_GONE
+006F0C7B	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_ITEM_NOT_FOUND
+006F0C81	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_ITEM_NOT_READY
+006F0C87	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_LEVEL_REQUIREMENT
+006F0C8D	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_LINE_OF_SIGHT
+006F0C93	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_LOWLEVEL
+006F0C99	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_LOW_CASTLEVEL
+006F0C9F	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_MAINHAND_EMPTY
+006F0CA5	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_MOVING
+006F0CAB	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NEED_AMMO
+006F0CB1	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NEED_AMMO_POUCH
+006F0CB7	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NEED_EXOTIC_AMMO
+006F0CBD	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NOPATH
+006F0CC3	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NOT_BEHIND
+006F0CC9	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NOT_FISHABLE
+006F0CCF	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NOT_FLYING
+006F0CD5	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NOT_HERE
+006F0CDB	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NOT_INFRONT
+006F0CE1	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NOT_IN_CONTROL
+006F0CE7	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NOT_KNOWN
+006F0CED	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NOT_MOUNTED
+006F0CF3	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NOT_ON_TAXI
+006F0CF9	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NOT_ON_TRANSPORT
+006F0CFF	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NOT_READY
+006F0D05	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NOT_SHAPESHIFT
+006F0D0B	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NOT_STANDING
+006F0D11	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NOT_TRADEABLE
+006F0D17	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NOT_TRADING
+006F0D1D	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NOT_UNSHEATHED
+006F0D23	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NOT_WHILE_GHOST
+006F0D29	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NO_AMMO
+006F0D2F	1	WoW/Source/Magic/MagicClient/Spell_C.cpp	WoW/Source/Object/ObjectClient/Item_C.cpp(1)	SPELL_FAILED_NO_CHARGES_REMAIN
+006F0D35	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NO_CHAMPION
+006F0D3B	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NO_COMBO_POINTS
+006F0D41	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NO_DUELING
+006F0D47	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NO_ENDURANCE
+006F0D4D	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NO_FISH
+006F0D53	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NO_ITEMS_WHILE_SHAPESHIFTED
+006F0D59	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NO_MOUNTS_ALLOWED
+006F0D5F	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NO_PET
+006F0D65	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NO_POWER
+006F0D6B	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NOTHING_TO_DISPEL
+006F0D71	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NOTHING_TO_STEAL
+006F0D77	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_ONLY_ABOVEWATER
+006F0D7D	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_ONLY_DAYTIME
+006F0D83	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_ONLY_INDOORS
+006F0D89	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_ONLY_MOUNTED
+006F0D8F	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_ONLY_NIGHTTIME
+006F0D95	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_ONLY_OUTDOORS
+006F0D9B	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_ONLY_SHAPESHIFT
+006F0DA1	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_ONLY_STEALTHED
+006F0DA7	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_ONLY_UNDERWATER
+006F0DAD	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_OUT_OF_RANGE
+006F0DB3	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_PACIFIED
+006F0DB9	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_POSSESSED
+006F0DBF	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_REAGENTS
+006F0DC5	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_REQUIRES_AREA
+006F0DCB	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_REQUIRES_SPELL_FOCUS
+006F0DD1	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_ROOTED
+006F0DD7	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_SILENCED
+006F0DDD	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_SPELL_IN_PROGRESS
+006F0DE3	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_SPELL_LEARNED
+006F0DE9	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_SPELL_UNAVAILABLE
+006F0DEF	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_STUNNED
+006F0DF5	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_TARGETS_DEAD
+006F0DFB	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_TARGET_AFFECTING_COMBAT
+006F0E01	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_TARGET_AURASTATE
+006F0E07	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_TARGET_DUELING
+006F0E0D	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_TARGET_ENEMY
+006F0E13	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_TARGET_ENRAGED
+006F0E19	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_TARGET_FRIENDLY
+006F0E1F	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_TARGET_IN_COMBAT
+006F0E25	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_TARGET_IS_PLAYER
+006F0E2B	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_TARGET_IS_PLAYER_CONTROLLED
+006F0E31	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_TARGET_NOT_DEAD
+006F0E37	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_TARGET_NOT_IN_PARTY
+006F0E3D	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_TARGET_NOT_LOOTED
+006F0E43	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_TARGET_NOT_PLAYER
+006F0E49	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_TARGET_NO_POCKETS
+006F0E4F	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_TARGET_NO_WEAPONS
+006F0E55	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_TARGET_UNSKINNABLE
+006F0E5B	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_THIRST_SATIATED
+006F0E61	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_TOO_CLOSE
+006F0E67	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_TOO_MANY_OF_ITEM
+006F0E6D	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_TOTEM_CATEGORY
+006F0E73	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_TOTEMS
+006F0E7F	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_TRY_AGAIN
+006F0E85	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_UNIT_NOT_BEHIND
+006F0E8B	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_UNIT_NOT_INFRONT
+006F0E91	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_WRONG_PET_FOOD
+006F0E97	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NOT_WHILE_FATIGUED
+006F0E9D	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_TARGET_NOT_IN_INSTANCE
+006F0EA3	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NOT_WHILE_TRADING
+006F0EA9	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_TARGET_NOT_IN_RAID
+006F0EC1	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_TARGET_FREEFORALL
+006F0EC7	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NO_EDIBLE_CORPSES
+006F0ECD	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_ONLY_BATTLEGROUNDS
+006F0ED3	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_TARGET_NOT_GHOST
+006F0EDF	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_TRANSFORM_UNUSABLE
+006F0EE5	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_WRONG_WEATHER
+006F0EEB	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_DAMAGE_IMMUNE
+006F0EF1	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_PREVENTED_BY_MECHANIC
+006F0EF7	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_PLAY_TIME
+006F0EFD	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_REPUTATION
+006F0F03	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_MIN_SKILL
+006F0F09	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NOT_IN_ARENA
+006F0F0F	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NOT_ON_SHAPESHIFT
+006F0F15	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NOT_ON_STEALTHED
+006F0F1B	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NOT_ON_DAMAGE_IMMUNE
+006F0F21	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NOT_ON_MOUNTED
+006F0F27	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_TOO_SHALLOW
+006F0F2D	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_TARGET_NOT_IN_SANCTUARY
+006F0F33	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_TARGET_IS_TRIVIAL
+006F0F39	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_BM_OR_INVISGOD
+006F0F3F	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_EXPERT_RIDING_REQUIREMENT
+006F0F45	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_ARTISAN_RIDING_REQUIREMENT
+006F0F4B	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NOT_IDLE
+006F0F51	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NOT_INACTIVE
+006F0F57	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_PARTIAL_PLAYTIME
+006F0F5D	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NO_PLAYTIME
+006F0F63	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NOT_IN_BATTLEGROUND
+006F0F69	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_NOT_IN_RAID_INSTANCE
+006F0F6F	1	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_ONLY_IN_ARENA
+006F0F75	2	WoW/Source/Magic/MagicClient/Spell_C.cpp		SPELL_FAILED_TARGET_LOCKED_TO_RAID_INSTANCE | SPELL_FAILED_UNKNOWN
+006F6120	1	WoW/Source/Magic/MagicClient/Spell_C_Scripts.cpp		Usage: SpellCanTargetUnit("unit")
+006FC7A0	1	WoW/Source/Magic/MagicClient/Spell_C_Scripts.cpp		Usage: SpellTargetUnit("unit")
+00704980	1	Engine/Source/FrameScript/FrameScript_Scripts.cpp		Usage: issecurevariable([table,] "variable")
+00704CE0	1	Engine/Source/FrameScript/FrameScript_Scripts.cpp		hooksecurefunc(): %s is not a function
+00708870	1	Engine/Source/Frame/SimpleFrameScript_Scripts.cpp		Usage: GetText("token" [,gender] [,ordinal])
+00708900	1	Engine/Source/Frame/SimpleFrameScript_Scripts.cpp		Usage: CreateFont("name")
+00708AB0	1	Engine/Source/Frame/SimpleFrameScript_Scripts.cpp		EnumerateFrames: Couldn't find 'this' in current object
+00708C10	1	Engine/Source/Frame/SimpleFrameScript_Scripts.cpp		CreateFrame: Couldn't find 'this' in parent object
+00708F80	1	Engine/Source/Frame/SimpleFrameScript_Scripts.cpp		Usage: GetFramesRegisteredForEvent("event")
+00733DE0	2	Engine/Source/FrameScript/FrameScript.cpp		invalid format (width or precision too long) | invalid option in `format'
+00734FE0	1	WoW/Source/Ui/ScriptEvents_Scripts.cpp		normal
+00749900	1	WoW/Source/WorldClient/MapObj.cpp	WoW/Source/WorldClient/MapWeather.cpp(1);WoW/Source/Game/GameClient/Win32/WardenClient.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1)	delete
+00749A70	2	Engine/Source/Os/Win32/System.cpp	Engine/Source/Os/Win64/System.cpp(2)	Logs\cpu.log | UNABLE TO IDENTIFY CPU
+00749AD0	8	Engine/Source/Os/Win32/System.cpp	Engine/Source/Os/Win64/System.cpp(8)	vendor: %d | features: %08X | sockets: %d | cores: %d | processors: %d | vendor id string= %s | standard (%d): 1b=%08X 1d=%08x 4a=%08X | extended (%d): 1c=%08X 1d=%08x 8c=%08X
+00749BBE	1	Engine/Source/Os/Win32/System.cpp	Engine/Source/Os/Win64/System.cpp(1)	processor brand string= %s
+0074A116	1	Engine/Source/Os/Win32/System.cpp	Engine/Source/Os/Win64/System.cpp(1)	Unable to find .text section
+0074A19F	1	Engine/Source/Os/Win32/System.cpp	Engine/Source/Os/Win64/System.cpp(1)	Invalid function pointer: %p
+0074A310	2	Engine/Source/Os/Win32/System.cpp	Engine/Source/Os/Win64/System.cpp(2)	powrprof.dll | CallNtPowerInformation
+0074A736	1	Engine/Source/BlizzardCore/Source/System/Hardware/Win32/Hardware.cpp	Engine/Source/BlizzardCore/Source/System/Hardware/Win64/Hardware.cpp(1)	CentaurHalls
+0074B0A0	1	Engine/Source/Os/Win64/Gui.cpp	Engine/Source/Os/Win32/Gui.cpp(1)	OsGuiPointer
+0074E4BB	1	WoW/Source/WorldClient/MapObj.cpp	WoW/Source/WorldClient/MapWeather.cpp(1);WoW/Source/Game/GameClient/Win32/WardenClient.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1)	delete
+0074E5CE	1	WoW/Source/WorldClient/MapObj.cpp	WoW/Source/WorldClient/MapWeather.cpp(1);WoW/Source/Game/GameClient/Win32/WardenClient.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1)	delete
+0074E601	1	Engine/Source/Os/Win32/OsCall.cpp	Engine/Source/Os/Win64/OsCall.cpp(1)	%s [%u]
+00751E90	1	WoW/Source/WorldClient/MapObj.cpp	WoW/Source/WorldClient/MapWeather.cpp(1);WoW/Source/Game/GameClient/Win32/WardenClient.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1)	delete
+007695C5	1	Engine/Source/Os/Win32/Input.cpp	Engine/Source/Os/Win64/Input.cpp(1);Engine/Source/Os/Win32/OsSecureRandom.cpp(1);Engine/Source/Os/Win64/OsSecureRandom.cpp(1)	user32.dll | kernel32.dll
+0077DC10	1	WoW/Source/DB/Rec/VideoHardwareRec.cpp		DBFilesClient\VideoHardware.dbc
+0079239A	1	WoW/Source/WorldClient/MapObj.cpp	WoW/Source/WorldClient/MapWeather.cpp(1);WoW/Source/Game/GameClient/Win32/WardenClient.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1)	delete
+00794000	1	Engine/Source/Frame/CSimpleModel_Scripts.cpp		Invalid model file: %s
+00794310	2	Engine/Source/Frame/CSimpleModel_Scripts.cpp	Engine/Source/Frame/CSimpleScaleAnim.cpp(1);Engine/Source/FrameScript/FrameScript_Object.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1)	<unnamed> | Error: %s:SetSequence(sequence) exceeds valid range of 0 - %d
+007A42F0	1	Engine/Source/Frame/CSimpleColorSelect_Scripts.cpp		%s:SetColorWheelTexture(): Couldn't find 'this' in texture
+007A44F0	1	Engine/Source/Frame/CSimpleColorSelect_Scripts.cpp		%s:SetColorWheelThumbTexture(): Couldn't find 'this' in texture
+007A4720	1	Engine/Source/Frame/CSimpleColorSelect_Scripts.cpp		%s:SetColorValueTexture(): Couldn't find 'this' in texture
+007A4920	1	Engine/Source/Frame/CSimpleColorSelect_Scripts.cpp		%s:SetColorValueThumbTexture(): Couldn't find 'this' in texture
+007A5190	1	Engine/Source/Frame/CSimpleStatusBar_Scripts.cpp	Engine/Source/Frame/CSimpleCheckbox_Scripts.cpp(1)	%s:SetCheckedTexture(): Couldn't find 'this' in texture
+007A55E0	1	Engine/Source/Frame/CSimpleSlider_Scripts.cpp		%s:SetThumbTexture(): Couldn't find 'this' in texture
+007A75B0	1	Engine/Source/Frame/CSimpleMessageFrame_Scripts.cpp	Engine/Source/Frame/CSimpleMessageFrame.cpp(1);Engine/Source/FrameXML/LoadXML.cpp(1);Engine/Source/Frame/CSimpleMessageScrollFrame_Scripts.cpp(1)	BOTTOM
+007A7E70	1	Engine/Source/Frame/CSimpleMessageFrame_Scripts.cpp	Engine/Source/Frame/CSimpleMessageFrame.cpp(1);Engine/Source/FrameXML/LoadXML.cpp(1);Engine/Source/Frame/CSimpleMessageScrollFrame_Scripts.cpp(1)	BOTTOM
+007A99B0	1	Engine/Source/Frame/CSimpleEditBox_Scripts.cpp		Usage: %s:SetBlinkSpeed(speed)
+007A9B00	1	Engine/Source/Frame/CSimpleEditBox_Scripts.cpp		Usage: %s:SetText("text")
+007A9C10	1	Engine/Source/Frame/CSimpleEditBox_Scripts.cpp		Usage: %s:SetNumber(number)
+007A9DB0	1	Engine/Source/Frame/CSimpleEditBox_Scripts.cpp		Usage: %s:AddHistoryLine("text")
+007AA1B0	1	Engine/Source/Frame/CSimpleEditBox_Scripts.cpp		Usage: %s:SetMaxBytes(max)
+007AA2C0	1	Engine/Source/Frame/CSimpleEditBox_Scripts.cpp		Usage: %s:SetMaxLetters(max)
+007AA9A0	1	Engine/Source/Frame/CSimpleStatusBar_Scripts.cpp	Engine/Source/Frame/CSimpleCheckbox_Scripts.cpp(1)	%s:SetCheckedTexture(): Couldn't find 'this' in texture
+007AABD0	1	Engine/Source/Frame/CSimpleCheckbox_Scripts.cpp		%s:SetDisabledCheckedTexture(): Couldn't find 'this' in texture
+007AB4E0	1	Engine/Source/Frame/CSimpleScaleAnim.cpp	Engine/Source/FrameScript/FrameScript_Object.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1);Engine/Source/Frame/CScriptRegion_Scripts.cpp(1)	<unnamed>
+007AB5A0	1	Engine/Source/Frame/CSimpleScaleAnim.cpp	Engine/Source/FrameScript/FrameScript_Object.cpp(1);Engine/Source/Frame/CSimpleMessageFrame.cpp(1);Engine/Source/Frame/CScriptRegion_Scripts.cpp(1)	<unnamed>
+007AB600	1	Engine/Source/Frame/CSimpleButton_Scripts.cpp		%s:SetFontString(): Couldn't find 'this' in fontstring
+007ABF10	1	Engine/Source/Frame/CSimpleButton_Scripts.cpp		SetNormalTexture
+007ABF50	1	Engine/Source/Frame/CSimpleButton_Scripts.cpp		SetPushedTexture
+007ABF90	1	Engine/Source/Frame/CSimpleButton_Scripts.cpp		SetDisabledTexture
+007ABFD0	1	Engine/Source/Frame/CSimpleButton_Scripts.cpp		%s:SetHighlightTexture(): Couldn't find 'this' in texture
+007AC580	1	WoW/Source/Ui/UIBindings.cpp	WoW/Source/Ui/UIMacroOptions.cpp(1);Engine/Source/Frame/CSimpleButton.cpp(1);Engine/Source/Frame/CSimpleButton_Scripts.cpp(1)	LeftButton
+007B6BC0	1	WoW/Source/SoundInterface/SoundInterface2_Scripts.cpp		Usage: PlayMusic("musicfile")
+007B6C20	1	WoW/Source/SoundInterface/SoundInterface2_Scripts.cpp		Usage: PlaySoundFile("soundfile")
+007B6CD0	1	WoW/Source/SoundInterface/SoundInterface2_Scripts.cpp		Usage: Sound_ChatSystem_GetInputDriverNameByIndex(InputDriverIndex)
+007B6DD0	1	WoW/Source/SoundInterface/SoundInterface2_Scripts.cpp		Usage: Sound_ChatSystem_GetOutputDriverNameByIndex(OutputDriverIndex)
+007B6ED0	1	WoW/Source/SoundInterface/SoundInterface2_Scripts.cpp		Usage: Sound_GameSystem_GetInputDriverNameByIndex(InputDriverIndex)
+007B6FD0	1	WoW/Source/SoundInterface/SoundInterface2_Scripts.cpp		Usage: Sound_GetOutputDriverNameByIndex(OutputDriverIndex)
+007B70C0	1	WoW/Source/SoundInterface/SoundInterface2_Scripts.cpp		Usage: VoiceChat_RecordLoopbackSound(MaxRecordTimeInSeconds)
+007B7250	2	WoW/Source/SoundInterface/SoundInterface2ZoneSounds.cpp		VoiceChatOn | VoiceChatOff
+007B7350	2	WoW/Source/Game/GameClient/ComSatClient.cpp	WoW/Source/SoundInterface/SoundInterface2_Scripts.cpp(2);WoW/Source/SoundInterface/SoundInterface2_CVar.cpp(2);WoW/Source/Ui/ChatFrame.cpp(2)	EnableMicrophone | EnableVoiceChat
+007FABA2	1	Engine/Source/SoundEngine/fmodex/src/fmod.cpp	Engine/Source/SoundEngine/fmodex/src/fmod_channelgroupi.cpp(1);Engine/Source/SoundEngine/fmodex/src/fmod_thread.cpp(1);Engine/Source/SoundEngine/fmodex/src/fmod_soundgroupi.cpp(1)	(null)
+0081FA68	2	Engine/Source/SoundEngine/fmodex/src/fmod_codec_s3m.cpp	Engine/Source/SoundEngine/fmodex/src/fmod_codec_it.cpp(2);Engine/Source/SoundEngine/fmodex/src/fmod_codec_mod.cpp(2);Engine/Source/SoundEngine/fmodex/src/fmod_codec_xm.cpp(2)	Number of channels | Sample name %d
+008332CD	3	Engine/Source/SoundEngine/fmodex/src/fmod_file_net.cpp	Engine/Source/SoundEngine/fmodex/src/fmod_codec_tag.cpp(1);Engine/Source/SoundEngine/fmodex/src/fmod.h(1)	StreamTitle=' | ARTIST | StreamUrl='
+008429A7	1	Engine/Source/SoundEngine/fmodex/src/fmod_channel_software.cpp	Engine/Source/SoundEngine/fmodex/win32/src/fmod_channel_openal.cpp(1)	FMOD Resampler Unit
+00843158	2	Engine/Source/SoundEngine/fmodex/src/fmod_channel_software.cpp	Engine/Source/SoundEngine/fmodex/win32/src/fmod_channel_openal.cpp(2)	FMOD Channel DSPHead Unit | FMOD WaveTable Unit
+0084FC8C	1	Engine/Source/SoundEngine/fmodex/src/fmod_channel_emulated.cpp		EmulatedChannel DSPHead Unit
+0085195D	1	Engine/Source/SoundEngine/fmodex/src/fmod_channel_software.cpp	Engine/Source/SoundEngine/fmodex/win32/src/fmod_channel_openal.cpp(1)	FMOD Resampler Unit
+00851FAA	2	Engine/Source/SoundEngine/fmodex/src/fmod_channel_software.cpp	Engine/Source/SoundEngine/fmodex/win32/src/fmod_channel_openal.cpp(2)	FMOD Channel DSPHead Unit | FMOD WaveTable Unit
