@@ -33,15 +33,16 @@ int32_t CommonMain() {
         SErrRegisterHandler(SendErrorLog);
     }
 
-    // TODO: 2.4.3 runs this block here (raw addresses from 0x0040682A); see re/243/entry_functions.md.
-    // Identified:
-    //   0x004063B0  InitializeGlobal()  (LoadMFIL("WoW.mfil"), CVar registration)
-    //   0x00402C40  install-path registry lookup (SetInstallPath family)
-    // Still unidentified: 0x0065A3F0, 0x00402460, 0x00667090, 0x00427E80, 0x00405E50.
-    // Reconstructed shape:
-    //   if (!0x0065A3F0() && !0x00402460()) 0x00402C40();
-    //   if (0x004063B0()) { if (0x00667090()) 0x00427E80(); 0x00405E50(); }
-    // The game loop (EventDoMessageLoop) lives in this block. Port it before the client can run.
+    // TODO: 2.4.3 runs this block here (raw addresses from 0x0040682A; see re/243/entry_functions.md).
+    //   if (!sub_65A3F0() && !sub_402460())    // 0x65A3F0 returns false; 0x402460 reads g_0xBDB208 == 2
+    //       SetInstallPath();                   // 0x402C40 (3.3.5a Client.cpp:815)
+    //   if (sub_4063B0()) {                     // big init: CmdLineProcess + CVar registration
+    //       if (sub_667090())                   // always true
+    //           sub_427E80();                   // thunk -> 0x429D50 (subsystem reset)
+    //       sub_405E50();                       // large teardown sequence (BeginCloseGame?)
+    //   }
+    // The game loop (3.3.5a EventDoMessageLoop) has not been located; port this block before the
+    // client can run.
 
     StormDestroy();
 

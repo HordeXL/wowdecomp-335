@@ -11,13 +11,13 @@ Produced with `re/tools/identify_func.py` (string + import references) cross-ref
 | `0x0046C7E0` | single `ret` | `InvalidParameterHandler` | confirmed (matches 3.3.5a) |
 | `0x00406790` | `SRegLoadValue("World of Warcraft\\Client","SendErrorLogs")`, title `"World of WarCraft (build 8606)"` | `CommonMain` | high |
 | `0x00749F20` | `OpenProcessToken`, `GetTokenInformation`, `AllocateAndInitializeSid`, `InitializeAcl`, `AddAccessDeniedAce/AddAccessAllowedAce`, `SetSecurityInfo` | process security hardening (restricts access to the process) | high — **2.4.3-only**, not in 3.3.5a's `WinMain` |
-| `0x0065A3F0` | no string/import refs; returns bool | unknown | low |
-| `0x00402460` | `'%s%s'`, `'****'` | unknown (masked-string helper) | low |
-| `0x00402C40` | `'InstallPath'`, `'World of Warcraft'` | install-path registry lookup (`SetInstallPath` family in `Client.cpp`) | medium |
-| `0x004063B0` | `'WoW.mfil'`, `'Config.wtf'`, `'locale'`, `'dbCompress'`, `'processAffinityMask'`, `'timingMethod'`, `'.\Client.cpp'` | **`InitializeGlobal`** (3.3.5a `Client.cpp:1673`: `LoadMFIL("WoW.mfil")`, CVar registration) | high |
-| `0x00667090` | no string/import refs; returns bool | unknown | low |
-| `0x00427E80` | no string/import refs | unknown | low |
-| `0x00405E50` | `'World of Warcraft'`, `'.PAD'` | unknown (registry/path; possibly `BeginCloseGame`) | low |
+| `0x0065A3F0` | `xor al,al; ret` | constant-**false** predicate | high |
+| `0x00402460` | `cmp dword[0xBDB208],2; sete al` | returns `(g_0xBDB208 == 2)` — the launch-mode flag (3.3.5a `s_unk_B2FA10`) | high |
+| `0x00402C40` | `'InstallPath'`, `'World of Warcraft'` | **`SetInstallPath`** (3.3.5a `Client.cpp:815`) | high |
+| `0x004063B0` | `'WoW.mfil'`, `'Config.wtf'`, `'locale'`, `'dbCompress'`, `'processAffinityMask'`, `'timingMethod'`, `'.\Client.cpp'` | big init (~313 insns, ~55 calls): `CmdLineProcess`/CVar registration, not 3.3.5a's small `InitializeGlobal` | medium |
+| `0x00667090` | `mov al,1; ret` | constant-**true** predicate | high |
+| `0x00427E80` | thunk `jmp 0x00429D50` | thunk to `0x00429D50` (resets `[0xBDCF7C]`, calls `0x00649480`/`0x00429AC0`) | high |
+| `0x00405E50` | `'World of Warcraft'`, `'.PAD'`; large body calling `0x006470F0`,`0x0074BEB0`,... | large teardown sequence (`BeginCloseGame` candidate) | medium |
 
 ## CommonMain control flow (2.4.3, raw addresses)
 
@@ -27,15 +27,17 @@ OsSystemEnableCpuLog / SetPaths
 SRegLoadValue/SaveValue "SendErrorLogs"
 SErrSetLogTitleString("...build 8606") / SErrSetLogCallback(WowLogHeader) / SErrRegisterHandler(SendErrorLog)
 
-0x004065A3F0 ; test al; jne A       # \  preamble not present in 3.3.5a's CommonMain
-0x00402460   ; test al; jne A       #  |
-0x00402C40                          # /  install-path registry
-A: 0x004063B0 ; test al; je C       # if (InitializeGlobal())
-   0x00667090 ; test al; je B       #   if (0x667090())
-   0x00427E80                       #     0x427E80()
-B: 0x00405E50                       #   0x405E50()   (BeginCloseGame?)
-C: 0x00648FC0                       # StormDestroy()
+if (!isFalse() && !(g_0xBDB208 == 2))   # 0x0065A3F0 (always false) / 0x00402460 (== 2)
+    SetInstallPath();                    # 0x00402C40   -- the 3.3.5a InitializeGlobal prologue
+
+if (0x004063B0()) {                      # big init: CmdLineProcess + CVar registration
+    if (isTrue())                        # 0x00667090 (always true)
+        0x00427E80();                    # thunk -> 0x00429D50 (subsystem reset)
+    0x00405E50();                        # large teardown sequence (BeginCloseGame?)
+}
+StormDestroy();                          # 0x00648FC0
 ```
 
-The `0x004065A3F0 / 0x00402460 / 0x00402C40` preamble and the extra nesting around
-`InitializeGlobal` differ from 3.3.5a and still need IDA-quality analysis.
+Notes: `0x0065A3F0`/`0x00667090` are constant false/true stubs (possibly trial/build flags);
+`0x00402460` reads the launch-mode flag at `0x00BDB208`. The game loop (3.3.5a
+`EventDoMessageLoop`) has not been located yet — it is somewhere in the `0x004063B0` path.
