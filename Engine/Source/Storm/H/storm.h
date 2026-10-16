@@ -142,7 +142,8 @@ void SErrDisplayAppFatal(const char* format, ...);
 [[noreturn]] void SErrDisplayAppFatalMessage(const char* message, const char* filename, int32_t linenumber);
 void SErrDisplayAppFatalCustom(uint32_t errorcode, const char* format, ...);
 void SErrDisplayAppFatalCustomV(uint32_t errorcode, const char* format, va_list args);
-int32_t STORMAPI SErrDisplayError(uint32_t errorcode, const char* filename, int32_t linenumber, const char* description, int32_t recoverable, uint32_t exitcode, uint32_t unknown);
+// 2.4.3 dropped the trailing `unknown` argument that 3.3.5a has: FatalError (0x00643140) passes 6.
+int32_t STORMAPI SErrDisplayError(uint32_t errorcode, const char* filename, int32_t linenumber, const char* description, int32_t recoverable, uint32_t exitcode);
 int32_t SErrDisplayErrorFmt(uint32_t errorcode, const char* filename, int32_t linenumber, int32_t recoverable, uint32_t exitcode, const char* format, ...);
 int32_t STORMAPI SErrGetErrorStr(uint32_t errorcode, char* buffer, uint32_t bufferchars);
 uint32_t STORMAPI SErrGetLastError();

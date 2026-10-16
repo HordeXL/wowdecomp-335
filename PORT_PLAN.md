@@ -65,9 +65,11 @@ Order by dependency, smallest first:
 **Status:** started. The Storm public headers (`Types.h`, `storm.h`) and the two global operators
 (`Source/SMem.cpp`) are ported; `Storm.lib` builds and `cmake --build` stays green (a static library
 tolerates the not-yet-defined heap methods). `SMemAlloc` (0x006441F0) and `SMemFree` (0x00644230) are
-ported as wrappers over the heap object (`SHeap` at 0x00D73700). Next: the heap `Alloc`/`Free`
-(0x00644090 / 0x00644190) and their helpers, `FatalError` (0x00643140), `operator delete`; then the
-other Storm files. Addresses are in `re/243/function_map.md`.
+ported as wrappers over the heap object (`SHeap` at 0x00D73700), as are the heap `Alloc`/`Free`
+(0x00644090 / 0x00644190) and `FatalError` (0x00643140). Next: the heap's four helpers
+(`GetSizeClass` 0x006434A0, `AllocateBlock` 0x00643A20, `ValidateBlock` 0x00643680, `ReleaseBlock`
+0x00643F00) and the heap initialization, then `operator delete` and the other Storm files.
+Addresses are in `re/243/function_map.md`.
 
 ### Phase 3 — Engine modules
 
