@@ -58,18 +58,38 @@ allocator object:
 
 `SMemAlloc` then zeroes the block with `memset` (0x0040A620) when `flags & SMEM_FLAG_ZEROMEMORY`.
 
-The allocator is a tracked heap: it returns `userptr = block + 8` (an 8-byte header), guards with a
-critical section at `this + 0x42C`, and has a validation flag at `this + 0x424`.
+## Storm heap layout (from the disassembly)
+
+`SHeap` (0x00D73700) is a size-classed free-list allocator:
+
+| Offset | Field |
+|---|---|
+| `+0x00C` | bin descriptors, 16 bytes each: `bin[sizeClass]` |
+| `+0x20C` | free-list heads, 4 bytes each: `head[index]` |
+| `+0x40C` | statistic (bytes in use; `ReleaseBlock` subtracts) |
+| `+0x410` | statistic (`ReleaseBlock` subtracts the block size) |
+| `+0x414` | statistic (`ReleaseBlock` adds `size - (1<<class) + 8`) |
+| `+0x424` | enabled flag (checked by `Alloc`/`Free`) |
+| `+0x42C` | `CRITICAL_SECTION` guarding the bins |
+
+Allocation header (8 bytes): word 0 bit 0 = allocated, bits 1..7 = free-list index; word 1 bits 0..4
+= size class.
+
+Ported so far in `Engine/Source/Storm/Source/SMem.cpp`: `Alloc` (0x00644090), `Free` (0x00644190),
+`GetSizeClass` (0x006434A0, = `max(3, ceil(log2(bytes + 8)))`), `FatalError` (0x00643140),
+`SMemAlloc`/`SMemFree`, the global operators. Still to port:
 
 | Address | Role |
 |---|---|
-| `0x006434A0` | size computation (called by `Alloc`) |
-| `0x00643A20` | the actual allocation (called by `Alloc` when `this->[0x424]` is set) |
-| `0x00643680`, `0x00643F00` | free path (called by `Free`) |
-| `0x00640xxx` / `0x0064A620` | memset, etc. |
+| `0x00643A20` | `AllocateBlock(sizeClass, bytes, unk)` — splits from `bin[class]` (16-byte stride) or recurses a class up; calls `0x006432B0`, `0x006438F0` |
+| `0x00643680` | `ValidateBlock(block, ...)` — `IsBadReadPtr`, header checks, free-list membership; `STORM_ERROR_MEM_INVALID` (0x8510007C) via `0x00643110` |
+| `0x00643F00` | `ReleaseBlock(block)` — unlinks from `bin[class]`, updates the stats at +0x40C/+0x410/+0x414; calls `0x00643530` |
+| `0x00643210` | bin-list membership test |
+| `0x00643530` | bin-list unlink |
+| `0x00643110` | Storm error report (`STORM_ERROR_MEM_INVALID`) |
 
-Porting `SMemAlloc`/`SMemFree` therefore needs this heap subsystem (the object at 0x00D73700 and its
-`Alloc`/`Free` plus the four helpers) first.
+`ValidateBlock`'s tail also tests a heap-integrity word at `this+4` against the block pointer; its
+exact meaning needs IDA. This allocator's bin-list methods are the next subsystem to reconstruct.
 
 ## Caveat: 2.4.3 Storm API signatures differ from 3.3.5a
 
