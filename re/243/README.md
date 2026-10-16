@@ -14,6 +14,7 @@ python re/tools/dump_metadata.py "<path to Wow.exe>" re/243
 | `functions.txt` | Function inventory (10,802): `scan_functions.py` direct-call targets + `scan_vtables.py` RTTI vtable methods |
 | `entry_chain.md` | Disassembly of the `start`/`WinMain`/`CommonMain` chain |
 | `entry_functions.md` | Entry-chain + `CommonMain` callee identification (string/import evidence) |
+| `function_map.md` | Identified Storm/Os/operator addresses with confidence levels |
 | `function_strings.tsv` | Per-function string references (1,530 of the 10,802 functions reference strings) |
 | `function_hints.tsv` | Functions scored against the 3.3.5a source by shared strings (1,027 matched) |
 

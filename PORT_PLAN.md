@@ -62,6 +62,11 @@ Order by dependency, smallest first:
 | 5 | `Engine/Source/Event` | 12 | event queue/scheduler |
 | 6 | `WoW/Source/DB` | 249 | DBC/DB2 loading |
 
+**Status:** not started as code. Module sources pull in their dependency headers, so adding them
+makes `cmake --build` incomplete (configure stays clean). Storm/Os entry points are already
+identified in `re/243/function_map.md`; start here once an IDA database exists, or accept the
+incomplete build and begin with Storm.
+
 ### Phase 3 — Engine modules
 
 `Gx` (23) + `Gxu` (11), `Model2` (8), `Images` (3) + `BLPFile` + `jpeg`, `Frame` (67) +
