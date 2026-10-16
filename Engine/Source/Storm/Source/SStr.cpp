@@ -47,6 +47,31 @@ int32_t STORMAPI SStrCmp(const char* string1, const char* string2, size_t maxcha
     return strncmp(string1, string2, maxchars);
 }
 
+// OFFSET: 0x00644AD0
+size_t STORMAPI SStrCopy(char* dest, const char* source, size_t destsize) {
+    if (!dest || !source) {
+        SErrSetLastError(STORM_ERROR_INVALID_PARAMETER);
+        return 0;
+    }
+
+    char* curr = dest;
+
+    if (destsize == STORM_MAX_STR) {
+        while (*source) {
+            *curr++ = *source++;
+        }
+    } else {
+        char* end = dest + destsize - 1;
+
+        while (*source && curr < end) {
+            *curr++ = *source++;
+        }
+    }
+
+    *curr = 0;
+    return curr - dest;
+}
+
 // Still to port from SStr.cpp: SStrCmpI (0x00644A90 - a null argument returns 0 and the compare goes
-// through 0x00419E85), SStrCopy (0x00644AD0, copies source into dest bound by maxchars), the UTF-8
-// compare helpers, SStrLen/SStrPack/SStrPrintf/SStrToInt/SStrHash and the rest.
+// through 0x00419E85), SStrCopyUTF8, the UTF-8 compare helpers, SStrLen/SStrPack/SStrPrintf/
+// SStrToInt/SStrHash and the rest.
