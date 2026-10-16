@@ -84,9 +84,15 @@ Ported so far in `Engine/Source/Storm/Source/SMem.cpp`: `Alloc` (0x00644090), `F
 | `0x00643A20` | `AllocateBlock(sizeClass, bytes, unk)` — splits from `bin[class]` (16-byte stride) or recurses a class up; calls `0x006432B0`, `0x006438F0` |
 | `0x00643680` | `ValidateBlock(block, ...)` — `IsBadReadPtr`, header checks, free-list membership; `STORM_ERROR_MEM_INVALID` (0x8510007C) via `0x00643110` |
 | `0x00643F00` | `ReleaseBlock(block)` — unlinks from `bin[class]`, updates the stats at +0x40C/+0x410/+0x414; calls `0x00643530` |
-| `0x00643210` | bin-list membership test |
-| `0x00643530` | bin-list unlink |
+| `0x00643210` | membership test: block must be within `[head, head + 0x1000000)` and aligned to its size class |
+| `0x00643530` | computes a sibling/buddy index (`node + ((block - node) ^ (1 << class))`) |
 | `0x00643110` | Storm error report (`STORM_ERROR_MEM_INVALID`) |
+
+The per-class free lists are **binary heaps**, not plain linked lists: `0x006438F0` removes an element
+from the heap array and sifts up (`0x006432C0`), keyed by block size. So the heap is a size-classed
+heap-ordered free-list allocator (buddy-like indexing via XOR). Reconstructing it faithfully needs
+IDA types/xrefs; the interlocking set is `0x00643A20` (allocate/split), `0x006438F0`/`0x006432C0`
+(heap remove/sift), `0x006432B0` (head), `0x00643210` (membership), `0x00643530` (buddy index).
 
 `ValidateBlock`'s tail also tests a heap-integrity word at `this+4` against the block pointer; its
 exact meaning needs IDA. This allocator's bin-list methods are the next subsystem to reconstruct.
