@@ -62,10 +62,11 @@ Order by dependency, smallest first:
 | 5 | `Engine/Source/Event` | 12 | event queue/scheduler |
 | 6 | `WoW/Source/DB` | 249 | DBC/DB2 loading |
 
-**Status:** not started as code. Module sources pull in their dependency headers, so adding them
-makes `cmake --build` incomplete (configure stays clean). Storm/Os entry points are already
-identified in `re/243/function_map.md`; start here once an IDA database exists, or accept the
-incomplete build and begin with Storm.
+**Status:** started. The Storm public headers (`Types.h`, `storm.h`) and the two global operators
+(`Source/SMem.cpp`) are ported; `Storm.lib` builds and `cmake --build` stays green because a static
+library tolerates the not-yet-defined `SMemAlloc`/`SMemFree`. Next: the rest of `SMem.cpp`
+(`FatalError` 0x00643140, `SMemAlloc` 0x006441F0, `SMemFree` 0x00644230, `operator delete`), then the
+other Storm files. Remaining Storm/Os addresses are in `re/243/function_map.md`.
 
 ### Phase 3 — Engine modules
 
