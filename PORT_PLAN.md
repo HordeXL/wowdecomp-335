@@ -46,8 +46,8 @@ Nothing in Phase 1 depends on B1–B3. Phases 2+ do.
 | P1.1 | Identify the 4 remaining `CommonMain` callees (0x65A3F0, 0x402460, 0x667090, 0x427E80) via call-graph/behavior analysis | named in `re/243/entry_functions.md` | **done** |
 | P1.2 | Port `0x749F20` (process DACL hardening: OpenProcessToken/SetSecurityInfo) | `ProtectProcessSecurity` in `WinMain.cpp` | **done** |
 | P1.3 | Finalize `CommonMain` with the real control flow | `WoW/Source/Client.cpp` game-loop block | blocked (game loop needs IDA) |
-| P1.4 | Port `WoW/Source/Win64/WinMain.cpp` (x64 counterpart) from the 3.3.5a source | x64 build reaches `CommonMain` | open |
-| P1.5 | Port the other Client.cpp entry helpers that are string-identifiable (`SetPaths`/`SetInstallPath` family) | `// OFFSET:` functions in `Client.cpp` | open |
+| P1.4 | Port `WoW/Source/Win64/WinMain.cpp` (x64 counterpart) from the 3.3.5a source | x64 build reaches `CommonMain` | **done** |
+| P1.5 | Port the other Client.cpp entry helpers that are string-identifiable (`SetPaths`/`SetInstallPath` family) | `SetInstallPath` in `Client.cpp` | **done** |
 
 ### Phase 2 — Foundation modules (bottom-up, IDA-assisted)
 
