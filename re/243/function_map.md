@@ -57,7 +57,28 @@ allocator object:
 | `0x00644190` | `allocator::Free(ptr, filename, linenumber)` — called by `SMemFree` |
 
 `SMemAlloc` then zeroes the block with `memset` (0x0040A620) when `flags & SMEM_FLAG_ZEROMEMORY`.
-Porting `SMemAlloc`/`SMemFree` therefore needs this allocator subsystem first.
+
+The allocator is a tracked heap: it returns `userptr = block + 8` (an 8-byte header), guards with a
+critical section at `this + 0x42C`, and has a validation flag at `this + 0x424`.
+
+| Address | Role |
+|---|---|
+| `0x006434A0` | size computation (called by `Alloc`) |
+| `0x00643A20` | the actual allocation (called by `Alloc` when `this->[0x424]` is set) |
+| `0x00643680`, `0x00643F00` | free path (called by `Free`) |
+| `0x00640xxx` / `0x0064A620` | memset, etc. |
+
+Porting `SMemAlloc`/`SMemFree` therefore needs this heap subsystem (the object at 0x00D73700 and its
+`Alloc`/`Free` plus the four helpers) first.
+
+## Caveat: 2.4.3 Storm API signatures differ from 3.3.5a
+
+The headers ported from 3.3.5a (`H/Types.h`, `H/storm.h`) are a starting point, **not** authoritative
+for 2.4.3. Example: `SErrDisplayError` takes **6** arguments in 2.4.3 (FatalError at 0x00643140
+pushes `errorcode, filename, linenumber, description, recoverable, exitcode`) but **7** in 3.3.5a
+(the extra `0x11111111`). Likewise 2.4.3's `FatalError` calls `StormExitProcess(1)` unconditionally,
+with no `s_exitonfailure` check. API signatures must be confirmed against the 2.4.3 binary (IDA)
+before the headers are trusted.
 
 ## Notes
 
